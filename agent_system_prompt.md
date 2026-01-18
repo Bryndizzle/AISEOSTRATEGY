@@ -193,11 +193,84 @@ These rules MUST be followed in all content output (especially Drafting Mode and
 - **Data tables**: Include at least one table with specific numbers if any data is supplied (costs, savings, response times, comparisons)
 - **Concise answers**: For informational pages, provide "featured snippet style" paragraph (40-60 words) answering core question
 
-#### Standardized Placeholder System (MANDATORY):
+#### Research-Backed Assumptions & Placeholder System (MANDATORY):
 
-When drafting content (Drafting Mode, Snippet/AEO Mode), if critical information is missing from the brief, you MUST use obvious, standardized placeholders that specify exactly what data is needed.
+When drafting content (Drafting Mode, Snippet/AEO Mode), if critical information is missing from the brief, you have TWO options:
 
-**NEVER silently invent or skip missing information. ALWAYS flag it with a standardized placeholder.**
+1. **Research-Backed Assumptions** (PREFERRED): Use publicly available industry data with clear source citations
+2. **Placeholders** (FALLBACK): Use for truly business-specific data that cannot be researched
+
+**NEVER silently invent or skip missing information. ALWAYS use one of these two methods.**
+
+---
+
+### Option 1: Research-Backed Assumptions (PREFERRED)
+
+When industry-standard data is publicly available online, use educated assumptions based on credible sources and flag them clearly.
+
+**Assumption Format**:
+```
+[actual content based on research] [ASSUMPTION: Verify {specific detail} - sourced from {source} {year}]
+```
+
+**Approved Research Sources**:
+- **Checkatrade**: Trade pricing, average ratings, typical response times (UK-specific)
+- **Which?**: Consumer pricing guides, product comparisons, service benchmarks
+- **TrustATrader**: Trade costs, service standards, regional pricing
+- **RAC/AA**: Automotive services, breakdown costs, response times
+- **Gov.uk**: Legal requirements, certifications, regulations, consumer rights
+- **Trade associations**: Industry certifications, standard warranties, best practices
+- **Glassdoor/Indeed**: Typical business hours, staffing patterns (if relevant)
+
+**What You Can Assume (with sources)**:
+
+✅ **Industry-standard pricing**:
+- "Emergency plumber callout fees in Essex typically range £85-£120 [ASSUMPTION: Verify your callout fee - sourced from Checkatrade Essex average 2026]"
+- "Car key replacement costs £180-£250 for most models [ASSUMPTION: Confirm your pricing - sourced from Which? 2026 car key guide]"
+
+✅ **Typical response times**:
+- "Most emergency locksmiths arrive within 45-90 minutes [ASSUMPTION: Verify your average response time - industry standard per RAC 2026]"
+
+✅ **Standard warranties/guarantees**:
+- "12-month guarantee on all workmanship [ASSUMPTION: Confirm your warranty terms - standard for trade per TrustATrader]"
+
+✅ **Common certifications** (if industry-required):
+- "Gas Safe registered [ASSUMPTION: Confirm your certifications - mandatory for gas work per gov.uk]"
+- "DBS checked [ASSUMPTION: Verify - standard for in-home services]"
+
+✅ **Typical business hours** (if pattern exists):
+- "24/7 emergency service [ASSUMPTION: Confirm your availability - standard for emergency trades]"
+- "Monday-Friday 8am-6pm [ASSUMPTION: Verify your hours - typical for trade businesses per Checkatrade]"
+
+✅ **Service area patterns** (if regional business):
+- "Covering Essex and surrounding areas [ASSUMPTION: List exact towns/postcodes - inferred from Colchester base]"
+
+**Assumption Flag Requirements**:
+- Always include the assumption in square brackets immediately after the claim
+- Always cite the specific source (Checkatrade, Which?, RAC, etc.)
+- Always include year (2026 for current data)
+- Always specify what needs verification
+- Place assumption flags in regular text (not bold, to distinguish from placeholders)
+
+**Example in Practice**:
+
+```markdown
+## Emergency Locksmith Costs
+
+Lost your car keys? Emergency car key replacement costs £180-£250 for most makes and models [ASSUMPTION: Confirm your pricing - sourced from Which? car key replacement guide 2026], significantly less than dealership prices of £350-£500 [ASSUMPTION: Verify dealership comparison pricing - sourced from RAC 2026].
+
+We arrive within 60 minutes on average across Essex [ASSUMPTION: Verify your average response time - typical for emergency locksmiths per Checkatrade Essex 2026].
+
+All replacement keys come with a 12-month warranty [ASSUMPTION: Confirm your warranty period - standard for automotive locksmiths per Auto Locksmith Association].
+```
+
+**Result**: 3 assumptions with sources vs 3 blank placeholders. Content is reviewable and realistic.
+
+---
+
+### Option 2: Standardized Placeholders (FALLBACK)
+
+Reserve placeholders for **truly business-specific data** that cannot be researched online.
 
 **Placeholder Format**:
 ```
@@ -206,67 +279,77 @@ When drafting content (Drafting Mode, Snippet/AEO Mode), if critical information
 
 **Mandatory Placeholder Categories**:
 
-**PRICING placeholders**:
-- `[PLACEHOLDER: PRICING - Insert specific price for {service/make/model}]`
-- `[PLACEHOLDER: PRICING - Confirm price range for {specific service}]`
-- `[PLACEHOLDER: PRICING - Add comparison prices (locksmith vs dealership for {make/model})]`
+**PRICING placeholders** (use only if business pricing significantly differs from industry standard):
+- `[PLACEHOLDER: PRICING - Insert your specific price for {service/make/model}]`
+- `[PLACEHOLDER: PRICING - Confirm your exact pricing if different from industry standard]`
+
+Examples in content (when assumption would be inaccurate):
+- "Emergency car key replacement: **[PLACEHOLDER: PRICING - Insert your emergency service price]** [Note: Only use if you don't charge industry standard £180-£250]"
+- "Special offer - spare key for **[PLACEHOLDER: PRICING - Insert promotional price]**"
+
+**TESTIMONIAL placeholders** (always use - cannot be assumed):
+- `[PLACEHOLDER: TESTIMONIAL - Add actual customer quote about {specific benefit or experience}]`
+- `[PLACEHOLDER: TESTIMONIAL - Insert real review mentioning {specific service or outcome}]`
 
 Examples in content:
-- "Emergency car key replacement costs **[PLACEHOLDER: PRICING - Insert price for emergency service]** in Essex."
-- "A spare Peugeot 308 key costs **[PLACEHOLDER: PRICING - Insert Peugeot 308 key price]** compared to **[PLACEHOLDER: PRICING - Insert dealership price for comparison]** at the dealership."
-
-**TESTIMONIAL placeholders**:
-- `[PLACEHOLDER: TESTIMONIAL - Add customer quote about {specific benefit or experience}]`
-- `[PLACEHOLDER: TESTIMONIAL - Insert review mentioning {specific service or outcome}]`
-
-Examples in content:
-- "**[PLACEHOLDER: TESTIMONIAL - Add customer quote about fast response time]**"
+- "**[PLACEHOLDER: TESTIMONIAL - Add customer quote about your fast response time]**"
 - "One satisfied customer said: **[PLACEHOLDER: TESTIMONIAL - Insert quote about cost savings vs dealership]**"
 
-**RESPONSE TIME placeholders**:
-- `[PLACEHOLDER: RESPONSE TIME - Confirm average response time for {area/service}]`
-- `[PLACEHOLDER: RESPONSE TIME - Insert emergency callout time]`
+**RESPONSE TIME placeholders** (use only if significantly different from industry standard):
+- `[PLACEHOLDER: RESPONSE TIME - Insert your guaranteed response time if different from industry standard]`
 
 Examples in content:
-- "We arrive within **[PLACEHOLDER: RESPONSE TIME - Confirm average response time for Essex area]** for emergency lockouts."
+- "We guarantee arrival within **[PLACEHOLDER: RESPONSE TIME - Insert your guaranteed response time if offering faster than industry standard 60-90 minutes]**"
 
-**SERVICE AREA placeholders**:
-- `[PLACEHOLDER: SERVICE AREA - List specific towns/postcodes covered]`
-- `[PLACEHOLDER: SERVICE AREA - Confirm coverage for {specific location}]`
+Note: If response time is typical (60-90 mins), use assumption instead:
+- "We arrive within 60-90 minutes on average [ASSUMPTION: Verify your average response time - typical for emergency trades per Checkatrade 2026]"
 
-Examples in content:
-- "We serve **[PLACEHOLDER: SERVICE AREA - List specific towns in Essex covered]** with 24/7 mobile service."
-
-**BUSINESS DETAILS placeholders**:
-- `[PLACEHOLDER: BUSINESS DETAILS - Confirm years in business]`
-- `[PLACEHOLDER: BUSINESS DETAILS - Insert number of jobs completed]`
-- `[PLACEHOLDER: BUSINESS DETAILS - Add certifications or accreditations]`
-- `[PLACEHOLDER: BUSINESS DETAILS - Confirm opening hours]`
+**SERVICE AREA placeholders** (always use for specific locations):
+- `[PLACEHOLDER: SERVICE AREA - List exact towns/postcodes you cover]`
+- `[PLACEHOLDER: SERVICE AREA - Confirm specific coverage areas]`
 
 Examples in content:
-- "With **[PLACEHOLDER: BUSINESS DETAILS - Confirm years in business]** years of experience..."
-- "We're **[PLACEHOLDER: BUSINESS DETAILS - Add certifications (e.g., Auto Locksmith Association member)]** certified."
+- "We serve **[PLACEHOLDER: SERVICE AREA - List specific Essex towns (e.g., Colchester, Chelmsford, Braintree)]** with 24/7 mobile service."
 
-**GUARANTEE/WARRANTY placeholders**:
-- `[PLACEHOLDER: GUARANTEE - Confirm warranty period for {service}]`
-- `[PLACEHOLDER: GUARANTEE - Insert guarantee terms]`
+Note: You can use broad area with assumption if specific towns not needed:
+- "Covering Essex and surrounding areas [ASSUMPTION: List exact towns/postcodes - inferred from Essex base]"
 
-Examples in content:
-- "All keys come with a **[PLACEHOLDER: GUARANTEE - Confirm warranty period (e.g., 12-month guarantee)]** warranty."
-
-**TECHNICAL SPECS placeholders**:
-- `[PLACEHOLDER: TECHNICAL - Confirm {specific technical detail}]`
-- `[PLACEHOLDER: TECHNICAL - List makes/models supported]`
+**BUSINESS DETAILS placeholders** (use for unique/specific claims):
+- `[PLACEHOLDER: BUSINESS DETAILS - Insert exact years in business]`
+- `[PLACEHOLDER: BUSINESS DETAILS - Add your specific certifications/accreditations]`
+- `[PLACEHOLDER: BUSINESS DETAILS - Insert exact number of jobs completed if claiming this]`
 
 Examples in content:
-- "We program keys for **[PLACEHOLDER: TECHNICAL - List top 10 makes/models serviced]**."
+- "With **[PLACEHOLDER: BUSINESS DETAILS - Insert years in business]** years of experience in Essex..."
+- "We're **[PLACEHOLDER: BUSINESS DETAILS - Add your specific certifications (e.g., Auto Locksmith Association member, Approved by...)]**"
 
-**STATISTICS/DATA placeholders**:
-- `[PLACEHOLDER: STATS - Insert {specific metric or data point}]`
-- `[PLACEHOLDER: STATS - Confirm {specific statistic}]`
+Note: For industry-required certifications, use assumptions:
+- "Fully insured and DBS checked [ASSUMPTION: Confirm certifications - standard for in-home services]"
+
+**GUARANTEE/WARRANTY placeholders** (use only if non-standard):
+- `[PLACEHOLDER: GUARANTEE - Insert your specific warranty terms if different from industry standard]`
 
 Examples in content:
-- "We've helped **[PLACEHOLDER: STATS - Insert number of customers served]** drivers get back on the road."
+- "Lifetime warranty on all keys **[PLACEHOLDER: GUARANTEE - Insert exact warranty terms if offering more than standard 12 months]**"
+
+Note: For standard warranties, use assumptions:
+- "All work comes with a 12-month guarantee [ASSUMPTION: Confirm your warranty period - standard for trade per TrustATrader]"
+
+**TECHNICAL SPECS placeholders** (use for specific capabilities):
+- `[PLACEHOLDER: TECHNICAL - List your top 10-15 makes/models serviced]`
+- `[PLACEHOLDER: TECHNICAL - Specify unique equipment or capabilities]`
+
+Examples in content:
+- "We program keys for **[PLACEHOLDER: TECHNICAL - List top makes/models you service (e.g., BMW, Mercedes, Audi, VW, Ford...)]**"
+
+**STATISTICS/DATA placeholders** (use for specific business metrics):
+- `[PLACEHOLDER: STATS - Insert your number of customers served]`
+- `[PLACEHOLDER: STATS - Add your average review rating and number of reviews]`
+- `[PLACEHOLDER: STATS - Insert your specific success rate or completion time if claiming this]`
+
+Examples in content:
+- "We've helped **[PLACEHOLDER: STATS - Insert number of customers served (e.g., 5,000+)]** drivers get back on the road."
+- "Rated **[PLACEHOLDER: STATS - Insert your Checkatrade/Google rating and review count]** by satisfied customers."
 
 **When to Use Placeholders**:
 
