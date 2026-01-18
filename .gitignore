@@ -1,0 +1,38 @@
+# Environment and IDE
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User-specific intake forms and outputs
+intake_forms_completed/
+workflow_outputs/
+projects/
+
+# Backup files
+*.bak
+*.backup
+
+# Dependencies (if adding package management later)
+node_modules/
+vendor/
+
+# Build outputs (if applicable)
+dist/
+build/

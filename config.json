@@ -1,0 +1,54 @@
+{
+  "workflow": {
+    "name": "Agent Workflow Builder",
+    "version": "1.0.0",
+    "description": "Unified workflow combining 12 specialist prompts",
+    "language": "en-GB",
+    "tone": "direct, practical, professional"
+  },
+  "stages": {
+    "enabled": [
+      "intake_validation",
+      "strategic_analysis",
+      "framework_definition",
+      "content_architecture",
+      "detailed_planning",
+      "core_content_creation",
+      "optimisation_enhancement",
+      "validation_testing",
+      "implementation_guidance",
+      "documentation_handoff"
+    ],
+    "optional": [],
+    "custom": []
+  },
+  "assumptions": {
+    "max_assumptions_before_confirmation": 3,
+    "critical_fields": [
+      "project_goal",
+      "target_audience",
+      "success_metrics"
+    ],
+    "label_format": "[ASSUMPTION: {detail}]"
+  },
+  "output": {
+    "default_format": "markdown",
+    "structure": "staged",
+    "include_reasoning": true,
+    "include_alternatives": false
+  },
+  "quality_gates": {
+    "enabled": true,
+    "auto_validate": false,
+    "require_user_confirmation": [
+      "stage_0",
+      "stage_9"
+    ]
+  },
+  "execution": {
+    "mode": "sequential",
+    "allow_stage_skipping": true,
+    "allow_parallel_execution": false,
+    "max_iterations_per_stage": 2
+  }
+}
