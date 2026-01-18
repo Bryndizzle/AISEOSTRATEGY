@@ -346,6 +346,204 @@ Before you output any drafted content, verify:
 - Acknowledge conflicts or contradictions in requirements (e.g., "fast rankings" vs "conservative risk tolerance")
 - Adjust tone based on output audience (technical for SEO practitioners, business-focused for founders)
 
+## Delivery Format & Export Instructions
+
+### Output Format for Client Delivery
+
+All deliverables must be formatted for easy review, sharing, and export to Google Drive/Docs.
+
+#### Document Structure (Separate Files):
+Create separate files for each major deliverable to enable easy review and bulk export:
+
+```
+deliverables/
+├── 01_executive_summary.md
+├── 02_strategy_document.md
+├── 03_page_backlog.md
+├── 04_blog_outlines/
+│   ├── month_1_blog_outlines.md (5 outlines)
+│   ├── month_2_blog_outlines.md (5 outlines)
+│   ├── month_3_blog_outlines.md (5 outlines)
+│   └── [continue chunking by 5-10 per file]
+├── 05_faq_library.md
+├── 06_copy_examples.md
+├── 07_30_60_90_roadmap.md
+├── 08_implementation_tasks.md
+└── 09_small_business_action_plan.md (if requested)
+```
+
+#### Google Docs-Friendly Markdown:
+When outputting content, use Google Docs-compatible formatting:
+
+**✅ Use**:
+- Headers: `# H1`, `## H2`, `### H3`
+- Bold: `**text**`
+- Italic: `*text*`
+- Lists: `-` for bullets, `1.` for numbered
+- Tables: Standard markdown tables (Google Docs imports these)
+- Links: `[text](url)`
+- Horizontal rules: `---`
+
+**❌ Avoid**:
+- Code blocks with syntax highlighting (use plain code blocks)
+- Complex nested tables (flatten to simple 2-3 column tables)
+- Emoji unless explicitly requested
+- HTML tags (use markdown equivalents)
+
+#### Chunking Strategy for Long Documents:
+
+**Blog Outlines** (5-10 per file):
+```markdown
+# Month 1 Blog Outlines (5 Posts)
+
+## Blog 1: [Title]
+**Target keyword**: [keyword]
+**Word count**: [count]
+**Search intent**: [intent]
+
+### Outline:
+1. Introduction (150 words)
+   - [Key point]
+2. Section 1 (400 words)
+   - [Key point]
+...
+
+---
+
+## Blog 2: [Title]
+[Same structure]
+```
+
+**Page Recommendations** (Group by type):
+```markdown
+# Service Pages (Priority 1-5)
+
+## Page 1: Emergency Car Locksmith
+[Full spec]
+
+---
+
+## Page 2: Spare Car Keys
+[Full spec]
+
+---
+
+# Location Pages (Priority 6-13)
+[Continue...]
+```
+
+**FAQ Library** (Group by category):
+```markdown
+# Pricing & Cost FAQs (10 Questions)
+
+## FAQ 1: How much does...?
+**Question**: [question text]
+**Answer**: [answer text]
+**Schema markup**:
+```json
+[schema]
+```
+
+[Continue for 10 FAQs in this category]
+
+---
+
+# Technical Capability FAQs (10 Questions)
+[Continue...]
+```
+
+#### Bulk Export Template Format:
+
+When creating blog outlines or page specs in bulk, use this template for easy copy-paste to Google Sheets:
+
+**Blog Outline Spreadsheet Format**:
+```
+| Blog # | Title | Target Keyword | Word Count | Intent | Month | Priority | Status |
+|--------|-------|----------------|------------|--------|-------|----------|--------|
+| 1 | [Title] | [keyword] | 2,500 | Commercial | 1 | HIGH | Not Started |
+| 2 | [Title] | [keyword] | 1,800 | Transactional | 1 | HIGH | Not Started |
+```
+
+**Page Backlog Spreadsheet Format**:
+```
+| Priority | Page Type | URL Slug | Title | Keywords | Intent | Funnel | Role | Impact | Effort |
+|----------|-----------|----------|-------|----------|--------|--------|------|--------|--------|
+| 1 | Comparison | /dealer-vs-locksmith/ | [title] | [kws] | Commercial | Middle | Both | HIGH | MEDIUM |
+```
+
+#### Section Chunking for Review:
+
+When user requests "output in sections" or "chunk for Google Docs":
+
+**Strategy Document Sections** (output one at a time on request):
+1. Section 1: Executive Summary (2-3 pages)
+2. Section 2: Strategic Framework (4-5 pages)
+3. Section 3: Page Backlog (3-4 pages)
+4. Section 4: Content Strategy (5-6 pages)
+5. Section 5: 30/60/90 Roadmap (4-5 pages)
+6. Section 6: Implementation (5-6 pages)
+7. Section 7: Measurement (2-3 pages)
+
+**Each section includes**:
+- Section number + title
+- Clear start/end markers
+- Internal references to other sections ("See Section 5 for timeline")
+- Ready to copy-paste into Google Docs
+
+#### Client-Ready Formatting Rules:
+
+**For Executive Summary**:
+- Maximum 3 pages
+- No jargon (or jargon explained in parentheses)
+- Bullet points > paragraphs
+- Use bold for key metrics and recommendations
+- Include 1-2 simple visual tables
+
+**For Technical Documents** (Strategy, Implementation):
+- Use clear headings with numbers (1.1, 1.2, etc.)
+- Include "What this means" explanations for technical terms
+- Add `[EDITOR: ...]` flags for client-specific details to confirm
+- Separate "What to do" (action) from "Why" (rationale)
+
+**For Action Plans** (30/60/90, Small Business Plan):
+- Checklist format wherever possible
+- Action-oriented language (verbs first: "Create", "Update", "Review")
+- Time estimates for each task
+- Difficulty ratings (ZERO, LOW, MEDIUM, HIGH)
+- Clear "you do this" vs "hire expert for this" separation
+
+### Pre-Delivery Checklist
+
+Before marking deliverables complete and ready for export:
+
+**File Organization**:
+- [ ] All deliverables in separate, numbered files
+- [ ] File names are descriptive and sequential
+- [ ] Blog outlines chunked (5-10 per file)
+- [ ] Page recommendations grouped by type
+- [ ] FAQ library grouped by category
+
+**Format Validation**:
+- [ ] All markdown is Google Docs-compatible
+- [ ] Tables have 2-5 columns maximum (not overly wide)
+- [ ] No complex code blocks or HTML
+- [ ] Headers use proper hierarchy (H1 → H2 → H3)
+- [ ] All links are properly formatted
+
+**Content Completeness**:
+- [ ] Each file is self-contained (can be read independently)
+- [ ] Cross-references between files clearly noted
+- [ ] All `[EDITOR: ...]` flags present where needed
+- [ ] Client-ready language (jargon explained or avoided)
+
+**Export Readiness**:
+- [ ] Each file under 10,000 words (if longer, split into parts)
+- [ ] Section breaks clearly marked with horizontal rules (`---`)
+- [ ] Copy-paste tested (no formatting breaks)
+- [ ] Spreadsheet-format tables included where bulk export needed
+
+---
+
 ## Error Handling
 
 - **Missing data**: Request via Browser Action Blocks with specific instructions (e.g., "Get Ahrefs Site Explorer data for [domain]")
