@@ -904,7 +904,422 @@ ABC Plumbing reviews:
 → Trust signal: "We show our prices upfront - no surprises"
 ```
 
-### 7. Entity & Internal Linking Guidance
+### 7. Brand Growth Framework for Local Businesses (Byron Sharp Principles)
+
+This framework translates Byron Sharp's research-backed brand growth principles into practical local SEO tactics that small business owners can understand and implement.
+
+#### Why Byron Sharp's Principles Matter for Local Businesses
+
+Byron Sharp's "How Brands Grow" research shows that growth comes from:
+1. **Being thought of** in buying situations (Mental Availability)
+2. **Being easy to buy from** when needed (Physical Availability)
+3. **Reaching new customers**, not just serving existing ones (Market Penetration)
+4. **Being recognizable** with distinctive brand assets (Distinctiveness)
+5. **Being present** at key buying moments (Category Entry Points)
+
+**These principles work for local businesses - we just need to translate them into SEO/marketing tactics.**
+
+---
+
+#### Principle 1: Mental Availability → "Being Top of Mind"
+
+**What it means**: When someone has a problem (boiler broken, car locked out), do they think of YOUR business?
+
+**Why it matters for local businesses**:
+- Most local services are bought infrequently (emergency plumber, locksmith, solicitor)
+- People don't have strong loyalty - they search Google or ask friends when they need help
+- The business that comes to mind first (or ranks first) wins
+
+**How to measure mental availability for local businesses**:
+- ✅ **Search visibility**: Do you rank in Map Pack for main keywords?
+- ✅ **Review presence**: Do you have more reviews than competitors (social proof = memorability)?
+- ✅ **Share of voice**: When people Google "[service] [area]", how often do they see you?
+- ✅ **Referrals**: Do existing customers recommend you by name?
+
+**SEO/Content Tactics to Increase Mental Availability**:
+
+✅ **Review generation** (most powerful mental availability tactic):
+- Target: 5-10 new reviews per month
+- Strategy: Ask every satisfied customer, make it easy (SMS link, QR code)
+- Why: Reviews = social proof = mental availability ("450 people trusted them, I will too")
+
+✅ **Google Business Profile optimization**:
+- Complete all sections (services, hours, photos, description)
+- Post weekly (offers, tips, case studies)
+- Respond to all reviews (shows you're active = more memorable)
+- Why: GBP is the #1 place people discover local businesses
+
+✅ **Content that answers their problems**:
+- Create pages/blogs for common problems: "What to do when your boiler breaks", "Locked out of car - what now?"
+- Why: Being helpful = being remembered. When they have the problem again, they remember you
+
+✅ **Consistent presence across platforms**:
+- Google (Map Pack, organic results)
+- Checkatrade/TrustATrader (directory presence)
+- Facebook/local groups (community visibility)
+- Why: The more places they see you, the more familiar you become
+
+**How to apply in strategy**:
+- **Stage 1 (Strategic Analysis)**: Measure current mental availability (Map Pack position, review count vs competitors, brand search volume)
+- **Stage 2 (Framework)**: Set mental availability goals (e.g., "Match competitor review count in 6 months", "Rank in Map Pack for 5 primary keywords")
+- **Stage 3.5 (Page recommendations)**: Create problem-solving content that positions you as the expert (FAQ pages, emergency guides)
+
+---
+
+#### Principle 2: Physical Availability → "Being Easy to Find and Book"
+
+**What it means**: When someone needs your service RIGHT NOW, can they actually book you?
+
+**Why it matters for local businesses**:
+- Emergency services: If you don't answer at 10pm, they call the next plumber
+- Convenience: If you don't cover their area, they pick someone who does
+- Friction: If they can't click-to-call on mobile, they go to competitor
+
+**How to measure physical availability for local businesses**:
+- ✅ **Coverage area**: Do you serve all areas where demand exists?
+- ✅ **Availability**: Are you available when customers need you? (24/7 vs 9-5)
+- ✅ **Booking friction**: How many steps to book? (1-click call vs "fill form, wait for callback")
+- ✅ **Response time**: How quickly do you answer phone/quote requests?
+
+**SEO/Content Tactics to Increase Physical Availability**:
+
+✅ **Service area expansion** (most impactful for local businesses):
+- Create location pages for every town/area you cover
+- Example: `/plumber-colchester/`, `/plumber-chelmsford/`, `/plumber-braintree/`
+- Why: People search "[service] [their town]" - be visible where they search
+
+✅ **Extended hours/availability**:
+- If you offer 24/7, EMPHASIZE this everywhere (GBP, website, content)
+- Create pages: `/24-7-emergency-plumber/`, `/emergency-locksmith-essex/`
+- Why: Availability = physical availability. If competitor is 9-5 and you're 24/7, you win night/weekend searches
+
+✅ **Click-to-call optimization**:
+- Phone number in sticky mobile header (always visible)
+- Click-to-call links: `<a href="tel:01206XXXXXX">Call Now</a>`
+- CTA clarity: "Call for 60-Min Response" (outcome-focused)
+- Why: Reducing friction = increasing physical availability
+
+✅ **Instant quote forms**:
+- Allow booking without phone call (some people prefer forms)
+- "Get instant quote" with response time promise ("We respond in 30 mins")
+- Why: More booking options = higher physical availability
+
+✅ **Clear service offerings**:
+- Dedicated page for EVERY service you offer
+- Don't make them hunt for "Do you do X?" - list everything clearly
+- Why: If they can't find it on your site, they assume you don't offer it
+
+**How to apply in strategy**:
+- **Stage 1 (Strategic Analysis)**: Audit current physical availability (areas covered, hours, booking friction, response time)
+- **Stage 2 (Framework)**: Identify availability gaps to exploit (competitor doesn't cover area X, competitor isn't 24/7)
+- **Stage 3.5 (Page recommendations)**: Create location pages, emergency service pages, service-specific pages
+- **CRO recommendations**: Reduce booking friction (sticky CTA, click-to-call, instant quote form)
+
+---
+
+#### Principle 3: Reach > Loyalty → "Get More Customers, Not Just Repeat Customers"
+
+**What it means**: Most growth comes from reaching new light buyers, NOT from making existing customers buy more.
+
+**Why it matters for local businesses**:
+- **Byron Sharp's insight**: Growth = market penetration (more customers), not loyalty (more purchases per customer)
+- **Local business reality**:
+  - Plumber: Customer calls once every 2-3 years (low frequency)
+  - Locksmith: Customer might NEVER need you again after one job
+  - Solicitor: Customer uses you once (house purchase), then not for 10 years
+- **Implication**: Stop focusing only on "repeat business" and "loyalty schemes" - focus on being visible to NEW customers
+
+**How traditional SEO gets this wrong**:
+- ❌ Focusing on brand terms ("ABC Plumbing") - only existing customers search this
+- ❌ Relying on word-of-mouth - slow, limited reach
+- ❌ Loyalty schemes - nice-to-have but doesn't drive growth
+
+**How to measure reach for local businesses**:
+- ✅ **Non-brand traffic**: What % of traffic comes from non-brand keywords?
+- ✅ **New vs returning visitors**: Are you reaching new people or just serving existing customers?
+- ✅ **Keyword coverage**: Do you rank for problem-based searches ("boiler broken", "car locked out") or just brand searches?
+
+**SEO/Content Tactics to Increase Reach**:
+
+✅ **Problem-based keyword targeting** (not brand terms):
+- Optimize for: "emergency plumber Essex", "car key replacement cost", "locked out of house"
+- NOT just: "ABC Plumbing", "XYZ Locksmiths"
+- Why: Light buyers search for their PROBLEM, not your brand name
+
+✅ **Location expansion pages**:
+- Create pages for areas you DON'T currently dominate
+- Example: If you're strong in Colchester, create pages for Chelmsford, Braintree, Basildon
+- Why: Reach NEW customers in adjacent areas (they don't know you yet)
+
+✅ **Informational content for early buying journey**:
+- Blog: "How much does it cost to replace a boiler?"
+- Guide: "Should I repair or replace my boiler?"
+- Why: Reach people BEFORE they're ready to buy (build awareness early)
+
+✅ **Comparison content**:
+- Pages like: "/locksmith-vs-dealership-car-keys/", "/repair-vs-replace-boiler/"
+- Why: Reach people in consideration phase (they're comparing options, don't know you yet)
+
+✅ **Seasonal/trigger-based content**:
+- Winter: "What to do when your boiler breaks in winter"
+- Summer: "Air conditioning installation Essex"
+- Why: Reach new customers during seasonal demand spikes
+
+**How to apply in strategy**:
+- **Stage 1 (Strategic Analysis)**: Measure brand vs non-brand traffic split (target: 70%+ non-brand)
+- **Stage 2 (Framework)**: Shift focus from "serve existing customers better" to "reach new customers"
+- **Stage 3.5 (Page recommendations)**: Prioritize pages that reach light buyers (problem-based, comparison, informational)
+- **30/60/90 Roadmap**: Focus on market penetration (new areas, new keywords, new entry points) over loyalty tactics
+
+---
+
+#### Principle 4: Distinctive Brand Assets → "Being Recognizable"
+
+**What it means**: People remember you through consistent visual and verbal cues (colors, logo, tagline, tone).
+
+**Why it matters for local businesses**:
+- **Byron Sharp's insight**: Distinctive assets help people notice and remember you
+- **Local business reality**:
+  - Your van is a brand asset (people see it, remember "green van plumber")
+  - Your phone number is a brand asset (memorable number = easier to recall)
+  - Your tagline is a brand asset ("Essex's fastest locksmith")
+
+**Common distinctive assets for local businesses**:
+- ✅ **Visual**: Logo, brand colors, uniform, van livery, office signage
+- ✅ **Verbal**: Tagline ("No callout fees", "24/7 emergency service"), tone of voice
+- ✅ **Sensory**: Jingle (rare for local businesses), mascot
+- ✅ **Digital**: Consistent review responses, GBP photo style, website design
+
+**How to measure distinctiveness for local businesses**:
+- ✅ **Consistency**: Is your logo the same across website, van, GBP, Checkatrade?
+- ✅ **Memorability**: Do customers remember you by a specific trait? ("The green van guy", "The no-nonsense plumber")
+- ✅ **Differentiation**: Can people tell you apart from competitors? (or do you all look the same?)
+
+**SEO/Content Tactics to Increase Distinctiveness**:
+
+✅ **Consistent positioning across all pages**:
+- Pick ONE core message: "Essex-wide coverage", "Transparent pricing", "24/7 emergency", "Fastest response"
+- Repeat it EVERYWHERE: Every service page, location page, H1, meta description
+- Why: Consistency = recognition
+
+✅ **Consistent CTAs**:
+- Use the SAME CTA phrasing across all pages: "Call for 60-Min Response", "Get No-Obligation Quote"
+- Don't vary it ("Contact us", "Get in touch", "Reach out") - be consistent
+- Why: Consistent language = brand recognition
+
+✅ **Consistent review response style**:
+- Develop a tone (friendly but professional, or direct and no-nonsense)
+- Use the SAME closing: "Thanks, John at ABC Plumbing", "Cheers, The Speedy Keys Team"
+- Why: People read reviews - consistent tone = memorable
+
+✅ **Visual consistency across digital assets**:
+- GBP photos: Use consistent style (all professional, or all lifestyle, not mixed)
+- Website: Consistent heading styles, button colors, image treatment
+- Why: Visual consistency = professionalism = trust
+
+✅ **Memorable positioning statement**:
+- Create ONE memorable claim: "Only locksmith in Essex specializing in German cars", "No hidden fees - ever"
+- Use it in: H1s, meta descriptions, GBP description, review responses
+- Why: Repetition = memorability
+
+**How to apply in strategy**:
+- **Stage 1 (Strategic Analysis)**: Audit current brand consistency (logo, colors, messaging across platforms)
+- **Stage 2 (Framework)**: Define core positioning statement and visual identity rules
+- **Stage 3.5 (Page recommendations)**: Ensure every page reinforces core positioning
+- **Content specs**: Include CTA consistency requirements, tone of voice guidelines
+
+---
+
+#### Principle 5: Category Entry Points → "Being There When They Need You"
+
+**What it means**: People buy in specific situations (triggers). Be visible at those moments.
+
+**Why it matters for local businesses**:
+- **Byron Sharp's insight**: Category Entry Points (CEPs) are the WHEN, WHERE, and WHY people think to buy
+- **Local business examples**:
+  - **Emergency**: Boiler broken at 10pm, car locked out at 2am
+  - **Preventative**: Annual boiler service, getting a spare car key
+  - **Life event**: Moving house (need locksmith to change locks), buying car (need spare key)
+  - **Seasonal**: Winter (heating), summer (AC), autumn (gutter cleaning)
+
+**How to identify category entry points for local businesses**:
+
+Ask: **"WHEN do people need our service?"**
+- Emergency situations (broken, locked out, urgent problem)
+- Planned/preventative (annual service, spare key, quote for future work)
+- Seasonal (winter boiler servicing, summer AC installation)
+- Life events (moving house, buying car, renovating)
+
+Ask: **"WHERE are they when they think of us?"**
+- At home (boiler broken)
+- In car park (locked out of car)
+- At work (researching for later)
+- Asking friends/family (word-of-mouth trigger)
+
+Ask: **"WHY do they search for our service?"**
+- Problem solving (fix urgent issue)
+- Cost comparison (find best price)
+- Quality assurance (find reputable provider)
+- Convenience (find nearest/fastest)
+
+**SEO/Content Tactics for Category Entry Points**:
+
+✅ **Emergency entry point content**:
+- Pages: `/emergency-plumber-essex/`, `/24-7-locksmith/`, `/emergency-car-key-replacement/`
+- H2s: "What to do if your boiler breaks at midnight", "Locked out of your car? Here's what to do"
+- Why: Emergency = high-intent, high-value customers. Be visible here.
+
+✅ **Preventative entry point content**:
+- Pages: `/annual-boiler-service/`, `/spare-car-key/`, `/lock-replacement/`
+- H2s: "When should you service your boiler?", "Why you need a spare car key before you lose your only one"
+- Why: Preventative customers = lower stress, easier sales
+
+✅ **Seasonal entry point content**:
+- Blog: "Winter boiler maintenance checklist" (August-September, before winter demand)
+- GBP posts: "Book your boiler service before winter rush" (seasonal trigger)
+- Why: Catch them BEFORE the season peaks
+
+✅ **Life event entry point content**:
+- Pages: `/locksmith-for-new-homeowners/`, `/moving-house-locksmith-services/`
+- Blog: "Essential security checklist when moving house"
+- Why: Life events = predictable buying moments. Be there.
+
+✅ **Comparison entry point content**:
+- Pages: `/locksmith-vs-dealership-car-keys/`, `/repair-vs-replace-boiler/`
+- Why: Comparison = buying mode. Help them decide, position yourself favorably.
+
+**How to apply in strategy**:
+- **Stage 1 (Strategic Analysis)**: Map category entry points for the business (when, where, why customers buy)
+- **Stage 2 (Framework)**: Prioritize highest-value entry points (emergency = high value, preventative = lower stress)
+- **Stage 3.5 (Page recommendations)**: Create pages for EACH major category entry point
+- **Content calendar**: Seasonal content scheduled BEFORE demand peaks (winter content in autumn)
+
+---
+
+#### Byron Sharp Framework Applied to Local SEO Strategy
+
+**Stage 1 (Strategic Analysis) - Brand Growth Audit**:
+
+Include this analysis in every strategy document:
+
+```markdown
+## Brand Growth Analysis (Byron Sharp Framework)
+
+### Mental Availability Audit
+- **Map Pack position**: #5 (target: Top 3 within 6 months)
+- **Review count**: 85 reviews vs competitor average of 280 reviews
+- **Share of voice**: Visible for 3/10 primary keywords
+- **Gap**: Low mental availability - not top-of-mind yet
+
+### Physical Availability Audit
+- **Coverage area**: Essex-wide (wider than competitors - advantage)
+- **Availability**: 9am-6pm Monday-Friday (competitor offers 24/7 - disadvantage)
+- **Booking friction**: Phone only (no instant quote form - friction)
+- **Gap**: Moderate physical availability - coverage good, but availability/booking friction issues
+
+### Reach Analysis
+- **Brand vs non-brand traffic**: 60% brand, 40% non-brand (target: 70% non-brand)
+- **New vs returning visitors**: 30% new, 70% returning
+- **Gap**: Over-reliant on existing customers, not reaching enough new customers
+
+### Distinctive Brand Assets
+- **Visual**: Inconsistent (different logos on website vs van)
+- **Verbal**: No clear positioning statement
+- **Gap**: Low distinctiveness - blend in with competitors
+
+### Category Entry Points Covered
+- **Emergency**: ✅ Good coverage (/emergency-plumber/)
+- **Preventative**: ❌ No content (no /annual-service/ page)
+- **Seasonal**: ❌ No seasonal content
+- **Life events**: ❌ Not covered
+- **Gap**: Missing 3/4 major entry points
+```
+
+**Stage 2 (Framework) - Brand Growth Strategy**:
+
+Define strategy based on Sharp principles:
+
+```markdown
+## Brand Growth Strategy
+
+**Primary Goal**: Increase mental + physical availability to capture more market share
+
+**Mental Availability Tactics**:
+1. Review generation: Target 200 reviews in 6 months (match competitor average)
+2. Map Pack optimization: Target top 3 for 5 primary keywords
+3. Content marketing: Create problem-solving content to build expert positioning
+
+**Physical Availability Tactics**:
+1. Extend hours to 24/7 for emergency callouts (competitive advantage)
+2. Add instant quote form to reduce booking friction
+3. Create location pages for all Essex towns (maximize coverage visibility)
+
+**Reach Expansion**:
+1. Target 70% non-brand traffic (up from 40%)
+2. Create content for light buyers (comparison, informational, problem-based)
+3. Expand into adjacent service areas
+
+**Distinctive Assets**:
+1. Core positioning: "Essex-wide coverage with transparent pricing"
+2. Consistent CTA: "Call for 60-Min Response"
+3. Visual consistency: Update all platforms with consistent logo/branding
+
+**Category Entry Points**:
+1. Emergency: Strengthen existing coverage
+2. Preventative: Create annual service pages/offers
+3. Seasonal: Seasonal content calendar (winter prep content in autumn)
+4. Life events: Moving house checklist content
+```
+
+**Stage 3.5 (Page Recommendations) - Brand Growth Pages**:
+
+Prioritize pages that increase availability and reach:
+
+```markdown
+| Priority | Page Type | URL | Brand Growth Principle | Rationale |
+|----------|-----------|-----|------------------------|-----------|
+| 1 | Emergency service | /24-7-emergency-plumber-essex/ | Physical Availability | Competitor doesn't offer 24/7 - capture night/weekend demand |
+| 2 | Location page | /plumber-south-essex/ | Reach (Market Penetration) | Competitors don't cover south Essex - reach new customers |
+| 3 | Preventative service | /annual-boiler-service/ | Category Entry Point | Missing entry point - capture preventative buyers |
+| 4 | Comparison page | /plumber-prices-essex/ | Mental Availability | Transparent pricing = distinctive asset + builds trust |
+| 5 | Life event page | /plumber-for-new-homeowners/ | Category Entry Point | Moving house = high-intent buying moment |
+```
+
+---
+
+#### Brand Growth Metrics to Track
+
+Include these in measurement framework (Stage 9):
+
+**Mental Availability Metrics**:
+- Map Pack position for primary keywords (target: Top 3)
+- Review count growth (target: 10-15 reviews/month)
+- Brand search volume (are more people searching for your business name?)
+- Share of voice (% of keywords you're visible for vs competitors)
+
+**Physical Availability Metrics**:
+- Geographic coverage (number of location pages ranking)
+- Booking conversion rate (% of visitors who click phone/form)
+- Response time (average time to answer phone/respond to quote)
+- Hours of operation (24/7 vs limited hours)
+
+**Reach Metrics**:
+- Non-brand traffic % (target: 70%+)
+- New visitor % (target: 60%+)
+- Keyword coverage for problem-based searches (not just brand terms)
+- Traffic from new geographic areas
+
+**Distinctiveness Metrics**:
+- Brand recall (surveys: "Name a plumber in Essex" - do they say you?)
+- Consistency score (audit: logo, colors, messaging consistent across platforms?)
+- Positioning clarity (do customers describe you consistently? "The transparent pricing guys")
+
+**Category Entry Point Coverage**:
+- Pages created for each entry point (emergency, preventative, seasonal, life events)
+- Traffic from entry point keywords
+- Conversions by entry point (which triggers drive most bookings?)
+
+### 8. Entity & Internal Linking Guidance
 
 When creating any page content, you must reinforce entities and provide actionable internal linking suggestions.
 
