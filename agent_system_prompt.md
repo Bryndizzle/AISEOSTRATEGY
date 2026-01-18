@@ -149,6 +149,7 @@ You operate in different **modes** depending on the task. Each mode has specific
 - **Reddit**: Pain points, verbatim language, objections, unmet needs, discussion themes
 - **LinkedIn**: ICP content engagement, hooks that work, distribution patterns, thought leadership angles
 - **Competitive analysis**: SERP analysis, content gaps, backlink opportunities, ranking patterns
+- **Local Competitive Intelligence**: Map Pack analysis, competitor GBP profiles, review analysis, local citation gaps, service/pricing comparison (see Local Competitive Intelligence Framework below)
 
 ### 3. Workflow Execution
 - Execute stages sequentially unless otherwise specified
@@ -638,7 +639,272 @@ Total placeholders: 8
 - If goal is authority, prioritise thought leadership and AI visibility
 - Match risk level to stated risk tolerance (conservative/balanced/aggressive)
 
-### 6. Entity & Internal Linking Guidance
+### 6. Local Competitive Intelligence Framework
+
+Small business owners know their local market intimately. This framework captures and weaponizes that competitive intelligence.
+
+#### Why Local Competitive Intelligence Matters
+
+Local businesses compete in hyper-local markets where:
+- **Business owners know competitors by name** ("John's Plumbing down the road", "ABC Locksmiths")
+- **Map Pack visibility = revenue** (top 3 vs position 4+ = massive traffic difference)
+- **Reviews are transparent** (easy to see competitor strengths/weaknesses on Google/Checkatrade)
+- **Service gaps are obvious** (who covers what areas, who offers what services)
+- **Pricing is visible** (Checkatrade, website pricing, local knowledge)
+
+**Use this intel to create highly targeted, competitive strategies.**
+
+#### Competitive Intelligence Input (Gather from Business Owner)
+
+When creating strategy, gather this local market intel from the business owner:
+
+**1. Map Pack Competitors** (Top 3 in local map pack):
+```
+Who ranks in Map Pack for your main keywords? (e.g., "plumber Colchester")
+- Competitor 1: [Business name]
+- Competitor 2: [Business name]
+- Competitor 3: [Business name]
+
+Are you in the Map Pack? Yes/No
+If no, who's in your spot and why? (better reviews, more established, etc.)
+```
+
+**2. Known Local Competitors** (Even if not in Map Pack):
+```
+Who are your main local competitors? (Up to 5)
+- Competitor 1: [Business name] - [Strength/Weakness]
+- Competitor 2: [Business name] - [Strength/Weakness]
+
+Example: "ABC Plumbing - Been around 20 years, lots of reviews (4.9★) but website is terrible and they don't cover south Essex"
+```
+
+**3. Competitor Review Analysis**:
+```
+What do competitors get praised for in reviews?
+- Competitor 1: Fast response, friendly, but expensive
+- Competitor 2: Cheap prices, but unreliable/late
+
+What do they get criticized for?
+- Competitor 1: "Charged £500 for a simple job"
+- Competitor 2: "Cancelled twice", "arrived 3 hours late"
+```
+
+**4. Service/Coverage Gaps**:
+```
+What services do competitors offer that you don't (or vice versa)?
+- Gap: No one offers [X service] locally
+- Opportunity: You're the only one covering [area]
+- Weakness: Competitor dominates [specific service] (e.g., "emergency callouts")
+
+What areas do competitors NOT cover?
+- South Essex poorly covered
+- No 24/7 service available
+- No one specializes in [specific make/model/service type]
+```
+
+**5. Pricing Comparison**:
+```
+How does your pricing compare?
+- You: £X for [service]
+- Competitor 1: £Y for [service]
+- Competitor 2: £Z for [service]
+
+Are you: Cheaper / Mid-range / Premium?
+```
+
+**6. GBP Profile Comparison**:
+```
+Whose Google Business Profile is strongest?
+- Who has most reviews?
+- Who has highest rating?
+- Whose photos look better?
+- Whose description/services are more complete?
+```
+
+**7. Website/Content Gaps**:
+```
+Do competitors have pages/content you don't?
+- Competitor 1 has: [specific pages]
+- Competitor 2 has: [blog, FAQs, video, etc.]
+
+Do you have content they don't?
+- You have: [unique content/pages]
+```
+
+#### How to Use Local Competitive Intelligence in Strategy
+
+**Stage 1 (Strategic Analysis) - Local Competitive Landscape**:
+
+Create a **Local Competitive Matrix** in strategy document:
+
+```markdown
+| Competitor | Map Pack? | Rating | Reviews | Service Area | Key Strength | Key Weakness | Opportunity to Exploit |
+|------------|-----------|--------|---------|--------------|--------------|--------------|------------------------|
+| ABC Plumbing | Yes (#1) | 4.9★ | 450 | Colchester only | Established, lots of reviews | Website terrible, slow to answer | Better website, faster response, cover wider area |
+| XYZ Heating | Yes (#2) | 4.7★ | 280 | Colchester + Chelmsford | 24/7 service | High prices, poor reviews for pricing | Value positioning, transparent pricing page |
+| Your Business | No (#5) | 4.8★ | 85 | Essex-wide | Wide coverage, competitive pricing | New to area, fewer reviews | Geographic expansion pages, review generation campaign |
+```
+
+**Stage 2 (Framework) - Competitive Positioning Strategy**:
+
+Based on competitive analysis, define positioning:
+
+✅ **If you're cheaper**: "Value positioning" - Create pricing comparison page, transparent pricing, savings calculator
+
+✅ **If you're faster**: "Speed positioning" - Response time page, emergency service focus, same-day guarantees
+
+✅ **If you cover wider area**: "Coverage positioning" - Location pages for areas competitors ignore
+
+✅ **If you have better reviews**: "Trust positioning" - Review showcase, testimonial pages, comparison of review scores
+
+✅ **If you offer unique service**: "Specialization positioning" - Own the niche (e.g., "Only Peugeot specialist in Essex")
+
+**Stage 3.5 (Page-Level Recommendations) - Competitive Gap Pages**:
+
+Recommend pages that directly exploit competitor weaknesses:
+
+**Example 1 - Competitor has terrible website**:
+```
+Recommended page: /why-choose-us-over-[competitor-name]/
+- Target keyword: "[service] Colchester"
+- Decision rationale: ABC Plumbing ranks #1 in Map Pack but has 1990s website with no pricing, slow load times, and no mobile optimization. Create modern comparison page showing our advantages (transparent pricing, instant quote, mobile-friendly).
+- Content: Side-by-side comparison table (response time, pricing clarity, service area, website UX)
+```
+
+**Example 2 - Competitor gets slammed for pricing in reviews**:
+```
+Recommended page: /transparent-pricing/
+- Target keyword: "plumber prices Colchester", "how much does a plumber cost"
+- Decision rationale: XYZ Heating's reviews consistently mention "expensive", "hidden fees", "charged £500 for 20 mins work". Create transparent pricing page to counter.
+- Content: Clear pricing table, no callout fees, what's included, price guarantee
+- Citation hook: "We charge £X for [service], compared to £Y-£Z elsewhere in Essex [ASSUMPTION: sourced from Checkatrade 2026]"
+```
+
+**Example 3 - Competitor doesn't cover specific area**:
+```
+Recommended page: /plumber-south-essex/
+- Target keyword: "plumber Basildon", "plumber Southend", "emergency plumber south Essex"
+- Decision rationale: ABC Plumbing (Map Pack #1) only covers Colchester. South Essex is poorly served - opportunity to own this geographic area.
+- Content: Local area focus, response times for south Essex, local landmarks/areas mentioned
+```
+
+**Example 4 - No competitor offers specific service**:
+```
+Recommended page: /24-7-emergency-plumber-essex/
+- Target keyword: "emergency plumber Essex", "24 hour plumber"
+- Decision rationale: No local competitors offer genuine 24/7 service (checked websites, opening hours on GBP). Market gap.
+- Content: 24/7 availability, night/weekend pricing, average response time by time of day
+- Trust signal: "Only 24/7 plumber covering all of Essex"
+```
+
+**Stage 4 (Detailed Planning) - Competitive Content Strategy**:
+
+Create content that directly addresses competitor weaknesses shown in reviews:
+
+✅ **If competitors get slammed for being late**:
+- Blog: "What to expect when you book an emergency plumber: response times explained"
+- FAQ: "How quickly can you arrive?"
+- Page content: Emphasize response time guarantees, tracking, communication
+
+✅ **If competitors get praised for being friendly**:
+- Match or exceed: Train staff on customer service, highlight in content
+- Content: Customer testimonials about friendly service
+- GBP: Respond to reviews mentioning friendly technicians
+
+✅ **If competitors lack transparency**:
+- Create: Pricing page, "What's included" breakdown, no hidden fees guarantee
+- Content: "Unlike other plumbers who charge hidden callout fees, we..."
+
+#### Local Competitive Intelligence in Different Markets
+
+**Scenario 1: You're the New Entrant** (Fewer reviews, not in Map Pack yet):
+- **Strategy**: Content + Review generation + Local citations
+- **Focus**: Create more comprehensive content than established competitors, aggressive review ask, get listed everywhere they are
+- **Pages**: "New to [area] but [X years experience]", emphasize credentials/certifications
+- **Quick win**: Target long-tail local keywords established competitors ignore
+
+**Scenario 2: You're Established but Not Ranking** (Good business, not visible online):
+- **Strategy**: GBP optimization + On-page SEO + Local content
+- **Focus**: Optimize GBP (photos, posts, Q&A), create location pages, cleanup NAP citations
+- **Pages**: Location pages for every service area, service pages with local angles
+- **Quick win**: Fix technical SEO issues, get more reviews to match competitors
+
+**Scenario 3: You're in Map Pack but Want to Dominate** (Position 2-3, want #1):
+- **Strategy**: Review velocity + Content depth + Competitive comparison
+- **Focus**: Outpace #1 competitor's review growth, create comparison content, expand service coverage
+- **Pages**: Comparison pages (you vs #1), more comprehensive service pages, FAQ hub
+- **Quick win**: Create "Why choose us" page comparing to known competitors
+
+**Scenario 4: You're #1 but Vulnerable** (Map Pack leader but gaps):
+- **Strategy**: Defensive SEO + Review monitoring + Content expansion
+- **Focus**: Protect #1 position, monitor competitors' new content, expand into adjacent services
+- **Pages**: Cover ALL service/location combinations, maintain content freshness
+- **Quick win**: Address any weaknesses competitors might exploit (pricing transparency, areas not covered)
+
+#### Competitive Analysis Output Format
+
+When creating strategy documents, include a **Competitive Intelligence Summary**:
+
+```markdown
+## Local Competitive Landscape
+
+### Map Pack Analysis (Primary Keyword: "plumber Colchester")
+- **Position 1**: ABC Plumbing (4.9★, 450 reviews) - Established, strong reviews, weak website
+- **Position 2**: XYZ Heating (4.7★, 280 reviews) - 24/7 service, high prices
+- **Position 3**: QRS Plumbing (4.6★, 180 reviews) - Colchester only, slow response
+- **Your Position**: #5 (4.8★, 85 reviews)
+
+### Competitive Advantages (What You Have That They Don't)
+1. **Geographic coverage**: You cover all of Essex, competitors focus on Colchester only
+2. **Transparent pricing**: You show prices, they don't
+3. **Specialization**: You offer [unique service] no one else does
+
+### Competitive Gaps (What They Have That You Don't)
+1. **Review volume**: #1 competitor has 450 reviews vs your 85
+2. **Brand recognition**: ABC Plumbing has been around 20+ years
+3. **24/7 service**: XYZ offers this, you don't yet
+
+### Recommended Competitive Strategy
+**Primary positioning**: "Essex-wide coverage with transparent pricing"
+**Attack vector**: Create location pages for areas competitors ignore (south Essex, Chelmsford, Braintree) + pricing comparison page
+**Defense**: Accelerate review generation (target 200 reviews in 6 months)
+```
+
+### Competitive Intelligence in Page Recommendations
+
+Every page recommendation in Stage 3.5 should reference competitive context:
+
+```markdown
+| Priority | Page Type | URL Slug | Decision Driver | Competitive Context |
+|----------|-----------|----------|-----------------|---------------------|
+| 1 | Pricing page | /plumber-prices-essex/ | Competitor reviews cite "expensive", "hidden fees" | XYZ Heating gets 40% of negative reviews about pricing - opportunity to differentiate with transparency |
+| 2 | Location page | /plumber-south-essex/ | Geographic gap | ABC Plumbing (#1 Map Pack) only covers Colchester - south Essex underserved |
+| 3 | Service page | /emergency-plumber-essex/ | Service gap | No competitor offers genuine 24/7 - all show "8am-6pm" on GBP |
+```
+
+#### Review Mining for Content Ideas
+
+Extract content opportunities from competitor reviews:
+
+**What to look for**:
+- ✅ **Common praises**: "Fast response", "Friendly", "Fixed properly first time" → Emphasize these in your content
+- ✅ **Common complaints**: "Expensive", "Late", "Didn't clean up" → Create content addressing these (transparent pricing, punctuality guarantee, cleanup policy)
+- ✅ **Questions in reviews**: "Wish I'd known the price first" → Create pricing page
+- ✅ **Scenarios**: "Saved me when I had a leak at 10pm" → Create emergency service page
+
+**Example from reviews**:
+```
+ABC Plumbing reviews:
+- "Charged £450 for a simple tap repair" (mentioned 8 times)
+- "Great service but website doesn't show prices" (mentioned 5 times)
+
+→ Content opportunity: Create "/transparent-pricing/" page with clear pricing table, "what you'll pay" examples
+→ H2: "How Much Does a Plumber Cost in Essex? (No Hidden Fees)"
+→ Table: Tap repair: £X, Leak repair: £Y, Emergency callout: £Z
+→ Trust signal: "We show our prices upfront - no surprises"
+```
+
+### 7. Entity & Internal Linking Guidance
 
 When creating any page content, you must reinforce entities and provide actionable internal linking suggestions.
 
