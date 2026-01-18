@@ -123,14 +123,143 @@ This workflow consolidates 12 specialist prompts into sequential stages. Execute
 
 ---
 
+## Stage 3.5: Page-Level Recommendations (MANDATORY)
+
+**Purpose**: Convert gap analysis into specific page recommendations with AI visibility goals
+
+**Input**: Content architecture, keyword gaps, competitor analysis, AI visibility opportunities
+
+**Process**:
+1. For each priority keyword cluster, recommend specific page types to create or improve
+2. Map each recommended page to target keyword set, primary intent, funnel stage, and AI visibility goal
+3. Use competitor gap analysis to identify missing pages that rivals rank or get cited for
+4. Specify exact URL slug, working title, and recommended content format for each page
+5. Define 2-3 AI visibility tactics per page (FAQ schema, concise definition blocks, stats boxes, structured data)
+6. Prioritize all page recommendations by impact vs effort
+
+**Page Types to Consider**:
+- Service page, location page, comparison page, feature page, guide, FAQ hub, glossary, blog post
+- Programmatic template, category page, product page, local/location variant
+- AI-optimized answer page, definition page, how-to guide, problem-solution page
+
+**Output**:
+```markdown
+### Page Backlog (Prioritized by Impact vs Effort)
+
+| Priority | Page Type | URL Slug | Working Title | Target Keywords | Intent | Funnel Stage | AI Visibility Goal | Content Format | Impact | Effort |
+|----------|-----------|----------|---------------|-----------------|--------|--------------|-------------------|----------------|--------|--------|
+| 1 | Service page | /emergency-car-locksmith/ | Emergency Car Locksmith: 24/7 Service | lost car keys, emergency locksmith | Transactional | Bottom | ChatGPT citation for "lost car key help" | 1,800 words + FAQ schema + LocalBusiness schema | HIGH | MEDIUM |
+| 2 | Comparison page | /dealership-vs-locksmith-car-keys/ | Dealership vs Locksmith for Car Keys | dealership vs locksmith, car key replacement cost | Commercial | Middle | Perplexity source for cost comparison | 2,500 words + comparison table + FAQ schema | HIGH | MEDIUM |
+| 3 | Location page | /car-locksmith-{city}/ | Car Locksmith {City}: Same-Day Service | car locksmith {city} | Transactional | Bottom | Google AI Overview inclusion | 1,600 words + GeoShape schema + reviews | MEDIUM | LOW |
+
+### Page Recommendations from Gap Analysis
+
+**Gap 1**: Competitor ranks for "dealership vs locksmith car key" (140/month, zero difficulty) but client has no comparison content
+- **Recommended page**: `/dealership-vs-locksmith-car-keys/`
+- **Page type**: Comparison guide
+- **Primary keywords**: dealership vs locksmith car key, car key replacement dealer vs locksmith
+- **Secondary keywords**: cheaper than dealership, locksmith vs dealer cost
+- **Search intent**: Commercial investigation (comparing options before purchase)
+- **AI search role**: Source for cost comparison queries in ChatGPT, Perplexity
+- **Competitor pages**: [competitor-domain.com/dealer-vs-locksmith/], [competitor2.com/pricing-comparison/]
+- **Why new page vs expanding existing**: Dedicated comparison pages rank better for "vs" queries; homepage too broad; service pages too specific
+- **AI visibility tactics**:
+  1. FAQ schema with "Is locksmith cheaper than dealer?" question
+  2. Comparison table with structured data (price, time, quality columns)
+  3. Concise summary paragraph in first 100 words optimized for snippet extraction
+- **Internal linking**: Link from service pages, homepage "why choose us" section, pricing page
+- **30/60/90 placement**: Month 1 (closes critical objection gap)
+
+**Gap 2**: No location pages exist; competitor has 8 location variants ranking for "car locksmith {city}"
+- **Recommended page**: `/car-locksmith-chelmsford/` (template for 8 cities)
+- **Page type**: Location service page (programmatic template)
+- **Primary keywords**: car locksmith Chelmsford, auto locksmith Chelmsford, key replacement Chelmsford
+- **Secondary keywords**: 24/7 locksmith Chelmsford, mobile locksmith Chelmsford, emergency car keys Chelmsford
+- **Search intent**: Transactional local (ready to book, location-specific)
+- **AI search role**: Local recommendation in ChatGPT "find car locksmith near Chelmsford"
+- **Competitor pages**: [competitor.com/chelmsford/], [competitor2.com/areas/chelmsford/]
+- **Why new page vs expanding existing**: Geo-targeted pages rank better for "{service} + {city}" queries; allows unique local content (landmarks, service areas, local testimonials); better internal linking for geographic expansion
+- **AI visibility tactics**:
+  1. LocalBusiness schema with GeoShape for Chelmsford coverage area
+  2. FAQ: "Do you cover Chelmsford and surrounding areas?" with specific neighborhoods listed
+  3. Local testimonials with schema markup (Chelmsford customers)
+- **Internal linking**: Link from homepage service area section, main service pages, footer
+- **30/60/90 placement**: Month 2 (create 3 location pages), Month 3-4 (remaining 5 cities)
+
+**Gap 3**: Competitor gets ChatGPT citations for "can locksmith program transponder key" but client has no educational content
+- **Recommended page**: Blog post: `/can-locksmith-program-transponder-keys/`
+- **Page type**: Educational guide (FAQ-style)
+- **Primary keywords**: can locksmith program transponder key, do locksmiths program car keys, transponder key programming
+- **Secondary keywords**: locksmith vs dealer programming, transponder chip programming cost
+- **Search intent**: Informational (learning before decision)
+- **AI search role**: Authoritative answer for "can locksmith program transponder" in ChatGPT, Claude, Gemini
+- **Competitor pages**: [competitor-blog.com/transponder-programming/], [authority-site.com/locksmith-capabilities/]
+- **Why new page vs expanding existing**: Educational content needs dedicated article; too detailed for FAQ section; supports service pages via internal links
+- **AI visibility tactics**:
+  1. HowTo schema for programming process step-by-step
+  2. Concise yes/no answer in first 50 words: "Yes, auto locksmiths can program transponder keys using the same diagnostic equipment as dealerships, typically at 40-60% lower cost."
+  3. FAQ schema embedded: "What equipment do locksmiths use?" "Is it the same as dealer programming?"
+- **Internal linking**: Link from service pages, homepage FAQ, related blog posts
+- **30/60/90 placement**: Month 2 (AI visibility priority)
+
+[Continue for all identified gaps...]
+
+### Page Creation vs Optimization Decision Matrix
+
+| Scenario | Create New Page | Optimize Existing Page |
+|----------|----------------|------------------------|
+| Keyword cluster has no relevant page | ✅ Create | |
+| Keyword cluster shares <30% overlap with existing page | ✅ Create | |
+| Existing page is too broad/serves different intent | ✅ Create | |
+| Keyword cluster is 30-70% overlap with existing | | ✅ Optimize existing |
+| Existing page has authority but needs updating | | ✅ Optimize existing |
+| Risk of keyword cannibalization | | ✅ Consolidate into existing |
+
+### AI Visibility Tactics Library (Apply to Recommended Pages)
+
+**For ChatGPT Citations**:
+- FAQ schema with direct question-answer pairs
+- Concise definition in first 100 words (40-60 words optimal)
+- Bullet lists for step-by-step processes
+- Statistics with citations (increases authority)
+
+**For Perplexity Sources**:
+- Comparison tables with clear data
+- "According to [source]" citation format
+- Structured data (tables, lists, schemas)
+- Up-to-date information (2025-2026 data)
+
+**For Google AI Overviews**:
+- Featured snippet optimization (40-60 word answers)
+- List format for "how to" queries
+- Table format for comparison queries
+- Strong E-E-A-T signals (author bio, credentials, reviews)
+
+**For Claude/Gemini**:
+- Comprehensive explanations (not just snippets)
+- Logical structure with clear headings
+- Internal links to related topics
+- Balanced perspectives on comparisons
+```
+
+**Quality Gate**:
+- [ ] Every high-priority keyword cluster has a recommended page
+- [ ] Each page recommendation includes specific URL, title, keywords, intent
+- [ ] Competitor gaps are explicitly addressed with page recommendations
+- [ ] Each page has 2-3 defined AI visibility tactics
+- [ ] Page Backlog is prioritized by impact vs effort
+- [ ] Recommendations feed directly into 30/60/90-day roadmap (next stage)
+
+---
+
 ## Stage 4: Detailed Planning
 
 **Purpose**: Break down execution into actionable tasks
 
-**Input**: Content architecture
+**Input**: Content architecture + Page Backlog (from Stage 3.5)
 
 **Process**:
-1. List all required deliverables
+1. List all required deliverables (incorporating Page Backlog recommendations)
 2. Identify dependencies
 3. Prioritise tasks
 4. Estimate complexity (simple/moderate/complex)
@@ -433,6 +562,49 @@ This section maps the 12 SEO prompts to the 9-stage workflow framework.
 
 ---
 
+#### Stage 3.5: Page-Level Recommendations (MANDATORY)
+**Prompts Executed**:
+1. **Prompt 6 Extended Analysis**: Convert Ahrefs content gaps into specific page recommendations
+2. **AI Visibility Mapping**: For each gap, define AI citation tactics
+3. **Competitor Page Mapping**: Identify exact competitor pages/URLs that rank or get cited
+
+**Data Sources**:
+- Ahrefs: Competitor pages, keyword gaps, content gaps (from Stage 3)
+- HikeSEO: AI visibility opportunities, current page performance (from Stage 3)
+- Reddit: Customer pain points inform page topics (from Stage 1)
+- Competitor analysis: Pages that rank or get AI citations (from Stage 1)
+
+**Process**:
+1. For each keyword cluster from gap analysis, recommend specific page type (service, location, comparison, guide, FAQ hub, etc.)
+2. Map each recommended page to:
+   - Target keyword set (primary + secondary)
+   - Search intent (informational/commercial/transactional)
+   - Funnel stage (top/middle/bottom)
+   - AI visibility goal (ChatGPT citation, Perplexity source, Google AI Overview, etc.)
+3. Identify competitor pages that rank or get cited that client lacks
+4. Specify URL slug, working title, content format for each recommended page
+5. Define 2-3 AI visibility tactics per page (FAQ schema, definition block, stats box, structured data)
+6. Prioritize by impact vs effort
+
+**Outputs**:
+- **Page Backlog Table** (prioritized by impact vs effort)
+  - Columns: Priority, Page Type, URL Slug, Working Title, Target Keywords, Intent, Funnel Stage, AI Visibility Goal, Content Format, Impact, Effort
+- **Detailed Page Recommendations** (15-25 pages minimum)
+  - Each recommendation includes: page type, keywords, intent, competitor URLs, why new page vs expanding existing, AI visibility tactics, internal linking strategy, 30/60/90 placement
+- **Page Creation vs Optimization Decision Matrix**
+- **AI Visibility Tactics Library** (tactics mapped to each recommended page)
+
+**Quality Gate**:
+- [ ] Every high-priority keyword cluster has a page recommendation
+- [ ] Each page includes specific URL, title, keywords, intent, AI tactics
+- [ ] Competitor gaps explicitly addressed
+- [ ] Page Backlog prioritized and ready to feed into 30/60/90-day roadmap
+
+**Critical**: This stage output directly feeds Stage 4 (30/60/90-day roadmap). Each recommended page becomes a concrete task like:
+- "Month 1, Week 2: Create `/dealership-vs-locksmith-car-keys/` comparison page targeting [keyword cluster] to close objection gap vs [competitor URL]"
+
+---
+
 #### Stage 4: Detailed Planning
 **Prompts Executed**:
 1. **Prompt 8**: Full AI + SEO Strategy Document (Sections 7-9)
@@ -631,6 +803,13 @@ Stage 3: Content Architecture
   → [CONDITIONAL] IF Local → Prompt 3: Local SEO & GBP
   → [CONDITIONAL] IF E-commerce → E-commerce IA Audit
   ↓
+Stage 3.5: Page-Level Recommendations (MANDATORY)
+  → Convert gaps into specific page recommendations
+  → Map pages to keywords, intent, funnel stage, AI goals
+  → Identify competitor pages to pattern against
+  → Create prioritized Page Backlog table
+  → Define AI visibility tactics per page
+  ↓
 Stage 4: Detailed Planning
   → Prompt 8 (Sections 7-9): 30/60/90 + 12-month plan
   → Prompt 9: JTBD + Keyword Mapping
@@ -689,9 +868,15 @@ Delivery Complete
 - Prompt 11 (QA measurement framework)
 
 **Prompt 6 (Ahrefs Content Gap) outputs feed into**:
+- **Stage 3.5 (Page-Level Recommendations)** - CRITICAL: Gaps become specific page recommendations
 - Prompt 9 (keyword opportunities)
 - Prompt 10 (content titles based on gaps)
 - Prompt 12 (content production tasks)
+
+**Stage 3.5 (Page-Level Recommendations) outputs feed into**:
+- **Prompt 8 (30/60/90-day roadmap)** - CRITICAL: Page Backlog becomes month-by-month tasks
+- Prompt 10 (copy examples for recommended pages)
+- Prompt 12 (page-level implementation specifications)
 
 **Prompt 7 (Reddit Research) outputs feed into**:
 - Prompt 8 (customer pain points inform strategy)
@@ -792,6 +977,15 @@ Delivery Complete
 - [ ] Site architecture issues documented
 - [ ] Conditional prompts determined (local/e-commerce)
 
+**After Stage 3.5 (Page-Level Recommendations)** - MANDATORY:
+- [ ] Page Backlog table created with 15-25+ page recommendations
+- [ ] Each page mapped to: target keywords, intent, funnel stage, AI visibility goal
+- [ ] Competitor gap pages identified with specific URLs
+- [ ] URL slugs and working titles defined for each page
+- [ ] AI visibility tactics specified (2-3 per page)
+- [ ] Pages prioritized by impact vs effort
+- [ ] Ready to feed into 30/60/90-day roadmap
+
 **After Stage 5 (Core Content Creation)**:
 - [ ] Complete strategy document assembled
 - [ ] Copy examples are specific (not templates)
@@ -818,6 +1012,7 @@ Track these metrics to ensure workflow quality:
 
 **Stage 1**: Number of customer pain points identified (target: 10-15)
 **Stage 3**: Number of content gaps found (target: 20-30)
+**Stage 3.5**: Number of page recommendations created (target: 15-25 minimum)
 **Stage 4**: Number of keywords mapped (target: 100-200)
 **Stage 5**: Number of copy examples generated (target: 50+ FAQs, 15+ titles/metas)
 **Stage 7**: QA score (target: ≥10/12)
@@ -831,6 +1026,7 @@ Track these metrics to ensure workflow quality:
 **Stage 1**: 1-2 hours (4 prompts: business, LinkedIn, competitors, Reddit)
 **Stage 2**: 30-45 minutes (framework definition)
 **Stage 3**: 1-2 hours (traffic, content gaps, conditional prompts)
+**Stage 3.5**: 1-2 hours (page-level recommendations, Page Backlog creation, AI tactics mapping)
 **Stage 4**: 1-2 hours (roadmap, keyword mapping)
 **Stage 5**: 2-3 hours (strategy assembly, copy generation)
 **Stage 6**: 1-2 hours (CRO analysis if applicable)
@@ -838,7 +1034,7 @@ Track these metrics to ensure workflow quality:
 **Stage 8**: 2-3 hours (task breakdown, page specifications)
 **Stage 9**: 30-45 minutes (packaging, final assembly)
 
-**Total Workflow Time**: 10-15 hours for complete AI SEO strategy
+**Total Workflow Time**: 11-17 hours for complete AI SEO strategy (includes mandatory Page-Level Recommendations stage)
 
 ---
 
