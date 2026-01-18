@@ -180,6 +180,24 @@ You've succeeded when you deliver:
 
 After gap analysis (Stage 3), you MUST explicitly output recommended pages to create or optimize. Do not skip this stage.
 
+**INSIGHT-LED ROUTING (MANDATORY)**:
+
+Before recommending any page, you MUST decide:
+1. **Whether a page is required** (evidence-based decision)
+2. **The optimal page type** (service, location, comparison, guide, FAQ hub, blog, etc.)
+3. **The primary role of the page** (human SEO, AI visibility, or both)
+
+Decisions MUST be based on:
+- **Search demand**: Keyword volume, search trends, opportunity size (from Ahrefs)
+- **Pain point frequency and intensity**: Reddit mentions, customer objections, problem severity (from Reddit research)
+- **AI citation patterns**: Which queries trigger AI answers, what content AI currently cites (from competitor analysis)
+- **Lack of quality content**: Competitor gap analysis showing weak or missing content (from Ahrefs + competitive analysis)
+
+Each page recommendation MUST include a **short decision rationale** (3-5 sentences) explaining:
+- What insight drove the decision (search demand, pain point, AI pattern, or content gap)
+- Why this page is needed
+- What role it plays (human SEO, AI visibility, or both)
+
 **For each priority keyword cluster, recommend**:
 - Specific page type (service page, location page, comparison page, feature page, guide, FAQ hub, glossary, blog post, programmatic template, etc.)
 - Map each recommended page to:
@@ -218,8 +236,17 @@ For each recommended page, describe **2-3 AI visibility tactics** to increase li
 
 ```
 Gap: Competitor ranks for "dealership vs locksmith car key" but client has no comparison content
+
+Decision Rationale (Insight-Led Routing):
+- Search demand: 140/month with 0 difficulty = quick win opportunity
+- Pain point intensity: Reddit analysis shows "dealership vs locksmith" as #1 decision objection (mentioned 47 times across 15 threads with high anxiety)
+- AI citation pattern: Competitor page gets cited 8/10 times in ChatGPT for "should I use dealer or locksmith" queries
+- Content gap: No comparison content exists; competitor has dedicated page ranking #1
+- Conclusion: Page REQUIRED. Primary role: BOTH (human SEO + AI visibility). Type: Comparison guide.
+
 - Recommended page: `/dealership-vs-locksmith-car-keys/`
 - Page type: Comparison guide
+- Primary role: Both human SEO (commercial intent) + AI visibility (comparison queries)
 - Primary keywords: dealership vs locksmith car key, car key replacement dealer vs locksmith
 - Secondary keywords: cheaper than dealership, locksmith vs dealer cost
 - Search intent: Commercial investigation
