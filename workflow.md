@@ -93,11 +93,167 @@ This workflow consolidates 12 specialist prompts into sequential stages. Execute
 
 ---
 
+## Stage 2.5: Keyword Priority Analysis (MANDATORY)
+
+**Purpose**: Identify top 20-30 keywords that will drive 80% of results, map to pages, create tracking framework
+
+**Input**: Strategic analysis (Stage 1) + Framework definition (Stage 2) + Current keyword data
+
+**Why Critical**: Without clear keyword priorities, page creation is unfocused. This stage ensures every page targets specific, high-value keywords with realistic traffic projections.
+
+**Process**:
+1. Analyze all keyword data (current rankings + competitor gaps)
+2. Calculate opportunity scores (volume × position factor × intent multiplier)
+3. Identify "The Big One" (highest single opportunity - typically one keyword/cluster with massive potential)
+4. Map keywords to specific pages (prevent cannibalization)
+5. Create Top 5 quick reference (80/20 rule)
+6. Organize by week (timeline for which keywords when)
+7. Create tracking framework (tools, metrics, success targets)
+
+**Opportunity Score Formula**:
+```
+Opportunity Score = (Volume / 100) × Position Factor × Intent Multiplier
+
+Position Factor:
+- Position 4-10: 10 points (low-hanging fruit)
+- Position 11-20: 5 points
+- Position 21-50: 2 points
+- Not ranking but competitor ranks: 3 points
+
+Intent Multiplier:
+- Transactional (buy, get, near me): 1.5x
+- Commercial (cost, vs, best): 1.2x
+- Informational (how, why, what): 1.0x
+```
+
+**Output**:
+```markdown
+### THE BIG ONE: [Keyword/Cluster Name]
+
+[Single highest-impact opportunity]
+
+| Keyword | Volume | Current Pos | Target Pos | Page |
+|---------|--------|-------------|------------|------|
+| [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] |
+
+**Total Volume**: X searches/month
+**Current Traffic**: ~X clicks/month
+**Potential Traffic**: X-Y clicks/month
+**Traffic Gain**: +X-Y clicks/month
+**Lead Gain**: +X-Y leads/month
+**Revenue Gain**: £X-Y/month
+
+**Action**: [Specific action, timeline]
+
+---
+
+### Top 20 Keywords by Priority
+
+| # | Keyword | Volume | Current Pos | Target Pos | Page | Action | Week |
+|---|---------|--------|-------------|------------|------|--------|------|
+| 1 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Action] | [Week] |
+| 2 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Action] | [Week] |
+[... continue to 20]
+
+---
+
+### Keyword-to-Page Mapping
+
+**Homepage (/):**
+- Primary: [Keyword 1], [Keyword 2]
+- Secondary: [Keyword 3], [Keyword 4]
+- Combined Volume: [X]
+- Potential Traffic: [X-Y] clicks/month
+
+**[Page 2] ([URL]):**
+- Primary: [Keyword 1], [Keyword 2]
+- Secondary: [Keyword 3], [Keyword 4]
+- Combined Volume: [X]
+- Potential Traffic: [X-Y] clicks/month
+
+[Repeat for all priority pages]
+
+---
+
+### Top 5 Quick Reference (80/20 Rule)
+
+If you only focus on 5 keywords, make it these:
+
+| Priority | Keyword | Volume | Current | Target | Page | Why Critical |
+|----------|---------|--------|---------|--------|------|--------------|
+| 🔴 #1 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Reason] |
+| 🔴 #2 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Reason] |
+| 🟠 #3 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Reason] |
+| 🟠 #4 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Reason] |
+| 🟠 #5 | [Keyword] | [Vol] | #[Pos] | #1-3 | [URL] | [Reason] |
+
+---
+
+### Keyword Priority by Week
+
+**Week 1**: [Theme - e.g., "Homepage/Foundation Keywords"]
+- [Keyword 1] ([Vol])
+- [Keyword 2] ([Vol])
+**Action**: [What to do]
+
+**Week 2**: [Theme - e.g., "The Big One"]
+- [Keyword 1] ([Vol])
+- [Keyword 2] ([Vol])
+**Action**: [What to do]
+
+[Continue for 12 weeks]
+
+---
+
+### Tracking Framework
+
+**Primary Tool**: [Google Search Console / Hike SEO / Ahrefs]
+
+**Weekly Metrics**:
+- Position changes for top 20 keywords
+- Click volume from top 20 keywords
+- Impressions and CTR trends
+
+**Success Targets**:
+- Week 4: [X] keywords in top 10
+- Week 8: [Y] keywords in top 10, [Z] in top 3
+- Week 12: [A] keywords in top 10, [B] in top 3
+
+---
+
+### Summary Numbers
+
+**Top 20 Keywords Total:**
+- Total Volume: [X] searches/month
+- Current Traffic: ~[Y] clicks/month
+- Potential Traffic: [A-B] clicks/month
+- Traffic Gain: +[C-D] clicks/month
+- Lead Gain: +[E-F] leads/month
+- Revenue Gain: £[G-H]/month
+```
+
+**Quality Gate**:
+- [ ] "The Big One" clearly identified (highest-impact opportunity)
+- [ ] Top 20 keywords represent at least 80% of realistic opportunity
+- [ ] Each keyword mapped to exactly ONE primary page (no cannibalization)
+- [ ] Keywords organized by week align with page creation schedule
+- [ ] Top 5 Quick Reference truly captures 60-80% of impact
+- [ ] Tracking framework is specific (not generic "monitor rankings")
+- [ ] Potential traffic numbers are realistic (use CTR benchmarks by position)
+- [ ] Revenue projections use client's actual average job value
+
+**Integration with Other Stages**:
+- **Feeds into Stage 3 (Content Architecture)**: Keyword clusters inform site structure
+- **Feeds into Stage 3.5 (Page Recommendations)**: Each page references specific keywords from Stage 2.5
+- **Feeds into Stage 4 (30/60/90 Roadmap)**: Week-by-week plan organized around keyword priorities
+
+---
+
 ## Stage 3: Content Architecture
 
 **Purpose**: Design the structure and flow
 
-**Input**: Framework definition
+**Input**: Framework definition + Keyword priorities (from Stage 2.5)
 
 **Process**:
 1. Create high-level content structure
