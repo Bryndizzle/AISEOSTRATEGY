@@ -279,6 +279,137 @@ If you only focus on 5 keywords, make it these:
 
 ---
 
+## Stage 3.1: Technical SEO Audit (MANDATORY)
+
+**Purpose**: Identify and prioritize technical SEO issues blocking rankings, indexability, and user experience
+
+**Input**: Website URL, Google Search Console access (if available), CMS platform
+
+**Why Critical**: Technical issues can completely block SEO efforts. A slow site with indexability problems won't rank no matter how good the content is. This stage identifies what's broken and how to fix it.
+
+**Process**:
+1. **Core Web Vitals Analysis** - LCP, FID/INP, CLS (mobile + desktop)
+2. **Indexability & Crawlability Audit** - Robots.txt, sitemap, noindex tags, canonicals, GSC coverage
+3. **Mobile Usability Audit** - Mobile-friendly test, viewport, tap targets, text readability
+4. **Site Speed Optimization** - Page load time, TTFB, image optimization, caching, CDN
+5. **Schema Markup Audit** - Existing schema, missing opportunities (LocalBusiness, Service, FAQPage, HowTo)
+6. **Internal Linking Structure** - Orphan pages, broken links, anchor text, pillar/hub structure
+7. **HTTPS & Security Audit** - SSL status, mixed content, security headers
+8. **URL Structure Audit** - Clean URLs, trailing slashes, parameters, consistency
+
+**Output**:
+```markdown
+## Technical SEO Audit Summary
+
+### 🔴 CRITICAL Priority (Fix Week 1)
+
+| Issue | Category | Impact | Difficulty | Time | Expected Outcome |
+|-------|----------|--------|------------|------|------------------|
+| [X] pages not indexed | Indexability | CRITICAL | EASY | 1 hour | [X] high-value pages indexed |
+| Robots.txt blocking pages | Indexability | CRITICAL | EASY | 30 mins | [X] pages crawlable |
+| Slow LCP (>4s mobile) | Core Web Vitals | CRITICAL | MEDIUM | 4-6 hours | LCP <2.5s |
+| Text too small on mobile | Mobile Usability | HIGH | EASY | 30 mins | Better mobile UX |
+| LocalBusiness schema missing | Schema | CRITICAL | EASY | 30 mins | Map Pack eligibility |
+
+**Week 1 Total Time**: 9-13 hours
+**Week 1 Impact**: Major improvements in indexing, mobile UX, local visibility
+
+---
+
+### 🟠 HIGH Priority (Fix Week 2-3)
+
+| Issue | Category | Impact | Difficulty | Time | Expected Outcome |
+|-------|----------|--------|------------|------|------------------|
+| High CLS score | Core Web Vitals | HIGH | MEDIUM | 3-4 hours | CLS <0.1 |
+| No HTTPS redirect | Security | HIGH | EASY | 15 mins | All traffic HTTPS |
+| Render-blocking resources | Site Speed | HIGH | MEDIUM | 3-4 hours | Faster render |
+| FAQPage schema missing | Schema | HIGH | EASY | 3-4 hours | FAQ rich results |
+| Orphan pages | Internal Linking | MEDIUM | EASY | 2-3 hours | Better discovery |
+
+**Week 2-3 Total Time**: 15-22 hours
+**Week 2-3 Impact**: Speed improvements, rich results eligibility
+
+---
+
+### 🟡 MEDIUM Priority (Fix Week 4-6)
+
+| Issue | Category | Impact | Difficulty | Time | Expected Outcome |
+|-------|----------|--------|------------|------|------------------|
+| Slow TTFB | Site Speed | MEDIUM | MEDIUM | 2-4 hours | Faster initial load |
+| No CDN | Site Speed | MEDIUM | EASY | 1-2 hours | 30-50% faster |
+| Redirect chains | Indexability | MEDIUM | MEDIUM | 2-3 hours | Better crawling |
+
+**Week 4-6 Total Time**: 13-22 hours
+
+---
+
+## Detailed Fix Instructions
+
+### Fix 1: Pages Not Indexed
+**Issue**: [X] important pages not appearing in Google Search Console index
+**Cause**: [noindex tag / robots.txt block / redirect / soft 404]
+
+**How to Fix**:
+1. Remove noindex tags from affected pages
+2. Check robots.txt not blocking pages
+3. Submit sitemap to GSC
+4. Request indexing via URL Inspection Tool
+
+**Expected Impact**: [X] pages indexed within 1-2 weeks
+**Time**: 1 hour
+
+---
+
+### Fix 2: Slow LCP (Largest Contentful Paint)
+**Current**: [X]s on mobile (Target: <2.5s)
+**Cause**: Large unoptimized images, render-blocking JS
+
+**How to Fix**:
+1. Compress hero image to WebP (<150KB)
+2. Add `loading="eager"` to above-fold images
+3. Preload critical images: `<link rel="preload" as="image">`
+4. Implement image CDN (Cloudflare, Cloudinary)
+
+**Expected Impact**: LCP from [X]s to ~2.0s
+**Time**: 4-6 hours
+
+---
+
+[Continue for all critical/high priority issues with detailed fix instructions]
+
+---
+
+## Total Technical SEO Effort
+
+**Critical + High Priority (Weeks 1-3)**: 24-35 hours
+**Medium Priority (Weeks 4-6)**: 13-22 hours
+**Grand Total**: 37-57 hours
+
+**Expected Overall Impact**:
+- [X]+ pages indexed
+- LCP improved from [X]s to <2.5s
+- Mobile usability: PASS
+- [X] rich result types eligible
+- [X]% faster page loads
+```
+
+**Quality Gate**:
+- [ ] All critical issues identified with specific fix instructions
+- [ ] Time estimates realistic for each fix
+- [ ] Expected outcomes quantified (not "better" but "LCP <2.5s")
+- [ ] Priority order based on impact vs effort (not just impact alone)
+- [ ] Code examples provided where applicable (robots.txt, schema, .htaccess)
+- [ ] Integration with 30/60/90 roadmap (Critical = Week 1, High = Weeks 2-3, etc.)
+
+**Integration with Other Stages**:
+- **Feeds from Stage 3**: Technical issues may have been identified in gap analysis
+- **Feeds into Stage 3.5**: Don't recommend new pages if existing pages can't be indexed
+- **Feeds into Stage 7**: Technical fixes integrated into implementation roadmap with priorities
+
+**See Full Enhancement**: `/AGENT_ENHANCEMENTS/stage_3.1_technical_seo_audit.md` for complete audit framework with all 8 categories
+
+---
+
 ## Stage 3.5: Page-Level Recommendations (MANDATORY)
 
 **Purpose**: Convert gap analysis into specific page recommendations with AI visibility goals
@@ -569,6 +700,393 @@ Each page recommendation MUST include a **short decision rationale** explaining 
 ### Issues Flagged
 - [Issue]: [Severity] - [Recommendation]
 ```
+
+---
+
+## Stage 7.5: Link Building Strategy & Outreach (MANDATORY)
+
+**Purpose**: Provide specific link building targets, outreach templates, digital PR angles, podcast/YouTube opportunities
+
+**Input**: Industry/niche (Stage 1), competitor backlink analysis (Stage 3), page priorities (Stage 3.5), timeline (Stage 7)
+
+**Why Critical**: "Build links" is not a plan. This stage provides 50-100 specific targets, ready-to-use templates, and a 90-day execution roadmap.
+
+**Process**:
+1. **Competitor Backlink Gap Analysis** - Identify high-value links competitors have that client doesn't
+2. **Resource Page Targets** - 10-20 specific resource pages to pitch
+3. **Broken Link Building** - 10-15 broken link opportunities
+4. **Guest Posting Targets** - 15-25 blogs/sites with pitch ideas
+5. **Digital PR Story Angles** - 10-15 newsworthy angles for journalist outreach
+6. **Podcast Outreach** - 10-20 podcasts with episode topic ideas
+7. **YouTube Collaborations** - 10-15 channels with collaboration concepts
+8. **HARO/Journalist Outreach** - Setup + target publications
+9. **Industry Directories** - 5-10 high-DR trade directories
+10. **Outreach Templates** - 8 ready-to-use email templates for each tactic
+
+**Output**:
+```markdown
+## Link Building Strategy: 90-Day Plan
+
+### Target: 30-43 High-Quality Backlinks in 90 Days
+
+**Breakdown by Tactic**:
+- Industry directories & associations: 5-10 links
+- Resource pages: 4-6 links
+- Broken link building: 3-5 links
+- Guest posts: 6-10 links
+- HARO / journalist features: 4-8 links
+- Podcast appearances: 2-4 links
+- YouTube collaborations: 1-2 links
+- Digital PR: 3-5 links
+
+---
+
+## 1. Competitor Backlink Gap Analysis
+
+**Top Competitor Links (Client Doesn't Have)**:
+
+| Linking Domain | DR | Type | Target URL | Link Context | Difficulty | How to Acquire |
+|----------------|----|----|------------|--------------|------------|----------------|
+| [domain.com] | 65 | Resource page | [competitor-url] | "Best [service] in [area]" list | LOW | Email webmaster, request inclusion (Template #2) |
+| [domain.com] | 72 | Guest post | [competitor-url] | Author bio link | MEDIUM | Pitch guest post on [topic] (Template #1) |
+| [domain.com] | 58 | Directory | [competitor-url] | Trade directory listing | EASY | Submit to directory (£[cost]) |
+
+**Total High-Value Gaps**: [X] links identified
+
+---
+
+## 2. Podcast Outreach Targets (10-20 podcasts)
+
+### Podcast 1: [Podcast Name]
+- **URL**: [Spotify/Apple/website link]
+- **Host**: [Name]
+- **Audience**: [Description, size]
+- **Why You're a Good Fit**: [Industry expertise, local angle, interesting story]
+- **Suggested Episode Topics**:
+  1. "[Topic 1 - e.g., 'How to Avoid £400 Car Key Emergencies']"
+  2. "[Topic 2 - e.g., 'Starting a Trade Business in Your 20s: Lessons from Essex']"
+  3. "[Topic 3 - e.g., 'The Future of Car Security Technology']"
+- **Link Opportunity**: Show notes link to website
+- **Contact**: [Email or booking form]
+- **Priority**: HIGH/MEDIUM/LOW
+
+**Podcast Categories to Target**:
+- Local/Regional: Essex business podcasts, entrepreneur shows, community podcasts
+- Industry/Trade: Small business podcasts, skilled worker shows, trade-specific shows
+- Niche-Relevant: [Industry-specific podcasts based on business type]
+
+### Podcast 2: [Podcast Name]
+[Continue for 10-20 podcasts...]
+
+---
+
+## 3. YouTube Collaboration Targets (10-15 channels)
+
+### Channel 1: [Channel Name]
+- **URL**: [YouTube channel]
+- **Subscribers**: [Count]
+- **Content Type**: [Car reviews, DIY, local vlogs, business advice]
+- **Average Views**: [Typical view count]
+- **Collaboration Ideas**:
+  1. "[Video idea 1 - e.g., 'What Happens When You Lose Your Keys - Following a Real Emergency Callout']"
+  2. "[Video idea 2 - e.g., 'Testing Car Security - Can a Locksmith Really Open Any Car?']"
+  3. "[Video idea 3 - e.g., 'Day in the Life: Emergency Locksmith in Essex']"
+- **Value for Creator**: [Unique content, problem-solving, local angle]
+- **Link Opportunity**: Video description link
+- **Contact**: [Business email from About section]
+- **Priority**: HIGH/MEDIUM/LOW
+
+**YouTube Channel Categories**:
+- Local Content Creators: [Area] vloggers, community channels
+- Industry-Specific: [Automotive, home security, etc. based on business]
+- Business/Entrepreneurship: Small business stories, trade skills channels
+- Problem-Solving: Life hacks, emergency preparedness, advice channels
+
+### Channel 2: [Channel Name]
+[Continue for 10-15 channels...]
+
+---
+
+## 4. Digital PR Story Angles (10-15 angles)
+
+### Story Angle 1: [Compelling Headline]
+- **Hook**: [Data/trend/survey that makes this newsworthy]
+- **Example Headline**: "[Attention-grabbing headline for journalists]"
+- **Data/Statistics**: [Key data supporting story]
+- **Target Publications**:
+  - Local: [Area newspapers, community sites]
+  - Industry: [Trade publications]
+  - National: [If broader appeal]
+- **Best Timing**: [When to pitch - seasonal, news cycle, events]
+- **Link Opportunity**: [Page story would link to]
+- **Priority**: HIGH/MEDIUM
+
+**Example** (Locksmith Business):
+- **Hook**: "Car Key Replacement Costs Up 40% in 2026 - Dealerships vs Locksmiths Data"
+- **Headline**: "Essex Drivers Paying £450 for Keys Dealerships Charge £180 For - New Data"
+- **Data**: Analysis of 500 key replacement jobs showing price differences
+- **Target**: Essex Chronicle, AutoExpress, MoneySavingExpert, Which?
+- **Timing**: January (budgeting season) or post-Christmas (car theft spike)
+- **Link**: /dealership-vs-locksmith-car-keys/
+- **Priority**: HIGH
+
+### Story Angle 2: [Headline]
+[Continue for 10-15 angles...]
+
+---
+
+## 5. Guest Posting Targets (15-25 blogs/sites)
+
+### Target 1: [Blog/Website Name]
+- **URL**: [Website]
+- **DR**: [Rating]
+- **Niche**: [Category]
+- **Audience Size**: [Traffic/subscribers estimate]
+- **Content Types**: [Guides, how-tos, case studies, listicles]
+- **Suggested Topics** (3 pitch ideas):
+  1. "[Topic matching their content + your expertise]"
+  2. "[Topic 2]"
+  3. "[Topic 3]"
+- **Contact**: [Email or submission form]
+- **Previous Guest Posts**: Yes/No
+- **Difficulty**: LOW/MEDIUM/HIGH
+- **Priority**: HIGH/MEDIUM
+
+### Target 2: [Blog Name]
+[Continue for 15-25 targets...]
+
+---
+
+## 6. Resource Page Targets (10-20 sites)
+
+### Target 1: [Website Name]
+- **URL**: [Specific resource page URL]
+- **DR**: [Rating]
+- **Page Title**: "[Page title]"
+- **Why They'll Link**: [Relevance, local focus, comprehensive list]
+- **Outreach Angle**: "Your resource lists 15 [businesses] but missing [your business]. We've been serving [area] for [X] years with [rating]..."
+- **Contact**: [Email or form]
+- **Difficulty**: LOW/MEDIUM/HIGH
+- **Priority**: HIGH/MEDIUM
+
+### Target 2: [Website Name]
+[Continue for 10-20 targets...]
+
+---
+
+## 7. Outreach Email Templates (8 Templates)
+
+### Template #1: Guest Post Pitch
+**Subject**: Guest post idea: [Specific Topic] for [Their Website]
+
+Hi [Name],
+
+I've been following [Website] — particularly enjoyed your post on [specific article].
+
+I'm [Your Name], [role] at [Business] in [Location]. I've been working in [industry] for [X] years and have helped [specific achievement].
+
+I'd love to contribute a guest post. I'm thinking:
+
+**"[Specific Article Title]"**
+
+This would cover:
+- [Key point 1 - value for their audience]
+- [Key point 2]
+- [Key point 3]
+
+Would this be a good fit for your readers?
+
+Best,
+[Your Name]
+
+---
+
+### Template #5: Podcast Guest Pitch
+**Subject**: Guest idea for [Podcast Name]
+
+Hi [Host Name],
+
+I've been listening to [Podcast] — loved your episode with [guest] on [topic].
+
+I'm [Your Name], [role] at [Business]. I think I'd be great for your show because [specific reason].
+
+**Potential episode topics**:
+1. **"[Episode Title]"** - [What you'd cover]
+2. **"[Episode Title 2]"** - [What you'd cover]
+
+**What makes my story interesting**:
+- [Unique angle 1]
+- [Unique angle 2]
+- [Unique angle 3]
+
+Would this be a good fit?
+
+Best,
+[Your Name]
+
+---
+
+### Template #6: YouTube Collaboration Pitch
+**Subject**: Video collaboration idea for [Channel Name]
+
+Hi [Creator Name],
+
+Big fan of [Channel] — subscribed since [timeframe].
+
+I'm [Your Name], a [role] in [Location]. I have a video idea your audience would find interesting:
+
+**"[Video Concept]"**
+
+The idea: [3-4 sentence description]
+
+**Why your audience would love it**:
+- [Reason 1 - entertainment, problem-solving, unique angle]
+- [Reason 2]
+
+**What I'd provide**:
+- [Access, expertise, behind-the-scenes, footage]
+- [Promotion to my audience - X followers]
+
+No fees — just think it'd make great content.
+
+What do you think?
+
+Best,
+[Your Name]
+
+---
+
+[Continue for all 8 templates: Guest Post, Resource Page, Broken Link, Digital PR, Podcast, YouTube, HARO, Direct Journalist]
+
+---
+
+## 8. 30/60/90 Day Link Building Timeline
+
+### Month 1: Foundation & Low-Hanging Fruit (Days 1-30)
+
+**Week 1: Setup & Easy Wins**
+- [ ] Submit to 5-10 industry directories (2-3 hours)
+- [ ] Set up HARO/ResponseSource accounts (30 mins)
+- [ ] Identify 20 resource page targets (2 hours)
+- **Target**: 5-8 links acquired
+
+**Week 2: Resource Page Outreach**
+- [ ] Email 10 resource page targets (2 hours)
+- [ ] Respond to 2-3 HARO queries (1 hour)
+- [ ] Identify 15 broken link opportunities (2 hours)
+- **Target**: 2-3 resource links confirmed
+
+**Week 3: Broken Link Building**
+- [ ] Email 10 broken link targets (2 hours)
+- [ ] Follow up on Week 2 outreach (30 mins)
+- [ ] Identify 20 guest posting targets (2 hours)
+- **Target**: 2-3 broken links replaced
+
+**Week 4: Guest Post Pitching**
+- [ ] Pitch 10 guest post opportunities (3 hours)
+- [ ] Respond to 2-3 HARO queries (1 hour)
+- **Target**: 2-3 guest posts accepted
+
+**Month 1 Target**: 12-17 links
+
+---
+
+### Month 2: Content & Outreach Scale (Days 31-60)
+
+**Week 5: Podcast Outreach**
+- [ ] Identify 15 podcast targets (2 hours)
+- [ ] Pitch 5 podcasts (2 hours)
+- [ ] Write 1st guest post (3-4 hours)
+- **Target**: 1-2 podcast appearances booked
+
+**Week 6: YouTube Collaboration**
+- [ ] Identify 10 YouTube channels (2 hours)
+- [ ] Pitch 5 channels (2 hours)
+- [ ] Follow up on podcast pitches (30 mins)
+- **Target**: 1 YouTube collaboration confirmed
+
+**Week 7: Digital PR Campaign**
+- [ ] Choose 1 story angle (30 mins)
+- [ ] Create data/assets (3-4 hours)
+- [ ] Pitch 15 journalists (2 hours)
+- **Target**: 1-2 journalists interested
+
+**Week 8: Consolidation**
+- [ ] Follow up on all Month 2 outreach (2 hours)
+- [ ] Record 1st podcast (1 hour)
+- [ ] Finish guest posts (3-4 hours)
+- **Target**: 3-5 guest posts published, 1 podcast live
+
+**Month 2 Target**: 8-12 links
+
+---
+
+### Month 3: Amplification (Days 61-90)
+
+**Week 9: Second PR Campaign**
+- [ ] Launch 2nd story angle (4 hours)
+- [ ] Record 2nd podcast (1 hour)
+- [ ] Film YouTube collaboration (2-3 hours)
+- **Target**: 2-3 media mentions
+
+**Week 10: Relationship Nurturing**
+- [ ] Follow up with journalists (1 hour)
+- [ ] Connect with hosts on LinkedIn (30 mins)
+- [ ] Thank resource page owners (30 mins)
+- **Target**: Build relationships for future links
+
+**Week 11-12: Scale What's Working**
+- [ ] Double down on best-performing tactic (4 hours)
+- [ ] Continue HARO responses (1 hour/week)
+- [ ] Plan Month 4-6 strategy (2 hours)
+- **Target**: 5-8 additional links
+
+**Month 3 Target**: 10-14 links
+
+---
+
+## 90-Day Summary
+
+**Total Target**: 30-43 high-quality backlinks
+**Time Investment**: ~120 hours over 90 days (10-12 hours/week)
+**Resource Options**:
+- DIY: 10-12 hours/week (business owner or team member)
+- Hire VA: 5-8 hours/week @ £15-25/hour = £300-800/month
+- Link Building Agency: £1,000-2,500/month for 30-40 links
+
+---
+
+## Tracking Framework
+
+**Weekly Metrics** (Track in Ahrefs):
+- Total referring domains (target: +1-2/week)
+- Domain Rating (target: +1 point every 2 months)
+- Total backlinks acquired
+
+**Monthly ROI by Tactic**:
+- Guest posts: [X] hours → [Y] links = [Z] hours per link
+- Podcasts: [X] hours → [Y] links + brand exposure
+- Digital PR: [X] hours → [Y] links + media mentions
+
+**Scale what works, drop what doesn't.**
+```
+
+**Quality Gate**:
+- [ ] 50-100 specific link targets identified across all tactics
+- [ ] 8 outreach templates provided (ready to copy-paste)
+- [ ] 10-20 podcast targets with pitch angles
+- [ ] 10-15 YouTube channels with collaboration ideas
+- [ ] 10-15 digital PR story angles
+- [ ] 30/60/90 timeline with weekly tasks and targets
+- [ ] Tracking framework with metrics
+- [ ] All tactics matched to risk tolerance (conservative = directories + guest posts, aggressive = PR + broken links)
+
+**Integration with Other Stages**:
+- **Feeds from Stage 3**: Competitor backlink gaps inform targets
+- **Feeds from Stage 3.5**: Pages needing link authority prioritized
+- **Feeds into Stage 8**: Link building tasks integrated into implementation plan
+
+**See Full Enhancement**: `/AGENT_ENHANCEMENTS/stage_7.5_link_building_strategy.md` for complete framework with all templates and tactics
 
 ---
 
