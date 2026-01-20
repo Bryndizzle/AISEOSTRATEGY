@@ -672,6 +672,202 @@ Each page recommendation MUST include a **short decision rationale** explaining 
 
 ---
 
+## Stage 6.5: E-E-A-T Quality Assurance (MANDATORY)
+
+**Purpose**: Ensure all content meets Google's E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) standards
+
+**Input**: Drafted content (from Stage 5, Stage 6, or Full Page Draft Generator)
+
+**Why Critical**: Google's algorithms explicitly prioritize content demonstrating E-E-A-T. Content failing these standards will not rank regardless of technical optimization. This is especially critical for YMYL (Your Money or Your Life) topics.
+
+**Reference**: [Google's Helpful Content Guidelines](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
+
+**Process**: Audit content against 30 questions across 5 categories:
+1. **Content Quality & Originality** (8 questions) - Original information, comprehensive, insightful analysis
+2. **Expertise & Experience** (7 questions) - Trust signals, first-hand expertise, clear authorship
+3. **Content Creation Process** (4 questions) - Transparency about "How" content was created, AI disclosure
+4. **Content Purpose** (6 questions) - "Why" content exists - people-first vs search engine-first
+5. **Search Engine-First Red Flags** (5 questions) - Warning signs of manipulative content
+
+**Scoring System**:
+- Each question: 1.0 (Pass), 0.5 (Partial), 0.0 (Fail)
+- Total: X/30 points
+
+**Pass Thresholds**:
+- **Standard Content**: 24/30 (80%) to pass
+- **YMYL Content** (health, finance, safety, legal): 27/30 (90%) to pass
+
+**Output**:
+```markdown
+## E-E-A-T Quality Assurance Audit
+
+**Content**: [Page title]
+**Score**: [X]/30 ([X]%)
+**YMYL Status**: [Yes/No]
+**Overall Status**: ✅ PASS / ⚠️ NEEDS IMPROVEMENT / ❌ FAIL
+
+---
+
+### Scoring by Category
+
+| Category | Score | Percentage | Status |
+|----------|-------|------------|--------|
+| Content Quality & Originality | [X]/8 | [X]% | ✅/⚠️/❌ |
+| Expertise & Experience | [X]/7 | [X]% | ✅/⚠️/❌ |
+| Content Creation Process | [X]/4 | [X]% | ✅/⚠️/❌ |
+| Content Purpose | [X]/6 | [X]% | ✅/⚠️/❌ |
+| Search Engine-First (Red Flags) | [X]/5 | [X]% | ✅/⚠️/❌ |
+
+---
+
+### Critical Issues (Must Fix Before Publishing)
+
+**Priority 1 - CRITICAL** (Scored 0.0):
+1. **[Question #]**: [Issue description]
+   - **Problem**: [What's wrong]
+   - **Fix**: [Specific remediation steps]
+   - **Time**: [Estimate]
+
+2. [Continue for all critical issues...]
+
+---
+
+### Improvement Opportunities (Partial Scores)
+
+**Priority 2 - MEDIUM** (Scored 0.5):
+1. **[Question #]**: [Issue description]
+   - **Problem**: [What could be better]
+   - **Fix**: [Specific remediation steps]
+   - **Time**: [Estimate]
+
+---
+
+### Strengths (What's Working Well)
+
+✅ [List aspects that scored 1.0]
+✅ [Trust signals present]
+✅ [Expertise demonstrated]
+
+---
+
+### E-E-A-T Quick Reference Checklist
+
+**Trust Signals**:
+- [ ] Author byline with credentials present
+- [ ] Author bio or link to About page
+- [ ] Business credentials (years in business, certifications, reviews)
+- [ ] Sources cited for all statistics/data
+- [ ] Professional presentation (no typos, good formatting)
+
+**Expertise Signals**:
+- [ ] First-hand experience demonstrated
+- [ ] Technical details only expert would know
+- [ ] Industry terminology used correctly
+- [ ] Common misconceptions corrected
+
+**Originality**:
+- [ ] Original insights (not rewritten from competitors)
+- [ ] Unique data, research, or case studies
+- [ ] Non-obvious information provided
+
+**People-First Content**:
+- [ ] Genuinely helpful (not just keyword-optimized)
+- [ ] Solves real problem
+- [ ] Natural language (not keyword stuffed)
+- [ ] Complete information (answers all key questions)
+
+**Red Flags** (Must be NONE):
+- [ ] NO keyword stuffing
+- [ ] NO content created purely for rankings
+- [ ] NO mass content across unrelated topics
+- [ ] NO summarizing others without adding value
+- [ ] NO writing to hit word count target
+
+---
+
+### Remediation Priority List
+
+**Fix in this order**:
+
+**Priority 1 (MUST FIX BEFORE PUBLISHING)**:
+- [ ] [Critical issue 1] - [Time]
+- [ ] [Critical issue 2] - [Time]
+
+**Total Time to Fix Critical Issues**: [X] hours
+
+---
+
+### Recommendation
+
+**IF PASS** (✅):
+- Content meets E-E-A-T standards
+- ✅ **APPROVED FOR PUBLISHING**
+- Optional improvements can be implemented later
+
+**IF NEEDS IMPROVEMENT** (⚠️):
+- ⚠️ **REVISIONS REQUIRED BEFORE PUBLISHING**
+- Fix Priority 1 issues (critical)
+- Consider Priority 2 issues (recommended)
+- Estimated time to pass: [X] hours
+
+**IF FAIL** (❌):
+- ❌ **MAJOR REVISIONS REQUIRED - DO NOT PUBLISH**
+- Content does not meet Google's helpful content standards
+- High risk of algorithmic penalty or poor rankings
+- Consider: Is this content worth creating?
+
+---
+
+### Key Questions to Fix Common Failures
+
+**Content Quality**:
+- Q1: Does content provide ORIGINAL information? (not rewritten from competitors)
+- Q2: Is it COMPREHENSIVE? (covers all relevant aspects)
+- Q3: Provides INSIGHTFUL analysis beyond obvious?
+
+**Expertise**:
+- Q9: TRUST signals present? (author credentials, sources cited, business credentials)
+- Q12: Written by EXPERT with demonstrable knowledge?
+- Q14: FIRST-HAND expertise demonstrated? ("In our experience...")
+
+**People-First vs Search-First**:
+- Q20: Created to HELP PEOPLE (not manipulate rankings)?
+- Q26: NOT primarily for search engines?
+- Q28: NOT just summarizing others?
+
+**YMYL-Specific** (if health/finance/safety topic):
+- Must score 27+/30 (90%+)
+- Must have clear expert credentials
+- Must cite authoritative sources
+- Must include disclaimers if giving advice
+```
+
+**Quality Gate**:
+- [ ] Content scored and categorized
+- [ ] All critical issues identified with specific fixes
+- [ ] Pass threshold met (24/30 standard, 27/30 YMYL)
+- [ ] NO search engine-first red flags present
+- [ ] Trust signals present (author, credentials, sources)
+- [ ] First-hand expertise demonstrated
+- [ ] Content would be useful to direct customers (not just search traffic)
+
+**Integration with Other Stages**:
+- **Feeds from Stage 5/6**: Content to audit
+- **Feeds into Stage 7**: Only content passing E-E-A-T proceeds to validation
+- **Mandatory Quality Gate**: NO CONTENT PUBLISHED WITHOUT PASSING E-E-A-T AUDIT
+
+**YMYL Content Special Requirements**:
+- Higher pass threshold: 90% (27/30) vs 80% (24/30)
+- Must have expert authorship with clear credentials
+- Must cite authoritative sources (medical, financial, legal)
+- Must include appropriate disclaimers
+- Must be reviewed by qualified professional (ideally)
+- Must be updated more frequently (every 6 months minimum)
+
+**See Full Enhancement**: `/AGENT_ENHANCEMENTS/stage_6.5_eeat_quality_assurance.md` for complete 30-question audit framework, scoring rubrics, and detailed remediation guidance
+
+---
+
 ## Stage 7: Validation & Testing
 
 **Purpose**: Verify quality and fitness for purpose
