@@ -40,35 +40,52 @@ Format the response as:
 
 ### **Part B: Brand Tone of Voice** (3 minutes)
 
-**Browser Agent Prompt:**
+**Step 1: Get Auto-Generated TOV from Hike**
+
+Hike platform auto-generates TOV.
+
+**What to do:**
+1. Check Hike platform for the client's auto-generated TOV
+2. **Sense check it** - does it feel accurate based on what you know?
+
+**Step 2: Verify with Social Channels (Browser Agent)**
+
+Run this browser agent prompt to check their social media tone:
 
 ```
-Go to [client website URL] and analyze the tone of voice used across:
-- Homepage copy
-- About page
-- Service descriptions
-- Blog posts (if available)
+Analyze the tone of voice across [client's] social channels and compare to website:
 
-Analyze and describe:
-1. Formality level: Is it casual/friendly, professional, or formal?
-2. Language complexity: Simple/conversational or technical/expert?
-3. Personality traits: Direct, warm, no-nonsense, empathetic, confident?
-4. What they avoid: Corporate jargon, over-promising, technical terms?
+Check:
+- Facebook posts (if available)
+- Instagram captions (if available)
+- LinkedIn posts (if B2B)
+- Twitter/X posts (if available)
 
-Provide 3-5 example sentences from their website that demonstrate their tone.
+Look for:
+1. How do they speak to customers? (Casual/professional/friendly?)
+2. Language style (emojis, slang, technical terms, straight-talking?)
+3. Personality traits (warm, direct, humorous, serious?)
+4. Any phrases they use repeatedly
+
+Compare social tone to website tone and note:
+- Is it consistent across channels?
+- Which channel best represents their "true" voice?
+- Any notable differences?
 
 Format as:
-- Tone of Voice: [description in 1-2 sentences]
-- Key Attributes: [list 3-5]
-- Example phrases: [3-5 actual sentences from their site]
+- Social Media TOV: [description]
+- Most authentic channel: [platform name]
+- Example posts/phrases: [2-3 examples]
+- Consistent with website? [Yes/No + brief note]
 ```
 
 **What to do:**
-1. Paste the browser agent prompt with the client's website URL
-2. Review the extracted tone of voice
-3. Copy into your briefing document
+1. Paste the browser agent prompt
+2. Compare social TOV to Hike's auto-generated TOV
+3. **If different**: Note which feels more authentic
+4. **Use the most accurate TOV** for briefing document
 
-**Note**: If the website has inconsistent tone or poor copy, use: "Professional, clear, helpful - avoids corporate jargon"
+**Note**: If no social presence or inconsistent tone, use Hike's auto-generated TOV or default: "Professional, clear, helpful - avoids corporate jargon"
 
 ---
 
@@ -111,18 +128,53 @@ Format as:
 
 **This is the most important part.** You need keyword data.
 
-#### **Option 1: Client Has Ahrefs/SEMrush Access** (BEST)
+#### **Option 1: Use Hike Platform** (BEST - Most Common)
 
 **What to do:**
-1. Ask client to export their keyword data as CSV/Excel
-2. Client sends you the file
-3. **Done!** Attach to briefing
+1. Check if client is connected to Hike
+2. Use browser agent to access Hike and export keyword reports:
+
+**Browser Agent Prompt:**
+
+```
+Access Hike platform for [client name/website]:
+1. Navigate to keyword data/rankings section
+2. Export keyword report (CSV or Excel format)
+3. Include: keywords, search volume, current position, difficulty
+
+If available in Hike:
+- GSC data (Hike connects to GSC in most cases)
+- Ahrefs data (if integrated)
+
+Format as CSV export or list top 50 keywords with:
+- Keyword
+- Search volume
+- Current position
+- Search intent
+```
+
+**What to do:**
+1. Use browser agent to export Hike keyword report
+2. **Done!** Attach to briefing
+
+**Note**: GSC is connected to Hike in most cases - you don't need separate GSC access.
 
 ---
 
-#### **Option 2: Client Has Google Search Console Access** (GOOD)
+#### **Option 2: Client Has Standalone Ahrefs/SEMrush Access** (GOOD)
 
-**Browser Agent Prompt (if client grants access):**
+**What to do:**
+1. Use browser agent to access Ahrefs/SEMrush and export keyword data
+2. Or ask client to export their keyword data as CSV/Excel
+3. Attach to briefing
+
+---
+
+#### **Option 3: GSC Not Connected to Hike** (If Needed)
+
+**Only if GSC is NOT connected to Hike:**
+
+**Browser Agent Prompt:**
 
 ```
 Go to Google Search Console for [website URL]:
@@ -141,7 +193,7 @@ Format as:
 
 ---
 
-#### **Option 3: Automated Keyword Research** (OKAY)
+#### **Option 4: Automated Keyword Research** (FALLBACK - if no tools available)
 
 **Browser Agent Prompt:**
 
@@ -168,13 +220,57 @@ Format as a list of 20-30 keywords categorized by:
 2. Review the suggested keywords
 3. Copy the list into your briefing document
 
-**Note**: This option is less accurate than real keyword data, but works if client has no tools.
+**Note**: This option is less accurate than real keyword data (Hike/Ahrefs/GSC), but works if client has no tools connected.
 
 ---
 
 ### **Part E: Current Performance** (3 minutes - OPTIONAL but helpful)
 
-**Browser Agent Prompt (if client provides GSC access):**
+#### **Option 1: Use Hike Platform** (BEST - Most Common)
+
+**Browser Agent Prompt:**
+
+```
+Access Hike platform for [client name/website] and extract current performance:
+
+1. Last 3 months performance (from GSC connected to Hike):
+   - Total clicks
+   - Total impressions
+   - Average CTR
+   - Average position
+
+2. Top 10 keywords they currently rank for (by impressions)
+
+3. Top 5 performing pages (by clicks)
+
+4. If Ahrefs is integrated in Hike, also get:
+   - Domain Rating (DR)
+   - Number of backlinks
+   - Organic traffic estimate
+
+Format as:
+- Monthly clicks: [X]
+- Monthly impressions: [X]
+- Average CTR: [X%]
+- Average position: [X]
+- Top ranking keywords: [list with positions]
+- Top pages: [list with URLs]
+- Domain Rating: [X] (if available)
+```
+
+**What to do:**
+1. Use browser agent to extract Hike performance report
+2. Copy extracted data into briefing
+
+**Note**: In most cases, GSC is connected to Hike, so you don't need separate GSC access.
+
+---
+
+#### **Option 2: GSC Not Connected to Hike** (If Needed)
+
+**Only if GSC is NOT connected to Hike:**
+
+**Browser Agent Prompt:**
 
 ```
 Access Google Search Console for [website URL] and extract:
@@ -198,7 +294,9 @@ Format as:
 - Top pages: [list with URLs]
 ```
 
-**Alternative: Use Third-Party Tools**
+---
+
+#### **Option 3: Use Standalone Ahrefs/SEMrush**
 
 **Browser Agent Prompt:**
 
@@ -217,7 +315,7 @@ Format as:
 ```
 
 **What to do:**
-1. Use whichever data source is available
+1. Use whichever data source is available (Hike preferred)
 2. **If no data available**: Skip this section (agent will work without it)
 3. Copy extracted data into briefing
 
@@ -414,13 +512,25 @@ The agent will create a complete strategy including:
 
 ## ⚠️ COMMON ISSUES & HOW TO FIX
 
-### **Issue 1: Browser Agent Can't Extract Keyword Data**
+### **Issue 1: Browser Agent Can't Access Hike Platform**
 
 **What to do:**
-- Option 1: Request keyword data export directly from client (Ahrefs/GSC CSV)
-- Option 2: Use browser agent to suggest keywords based on industry (Part D, Option 3)
-- Option 3: Tell SEO agent: "No keyword data available. Please suggest 20-30 keywords based on industry and services."
+- Option 1: Check if client is connected to Hike - may need to add them to platform first
+- Option 2: Request keyword data export directly from client (CSV from Ahrefs/GSC/Hike)
+- Option 3: Access Ahrefs or GSC directly if client has separate logins
+- Option 4: Use browser agent to suggest keywords based on industry (Part D, Option 4)
+- Last resort: Tell SEO agent: "No keyword data available. Please suggest 20-30 keywords based on industry and services."
 - Note: Strategy will be less accurate without real data, but still usable
+
+---
+
+### **Issue 1a: GSC Not Connected to Hike**
+
+**What to do:**
+- Check if client has standalone GSC access
+- Request GSC export directly from client
+- Or proceed without GSC data (Part E is optional)
+- Use Ahrefs data from Hike if available
 
 ---
 
@@ -433,11 +543,13 @@ The agent will create a complete strategy including:
 
 ---
 
-### **Issue 3: Browser Agent Can't Access GSC or Ahrefs**
+### **Issue 3: Can't Extract Performance Data from Hike**
 
 **What to do:**
-- Ask client to export data themselves and send CSV file
-- Or use free tools like Ubersuggest, AnswerThePublic for keyword research
+- Check if GSC is connected to Hike (most common issue)
+- If not connected: Request standalone GSC access or ask client to export CSV
+- Check if Ahrefs is integrated in Hike platform
+- Use free tools like Ubersuggest, AnswerThePublic for basic keyword research
 - Or proceed without performance data (Part E is optional)
 - Tell SEO agent: "No current performance data available"
 
@@ -530,22 +642,29 @@ Before you paste the briefing to the SEO agent, check you have extracted:
 
 ## 💡 PRO TIPS
 
-### **Tip 1: Real Keyword Data = Better Strategy**
-The quality of the strategy depends heavily on keyword data. Always try to get Ahrefs or GSC exports from the client first. Browser agent suggested keywords work, but are less accurate than real data.
+### **Tip 1: Start with Hike Platform**
+Most clients are connected to Hike. Always check Hike first for keyword data, GSC data, and TOV. This is faster than accessing multiple tools separately. Use browser agent to export relevant Hike reports.
 
-### **Tip 2: Run All Browser Agent Prompts in Parallel**
+### **Tip 2: Real Keyword Data = Better Strategy**
+The quality of the strategy depends heavily on keyword data. Priority order:
+1. Hike keyword exports (includes GSC + Ahrefs if integrated)
+2. Standalone Ahrefs/SEMrush exports
+3. Manual GSC exports (if not connected to Hike)
+4. Browser agent suggested keywords (least accurate, but works)
+
+### **Tip 3: Sense Check Hike's Auto-Generated TOV**
+Hike auto-generates TOV, but always sense check it. Run browser agent on their social channels (Facebook, Instagram, LinkedIn) to verify the tone is accurate. Social media often shows the "real" brand voice.
+
+### **Tip 4: Run Browser Agent Prompts in Parallel**
 Don't run prompts one-by-one. Open multiple browser agent windows and run Parts A-G simultaneously. Total extraction time: 10-15 minutes instead of 30+.
 
-### **Tip 3: Customer Insights (Part G) = 10x Better Content**
+### **Tip 5: Customer Insights (Part G) = 10x Better Content**
 Parts E-F-G are "optional" but make HUGE difference. Spend extra 5 minutes extracting customer questions and objections. The SEO agent will use these to create much more persuasive content.
 
-### **Tip 4: Verify Tone of Voice Extraction**
-Quickly scan the TOV that browser agent extracted from the website. If it seems off or generic, manually review 2-3 pages yourself and write a 1-sentence TOV description. This affects ALL content the SEO agent creates.
-
-### **Tip 5: One Primary Goal Only**
+### **Tip 6: One Primary Goal Only**
 When browser agent suggests a business goal (Part C), stick to ONE. If client wants multiple goals (e.g., conversions + awareness), pick the most important one. Focused strategy > scattered strategy.
 
-### **Tip 6: Save Browser Agent Prompts as Templates**
+### **Tip 7: Save Browser Agent Prompts as Templates**
 Copy Parts A-G prompts into a document. For each new client, just replace "[client website URL]" and "[industry]" placeholders. Speeds up your workflow significantly.
 
 ---
@@ -597,6 +716,10 @@ After you receive the strategy from the agent:
 
 **Your Role**: Use browser agents to extract client information → Feed to SEO agent → Deliver complete strategy
 
+**Primary Tools**:
+- **Hike Platform** (for keyword data, GSC data, TOV auto-generation, Ahrefs integration)
+- **Browser Agents** (for social channel analysis, competitor research, customer insights)
+
 **You don't need to**:
 - Be an SEO expert
 - Speak to clients (unless clarification needed)
@@ -604,11 +727,13 @@ After you receive the strategy from the agent:
 - Create any content yourself
 
 **You DO need to**:
-- Run 7 browser agent prompts (Parts A-G)
-- Compile extracted data into briefing document
-- Feed briefing to SEO agent
-- Quality check the final strategy
+1. Check Hike platform for client data (keyword data, GSC, TOV)
+2. Run 7 browser agent prompts (Parts A-G) to extract/verify additional info
+3. Sense check Hike's auto-generated TOV with social channels
+4. Compile extracted data into briefing document
+5. Feed briefing to SEO agent
+6. Quality check the final strategy
 
-**Time Investment**: 10-15 minutes of browser agent work = Complete 30/60/90 day SEO strategy
+**Time Investment**: 10-15 minutes of browser agent work + Hike exports = Complete 30/60/90 day SEO strategy
 
 **Questions? Ask your team lead or technical team.** 🚀
