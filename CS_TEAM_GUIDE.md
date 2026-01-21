@@ -1,198 +1,312 @@
 # How to Use the AI SEO Strategy Agent - CS Team Guide
 
-**Purpose**: This guide shows you how to gather client information and use the agent to create comprehensive SEO strategies.
+**Purpose**: This guide shows you how to use browser agent prompts to extract client information and create comprehensive SEO strategies.
 
-**Time Required**: 15-30 minutes to gather info, agent creates strategy in minutes
+**Time Required**: 10-15 minutes to extract info using browser agents, agent creates strategy in minutes
 
-**No SEO expertise required** - just follow the steps below.
-
----
-
-## 📋 STEP 1: Gather Client Information
-
-Use this script when talking to the client. Copy their answers into a document.
-
-### **Part A: Business Basics** (5 minutes)
-
-**Ask the client:**
-
-1. **"What's your business name?"**
-   - Write down: _______________
-
-2. **"What industry are you in? What do you do?"**
-   - Examples: auto locksmith, plumber, accountant, solicitor, dentist, estate agent
-   - Write down: _______________
-
-3. **"Where do you operate? What's your service area?"**
-   - Examples: Essex, London, Manchester, UK-wide
-   - Write down: _______________
-
-4. **"What are your main services or products? Give me your top 3-5."**
-   - Write down:
-     1. _______________
-     2. _______________
-     3. _______________
-     4. _______________
-     5. _______________
-
-5. **"What's your website address?"**
-   - Write down: _______________
+**No SEO expertise required** - just use the browser agent prompts below.
 
 ---
 
-### **Part B: Brand Tone of Voice** (2 minutes)
+## 📋 STEP 1: Extract Client Information Using Browser Agents
 
-**Ask the client:**
+You'll use browser agent prompts to automatically extract information from the client's website and online presence.
 
-**"How would you describe your brand's personality? How do you want to sound to customers?"**
+### **Part A: Business Basics** (3 minutes)
 
-Give them examples:
-- "Are you friendly and casual, or more professional and formal?"
-- "Do you use technical language, or keep it simple?"
-- "Are you no-nonsense and direct, or warm and chatty?"
+**Browser Agent Prompt:**
 
-**Write down what they say** (even if it's rough):
-Example: "We're friendly but professional, like talking to a mate who knows their stuff. No jargon."
+```
+Go to [client website URL] and extract the following information:
+1. Business name (from homepage/header/about page)
+2. Industry and what they do (from homepage/about section)
+3. Service area/location (from contact page/footer/service pages)
+4. Top 3-5 main services or products (from services menu/homepage)
+5. Confirm the website URL
 
-Client answer: _______________________________________________
+Format the response as:
+- Business Name: [name]
+- Industry: [industry]
+- Location: [service area]
+- Services: [list 3-5 services]
+- Website: [URL]
+```
 
-**If they're stuck**, ask:
-- "How would you describe yourself to a friend?"
-- "What do customers say they like about how you communicate?"
-
----
-
-### **Part C: Business Goal** (1 minute)
-
-**Ask the client:**
-
-**"What's your main goal with SEO?"**
-
-Options (pick ONE):
-- [ ] **Get more leads/sales** (conversions)
-- [ ] **Get more website traffic** (awareness)
-- [ ] **Build reputation as an expert** (authority)
-
-Write down: _______________
+**What to do:**
+1. Paste the browser agent prompt with the client's website URL
+2. Copy the extracted information into your briefing document
 
 ---
 
-### **Part D: Keyword Data** (5-10 minutes) ⚠️ **CRITICAL**
+### **Part B: Brand Tone of Voice** (3 minutes)
+
+**Browser Agent Prompt:**
+
+```
+Go to [client website URL] and analyze the tone of voice used across:
+- Homepage copy
+- About page
+- Service descriptions
+- Blog posts (if available)
+
+Analyze and describe:
+1. Formality level: Is it casual/friendly, professional, or formal?
+2. Language complexity: Simple/conversational or technical/expert?
+3. Personality traits: Direct, warm, no-nonsense, empathetic, confident?
+4. What they avoid: Corporate jargon, over-promising, technical terms?
+
+Provide 3-5 example sentences from their website that demonstrate their tone.
+
+Format as:
+- Tone of Voice: [description in 1-2 sentences]
+- Key Attributes: [list 3-5]
+- Example phrases: [3-5 actual sentences from their site]
+```
+
+**What to do:**
+1. Paste the browser agent prompt with the client's website URL
+2. Review the extracted tone of voice
+3. Copy into your briefing document
+
+**Note**: If the website has inconsistent tone or poor copy, use: "Professional, clear, helpful - avoids corporate jargon"
+
+---
+
+### **Part C: Business Goal** (2 minutes)
+
+**Browser Agent Prompt:**
+
+```
+Go to [client website URL] and analyze their business model to infer their primary SEO goal:
+
+Look for signals:
+- Strong CTAs, contact forms, quote requests = CONVERSIONS (get leads/sales)
+- Blog-heavy, resource content, guides = AWARENESS (get traffic)
+- Case studies, credentials, awards, thought leadership = AUTHORITY (build reputation)
+
+Check:
+- Homepage CTAs (what's the main action?)
+- Navigation structure (services vs blog vs resources)
+- Content types (service pages vs educational content)
+
+Recommend ONE primary goal:
+- Conversions (if transactional, service-based, local business)
+- Awareness (if informational, content-heavy, broad audience)
+- Authority (if expertise-based, high-value services, B2B)
+
+Format as:
+- Primary Goal: [Conversions/Awareness/Authority]
+- Reasoning: [1-2 sentences explaining why]
+```
+
+**What to do:**
+1. Paste the browser agent prompt with the client's website URL
+2. Review the recommended goal
+3. **If uncertain**, default to **Conversions** (most common for local/service businesses)
+4. Copy into your briefing document
+
+---
+
+### **Part D: Keyword Data** (5 minutes) ⚠️ **CRITICAL**
 
 **This is the most important part.** You need keyword data.
 
-#### **Option 1: They Have Ahrefs/SEMrush** (easiest)
+#### **Option 1: Client Has Ahrefs/SEMrush Access** (BEST)
 
-**Say to client:**
-"Do you have access to Ahrefs, SEMrush, or any keyword research tool?"
-
-**If YES:**
-1. Ask them to export their keyword data as CSV or Excel
-2. Get them to send it to you
-3. **Done!** (This is the best option)
+**What to do:**
+1. Ask client to export their keyword data as CSV/Excel
+2. Client sends you the file
+3. **Done!** Attach to briefing
 
 ---
 
-#### **Option 2: They Have Google Search Console** (good)
+#### **Option 2: Client Has Google Search Console Access** (GOOD)
 
-**Say to client:**
-"Can you log into Google Search Console?"
+**Browser Agent Prompt (if client grants access):**
 
-**If YES:**
-1. Ask them to go to: Performance → Search Results
-2. Click "Export" at the top
-3. Send you the CSV file
-4. **Done!**
+```
+Go to Google Search Console for [website URL]:
+1. Navigate to Performance → Search Results
+2. Set date range to "Last 12 months"
+3. Export the data as CSV
+4. List the top 50 queries by impressions
 
----
+Format as:
+[Provide CSV data or list of queries with impressions, clicks, position]
+```
 
-#### **Option 3: Manual Keyword List** (okay, but less accurate)
-
-**If they don't have tools, ask:**
-
-**"What search terms do you want to rank for on Google? What would your customers type in?"**
-
-Help them brainstorm 10-20 keywords:
-- Their services + location (e.g., "plumber Essex", "emergency plumber Colchester")
-- Their services + problem (e.g., "boiler repair cost", "broken boiler fix")
-- Their services + comparison (e.g., "plumber vs heating engineer")
-
-**Write down 10-20 keywords**:
-1. _______________
-2. _______________
-3. _______________
-4. _______________
-5. _______________
-6. _______________
-7. _______________
-8. _______________
-9. _______________
-10. _______________
-[Continue to 20 if possible]
+**What to do:**
+1. Client provides GSC access OR exports data themselves
+2. Attach CSV file to briefing OR copy query list
 
 ---
 
-### **Part E: Current Performance** (5 minutes - OPTIONAL but helpful)
+#### **Option 3: Automated Keyword Research** (OKAY)
 
-**Ask the client:**
+**Browser Agent Prompt:**
 
-**"Do you know your current website performance?"**
+```
+Research keyword opportunities for [client website URL]:
 
-If they have Google Search Console or Analytics, ask:
-1. **"How many clicks per month do you get from Google?"**
-   - Write down: _______________ clicks/month
+1. Analyze their current service pages and extract target keywords
+2. For their industry [industry] in [location], suggest 20-30 relevant keywords including:
+   - Service + location keywords (e.g., "plumber Essex")
+   - Service + problem keywords (e.g., "emergency plumber")
+   - Service + comparison keywords (e.g., "plumber vs heating engineer")
+   - Question keywords (e.g., "how much does plumber cost")
 
-2. **"How many times does your site appear in Google search?"**
-   - Write down: _______________ impressions/month
+3. Check their existing page titles and H1s for target keywords
 
-3. **"What keywords do you already rank for?"**
-   - Write down top 5-10 if they know: _______________
+Format as a list of 20-30 keywords categorized by:
+- High commercial intent (service-based)
+- Medium intent (comparison/consideration)
+- Informational intent (questions/guides)
+```
 
-**If they don't know**: That's fine, skip this section.
+**What to do:**
+1. Paste the browser agent prompt
+2. Review the suggested keywords
+3. Copy the list into your briefing document
+
+**Note**: This option is less accurate than real keyword data, but works if client has no tools.
+
+---
+
+### **Part E: Current Performance** (3 minutes - OPTIONAL but helpful)
+
+**Browser Agent Prompt (if client provides GSC access):**
+
+```
+Access Google Search Console for [website URL] and extract:
+
+1. Last 3 months performance:
+   - Total clicks
+   - Total impressions
+   - Average CTR
+   - Average position
+
+2. Top 10 keywords they currently rank for (by impressions)
+
+3. Top 5 performing pages (by clicks)
+
+Format as:
+- Monthly clicks: [X]
+- Monthly impressions: [X]
+- Average CTR: [X%]
+- Average position: [X]
+- Top ranking keywords: [list with positions]
+- Top pages: [list with URLs]
+```
+
+**Alternative: Use Third-Party Tools**
+
+**Browser Agent Prompt:**
+
+```
+Go to Ahrefs Site Explorer or SEMrush and analyze [website URL]:
+- Organic search traffic estimate
+- Number of ranking keywords
+- Domain rating/authority score
+- Top 10 organic keywords
+
+Format as:
+- Estimated monthly traffic: [X]
+- Ranking keywords: [X]
+- Domain authority: [X]
+- Top keywords: [list]
+```
+
+**What to do:**
+1. Use whichever data source is available
+2. **If no data available**: Skip this section (agent will work without it)
+3. Copy extracted data into briefing
 
 ---
 
 ### **Part F: Competitors** (3 minutes - OPTIONAL but helpful)
 
-**Ask the client:**
+**Browser Agent Prompt:**
 
-**"Who are your main competitors? Give me 3 competitor websites."**
+```
+Find the top 3 SEO competitors for [client website URL]:
 
-1. Competitor 1: _______________
-2. Competitor 2: _______________
-3. Competitor 3: _______________
+Method 1: Google Search Analysis
+Search for their main service keywords (e.g., "[service] [location]") and identify the top 3 ranking competitors (exclude directories like Yell, Google Maps).
 
-**If they don't know**: That's fine, skip this section.
+Method 2: Ahrefs/SEMrush
+Use Ahrefs "Competing Domains" or SEMrush "Competitors" feature for [website URL] and list top 3 organic competitors.
+
+For each competitor provide:
+- Company name
+- Website URL
+- Why they're a strong competitor (e.g., "Ranks #1 for 'plumber Essex'")
+
+Format as:
+1. [Competitor name] - [URL] - [reason]
+2. [Competitor name] - [URL] - [reason]
+3. [Competitor name] - [URL] - [reason]
+```
+
+**What to do:**
+1. Paste the browser agent prompt
+2. Review the identified competitors
+3. Copy competitor URLs into briefing document
+
+**If browser agent can't find competitors**: Skip this section (agent will identify competitors during analysis).
 
 ---
 
-### **Part G: Customer Insights** (3 minutes - OPTIONAL but makes content better)
+### **Part G: Customer Insights** (5 minutes - OPTIONAL but makes content 10x better)
 
-**Ask the client:**
+**Browser Agent Prompt:**
 
-**"What questions do customers always ask you?"**
-Write down 3-5 common questions:
-1. _______________
-2. _______________
-3. _______________
+```
+Analyze [client website URL] and related sources to extract customer insights:
 
-**"What objections do customers have before buying?"**
-Examples: "Too expensive", "Not sure you're qualified", "Worried about quality"
-Write down 2-3 objections:
-1. _______________
-2. _______________
+1. Common Customer Questions:
+   - Check FAQ page (if exists)
+   - Check blog posts for question-based content
+   - Search "[business name] + reviews" and analyze Google Reviews, Trustpilot, etc.
+   - Look for "People Also Ask" on Google for their main keywords
 
-**If they don't know**: That's fine, skip this section.
+Extract 5-10 common questions customers ask.
+
+2. Common Objections:
+   - Analyze reviews for negative feedback or concerns
+   - Look for content addressing objections (e.g., "Why choose us", "Our guarantee")
+   - Check competitor reviews to find industry-wide objections
+   - Common objections: price concerns, trust issues, quality worries, timing/availability
+
+Extract 3-5 common objections.
+
+Format as:
+**Common Questions:**
+1. [Question 1]
+2. [Question 2]
+[etc.]
+
+**Common Objections:**
+1. [Objection 1] - [evidence/source]
+2. [Objection 2] - [evidence/source]
+[etc.]
+```
+
+**What to do:**
+1. Paste the browser agent prompt
+2. Review extracted questions and objections
+3. Copy into briefing document
+
+**Pro Tip**: This section makes content WAY better. Push to extract this data if possible.
 
 ---
 
 ## 🤖 STEP 2: Feed Information to the Agent
 
-Now you have all the client info. Here's how to give it to the agent.
+Now you have all the extracted client info. Here's how to give it to the agent.
 
 ### **Create a Briefing Document**
 
-Copy and paste this template, filling in the client's answers:
+Copy and paste this template, filling in the information extracted from browser agents:
 
 ```
 CLIENT: [Business name]
@@ -300,121 +414,139 @@ The agent will create a complete strategy including:
 
 ## ⚠️ COMMON ISSUES & HOW TO FIX
 
-### **Issue 1: Client Doesn't Have Keyword Data**
+### **Issue 1: Browser Agent Can't Extract Keyword Data**
 
 **What to do:**
-- Tell the agent: "Client doesn't have keyword data. Please suggest 20-30 keywords based on their industry and services."
-- Agent will suggest keywords, but strategy will be less accurate
-- Recommend client gets Ahrefs or at minimum Google Search Console
+- Option 1: Request keyword data export directly from client (Ahrefs/GSC CSV)
+- Option 2: Use browser agent to suggest keywords based on industry (Part D, Option 3)
+- Option 3: Tell SEO agent: "No keyword data available. Please suggest 20-30 keywords based on industry and services."
+- Note: Strategy will be less accurate without real data, but still usable
 
 ---
 
-### **Issue 2: Client Doesn't Know Their Tone of Voice**
+### **Issue 2: Website Has Poor/Inconsistent Tone of Voice**
 
 **What to do:**
-- Ask them simpler questions:
-  - "Are you more friendly or formal?"
-  - "Do you use technical words or simple language?"
-  - "Are you chatty or straight to the point?"
-- If still stuck, use default: "Professional, clear, helpful"
+- If browser agent finds inconsistent tone, use default: "Professional, clear, helpful - avoids corporate jargon"
+- Alternatively, manually review 2-3 pages and describe the tone yourself
+- SEO agent will apply consistent TOV in all generated content
 
 ---
 
-### **Issue 3: Client Wants Results in 2 Weeks**
+### **Issue 3: Browser Agent Can't Access GSC or Ahrefs**
 
 **What to do:**
-- Set expectations: SEO takes 30-90 days minimum
-- Agent creates 30/60/90 day roadmap
-- Show them Week 1-4 tasks (quick wins)
-- Explain: "Quick wins in 30 days, big results in 90 days"
+- Ask client to export data themselves and send CSV file
+- Or use free tools like Ubersuggest, AnswerThePublic for keyword research
+- Or proceed without performance data (Part E is optional)
+- Tell SEO agent: "No current performance data available"
 
 ---
 
-### **Issue 4: Agent Says Information is Missing**
+### **Issue 4: Client Website Has No FAQ or Reviews**
 
 **What to do:**
-- Check which information is missing (agent will tell you)
-- Go back to client and ask specific questions
-- If client can't provide, tell agent: "Client doesn't have [X data], please proceed with assumptions"
+- Browser agent won't find customer insights (Part G)
+- Skip Part G entirely, or
+- Manually search "[business name] reviews" on Google and extract insights yourself
+- Or tell SEO agent: "No customer insights available. Please use industry-standard objections and questions."
 
 ---
 
-### **Issue 5: Strategy Seems Too Technical for Client**
+### **Issue 5: SEO Agent Says Information is Missing**
 
 **What to do:**
-- Ask agent: "Please create a simplified version of the executive summary suitable for a business owner with no SEO knowledge"
+- Check which required fields are empty (Business Basics, TOV, Goal, Keywords)
+- Re-run specific browser agent prompt to extract missing data
+- If data genuinely doesn't exist, tell SEO agent: "Client doesn't have [X data], please proceed with assumptions"
+
+---
+
+### **Issue 6: Strategy Seems Too Technical for Client**
+
+**What to do:**
+- Ask SEO agent: "Please create a simplified version of the executive summary suitable for a business owner with no SEO knowledge"
 - Agent will create jargon-free version
+- Focus client on the 30/60/90 roadmap (most actionable)
 
 ---
 
-## 📞 QUICK REFERENCE: Client Call Script
+## 🤖 QUICK REFERENCE: Browser Agent Workflow
 
-**Use this word-for-word when calling a client:**
-
----
-
-**YOU:** "Hi [Name], I'm calling to gather some information so we can create your SEO strategy. This will take about 15-20 minutes. Is now a good time?"
-
-[If yes, continue. If no, reschedule.]
-
-**YOU:** "Great! I'm going to ask you some simple questions about your business. First, what's your business name?"
-
-[Follow Part A-G from Step 1 above]
-
-**At the end:**
-
-**YOU:** "Perfect, that's everything I need. I'll feed this into our AI strategy agent and have a complete SEO strategy for you within 24 hours. You'll get a full roadmap showing exactly what to do week-by-week for the next 90 days, which pages to create, what content to write, and how to get backlinks. Does that sound good?"
-
-**CLIENT:** "Yes / What's included?"
-
-**YOU:** "You'll get:
-- A list of the top 20 keywords to focus on
-- A technical audit showing what's broken and how to fix it
-- 15-25 specific pages to create or improve
-- A week-by-week plan for the next 90 days
-- Full drafts of your most important pages
-- Email templates for getting backlinks
-- Everything you need to execute, basically.
-
-I'll send it over tomorrow. Any questions?"
+**Use this workflow for every new client:**
 
 ---
 
-## ✅ CHECKLIST: Before Sending to Agent
+**Step-by-Step Process:**
 
-Before you paste the briefing to the agent, check you have:
+1. **Get client website URL** (this is all you need to start)
 
-**MUST HAVE**:
-- [ ] Business name, industry, location, services
-- [ ] Tone of voice (at least a basic description)
-- [ ] Business goal (conversions/awareness/authority)
-- [ ] Keyword data (Ahrefs export OR GSC export OR manual list of 10-20 keywords)
+2. **Run 7 browser agent prompts** (from Step 1 above):
+   - Part A: Business Basics
+   - Part B: Tone of Voice
+   - Part C: Business Goal
+   - Part D: Keyword Data
+   - Part E: Current Performance (optional)
+   - Part F: Competitors (optional)
+   - Part G: Customer Insights (optional)
 
-**SHOULD HAVE** (makes strategy better):
-- [ ] Current performance data (clicks, impressions)
-- [ ] Competitor URLs (at least 3)
-- [ ] Customer questions/objections (at least 3-5)
+3. **Compile briefing document** (copy-paste template from Step 2)
 
-**If you have the MUST HAVE items, you're good to go!**
+4. **Feed to SEO Strategy Agent** with prompt:
+   > "Please create a complete AI SEO strategy for this client. Follow the full workflow from Stage 0 to Stage 9."
+
+5. **Receive complete strategy** within minutes
+
+6. **Quality check** (use checklist from bottom of guide)
+
+7. **Package and deliver** to client
+
+**Total Time**: 10-15 minutes of browser agent work → Complete strategy
+
+---
+
+## ✅ CHECKLIST: Before Sending to SEO Agent
+
+Before you paste the briefing to the SEO agent, check you have extracted:
+
+**MUST HAVE** (required for strategy):
+- [ ] Business name, industry, location, services (Part A)
+- [ ] Website URL
+- [ ] Tone of voice - even if basic default (Part B)
+- [ ] Business goal - conversions/awareness/authority (Part C)
+- [ ] Keyword data - Ahrefs/GSC export OR browser agent suggested list of 20-30 keywords (Part D)
+
+**SHOULD HAVE** (makes strategy 2x better):
+- [ ] Current performance data - clicks, impressions, top keywords (Part E)
+- [ ] Competitor URLs - at least 3 (Part F)
+- [ ] Customer questions - at least 5 (Part G)
+- [ ] Customer objections - at least 3 (Part G)
+
+**If you have all MUST HAVE items, you're ready to generate the strategy!**
+
+**Pro Tip**: The more data you extract using browser agents (Parts E-G), the better and more accurate the strategy will be.
 
 ---
 
 ## 💡 PRO TIPS
 
-### **Tip 1: Get Keyword Data First**
-The quality of the strategy depends on keyword data. Push hard to get Ahrefs or Google Search Console data. If client refuses, manual keywords are okay but less accurate.
+### **Tip 1: Real Keyword Data = Better Strategy**
+The quality of the strategy depends heavily on keyword data. Always try to get Ahrefs or GSC exports from the client first. Browser agent suggested keywords work, but are less accurate than real data.
 
-### **Tip 2: Tone of Voice Matters**
-Spend 5 minutes getting this right. The content will sound much better if you capture their brand voice properly.
+### **Tip 2: Run All Browser Agent Prompts in Parallel**
+Don't run prompts one-by-one. Open multiple browser agent windows and run Parts A-G simultaneously. Total extraction time: 10-15 minutes instead of 30+.
 
-### **Tip 3: Customer Insights = Gold**
-If you can get actual customer questions and objections, the content will be 10x better. Push for this.
+### **Tip 3: Customer Insights (Part G) = 10x Better Content**
+Parts E-F-G are "optional" but make HUGE difference. Spend extra 5 minutes extracting customer questions and objections. The SEO agent will use these to create much more persuasive content.
 
-### **Tip 4: Set Realistic Expectations**
-Tell clients: "SEO takes 30-90 days to see results. Quick wins in month 1, bigger results in month 3."
+### **Tip 4: Verify Tone of Voice Extraction**
+Quickly scan the TOV that browser agent extracted from the website. If it seems off or generic, manually review 2-3 pages yourself and write a 1-sentence TOV description. This affects ALL content the SEO agent creates.
 
-### **Tip 5: One Goal at a Time**
-Don't let clients pick all 3 goals (conversions + awareness + authority). Force them to pick ONE priority. It makes the strategy more focused.
+### **Tip 5: One Primary Goal Only**
+When browser agent suggests a business goal (Part C), stick to ONE. If client wants multiple goals (e.g., conversions + awareness), pick the most important one. Focused strategy > scattered strategy.
+
+### **Tip 6: Save Browser Agent Prompts as Templates**
+Copy Parts A-G prompts into a document. For each new client, just replace "[client website URL]" and "[industry]" placeholders. Speeds up your workflow significantly.
 
 ---
 
@@ -422,16 +554,23 @@ Don't let clients pick all 3 goals (conversions + awareness + authority). Force 
 
 **If you get stuck:**
 
-1. **Check the agent system prompt** - it has full instructions
-2. **Ask the agent for help** - say: "I'm stuck on [problem], what should I do?"
-3. **Escalate to technical team** - if agent isn't responding correctly
+1. **Browser agent not extracting data properly** - Try rephrasing the prompt or extract manually from website
+2. **SEO agent needs more info** - Re-run specific browser agent prompt (Parts A-G) to get missing data
+3. **Can't access tools** - Ask client to export and send CSV files directly
+4. **Escalate to technical team** - If browser agents or SEO agent aren't working correctly
 
-**Common Agent Commands**:
+**Common Browser Agent Issues**:
 
-- "Please create a complete SEO strategy for this client"
-- "Client doesn't have [X data], please proceed with assumptions"
+- **"Can't access this website"** → Website may have bot protection; extract manually
+- **"No data found"** → Website may not have the info (e.g., no FAQ page); skip that section
+- **"Extraction incomplete"** → Re-run prompt with more specific instructions
+
+**Common SEO Agent Commands**:
+
+- "Please create a complete SEO strategy for this client. Follow workflow Stages 0-9."
+- "Client doesn't have [keyword data/performance data/etc.], please proceed with assumptions"
 - "Please simplify this for a non-technical business owner"
-- "Please create a 1-page summary of the strategy"
+- "Please create a 1-page executive summary"
 - "Please explain [specific section] in simpler terms"
 
 ---
@@ -452,6 +591,24 @@ After you receive the strategy from the agent:
 
 **END OF CS TEAM GUIDE**
 
-**Remember**: You don't need to be an SEO expert. Just gather the information accurately, feed it to the agent, and the agent does all the complex SEO work. Your job is to be the interface between client and agent.
+---
+
+## 📝 SUMMARY
+
+**Your Role**: Use browser agents to extract client information → Feed to SEO agent → Deliver complete strategy
+
+**You don't need to**:
+- Be an SEO expert
+- Speak to clients (unless clarification needed)
+- Manually research keywords or competitors
+- Create any content yourself
+
+**You DO need to**:
+- Run 7 browser agent prompts (Parts A-G)
+- Compile extracted data into briefing document
+- Feed briefing to SEO agent
+- Quality check the final strategy
+
+**Time Investment**: 10-15 minutes of browser agent work = Complete 30/60/90 day SEO strategy
 
 **Questions? Ask your team lead or technical team.** 🚀
