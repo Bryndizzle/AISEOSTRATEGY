@@ -354,18 +354,21 @@ Format as:
 
 ---
 
-### **Part G: Customer Insights** (5 minutes - OPTIONAL but makes content 10x better)
+### **Part G: Customer Insights** (10 minutes - OPTIONAL but makes content 10x better) ⭐ **HIGHLY VALUABLE**
+
+**⚠️ This is one of the most valuable parts. Spend time on this.**
 
 **Browser Agent Prompt:**
 
 ```
-Analyze [client website URL] and related sources to extract customer insights:
+Analyze [client website URL], [industry], and [location] to extract deep customer insights:
 
 1. Common Customer Questions:
-   - Check FAQ page (if exists)
+   - Check FAQ page on client website (if exists)
    - Check blog posts for question-based content
    - Search "[business name] + reviews" and analyze Google Reviews, Trustpilot, etc.
-   - Look for "People Also Ask" on Google for their main keywords
+   - Look for "People Also Ask" on Google for their main service keywords
+   - **Search Reddit**: "[industry] [location] reddit" and "[service] recommendations reddit"
 
 Extract 5-10 common questions customers ask.
 
@@ -373,9 +376,35 @@ Extract 5-10 common questions customers ask.
    - Analyze reviews for negative feedback or concerns
    - Look for content addressing objections (e.g., "Why choose us", "Our guarantee")
    - Check competitor reviews to find industry-wide objections
-   - Common objections: price concerns, trust issues, quality worries, timing/availability
+   - **Search Reddit threads**: Look for complaints, concerns, hesitations about [industry]
+   - Common objections: price concerns, trust issues, quality worries, timing/availability, "can I DIY this?", "is it worth it?"
 
-Extract 3-5 common objections.
+Extract 3-5 common objections with evidence/quotes.
+
+3. **Category Entry Points (Buying Triggers)** ⭐ **CRITICAL**:
+   - **What situations trigger customers to need this service?**
+   - Search Reddit for: "[industry] when do you need" OR "[service] emergency" OR "had to call [service]"
+   - Look for phrases like: "I needed X when...", "You should call them if...", "I wish I'd known about this when..."
+   - Examples:
+     * Locksmith CEPs: Lost keys, locked out, moving house, car key stopped working, break-in
+     * Plumber CEPs: Burst pipe, boiler breakdown in winter, moving into new house, renovation
+     * Dentist CEPs: Toothache, broken tooth, wedding coming up, job interview prep
+
+Extract 5-10 category entry points (buying situations).
+
+4. **Reddit Deep Dive** (Most Authentic Customer Voice):
+   - Search Reddit for:
+     * "r/[location] [service] recommendations"
+     * "[industry] reddit" and sort by top posts
+     * "[service] horror stories reddit" (to find pain points)
+     * "[service] vs [alternative] reddit" (to find objections)
+   - Extract actual customer quotes (verbatim) that show:
+     * What they were worried about before buying
+     * What made them choose one provider over another
+     * What they wish they'd known
+     * Common complaints about the industry
+
+Extract 5-10 Reddit quotes with context.
 
 Format as:
 **Common Questions:**
@@ -387,14 +416,31 @@ Format as:
 1. [Objection 1] - [evidence/source]
 2. [Objection 2] - [evidence/source]
 [etc.]
+
+**Category Entry Points (Buying Triggers):**
+1. [Trigger/situation 1]
+2. [Trigger/situation 2]
+[etc.]
+
+**Reddit Customer Quotes:**
+1. "[Quote 1]" - r/[subreddit] - [context: what they were discussing]
+2. "[Quote 2]" - r/[subreddit] - [context]
+[etc.]
 ```
 
 **What to do:**
 1. Paste the browser agent prompt
-2. Review extracted questions and objections
-3. Copy into briefing document
+2. **Spend extra time on Reddit scraping** - this is gold for content creation
+3. Review extracted questions, objections, CEPs, and Reddit quotes
+4. Copy ALL sections into briefing document
 
-**Pro Tip**: This section makes content WAY better. Push to extract this data if possible.
+**Why This Matters**:
+- Reddit shows the REAL customer voice (not filtered/polished like reviews)
+- Category Entry Points help you target the right buying situations in content
+- Reddit quotes can be used verbatim in content to sound authentic
+- This makes content 10x more persuasive and relatable
+
+**Pro Tip**: If you find a particularly active subreddit (e.g., r/Essex, r/UKPersonalFinance, industry-specific subs), spend 5 extra minutes reading top threads. This insight is worth it.
 
 ---
 
@@ -454,6 +500,16 @@ Common questions:
 Common objections:
 - [Objection 1]
 - [Objection 2]
+
+Category Entry Points (buying triggers):
+- [Trigger/situation 1]
+- [Trigger/situation 2]
+- [Trigger/situation 3]
+
+Reddit customer quotes:
+- "[Quote 1]" - r/[subreddit] - [context]
+- "[Quote 2]" - r/[subreddit] - [context]
+- "[Quote 3]" - r/[subreddit] - [context]
 ```
 
 ---
@@ -633,10 +689,12 @@ Before you paste the briefing to the SEO agent, check you have extracted:
 - [ ] Competitor URLs - at least 3 (Part F)
 - [ ] Customer questions - at least 5 (Part G)
 - [ ] Customer objections - at least 3 (Part G)
+- [ ] **Category Entry Points - at least 5 buying triggers (Part G)** ⭐
+- [ ] **Reddit customer quotes - at least 5 verbatim quotes (Part G)** ⭐
 
 **If you have all MUST HAVE items, you're ready to generate the strategy!**
 
-**Pro Tip**: The more data you extract using browser agents (Parts E-G), the better and more accurate the strategy will be.
+**Pro Tip**: Parts E-F-G (especially Reddit scraping in Part G) make the strategy 10x better. Reddit provides the most authentic customer voice and buying triggers. Worth the extra 10 minutes.
 
 ---
 
@@ -658,8 +716,13 @@ Hike auto-generates TOV, but always sense check it. Run browser agent on their s
 ### **Tip 4: Run Browser Agent Prompts in Parallel**
 Don't run prompts one-by-one. Open multiple browser agent windows and run Parts A-G simultaneously. Total extraction time: 10-15 minutes instead of 30+.
 
-### **Tip 5: Customer Insights (Part G) = 10x Better Content**
-Parts E-F-G are "optional" but make HUGE difference. Spend extra 5 minutes extracting customer questions and objections. The SEO agent will use these to create much more persuasive content.
+### **Tip 5: Reddit Scraping (Part G) = Gold for Content**
+Part G is "optional" but makes HUGE difference. **Reddit is the most valuable source** - real customer voice, unfiltered opinions, authentic language. Spend 10 minutes on Reddit scraping:
+- Search "[industry] [location] reddit" for local discussions
+- Look for buying trigger threads ("when do you need...", "had to call...")
+- Extract verbatim quotes - use these in content to sound authentic
+- Category Entry Points help target the right buying situations
+The SEO agent will use these Reddit insights to create much more persuasive, relatable content.
 
 ### **Tip 6: One Primary Goal Only**
 When browser agent suggests a business goal (Part C), stick to ONE. If client wants multiple goals (e.g., conversions + awareness), pick the most important one. Focused strategy > scattered strategy.
