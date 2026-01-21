@@ -448,6 +448,25 @@ Format as:
 
 Now you have all the extracted client info. Here's how to give it to the agent.
 
+### **⚠️ CRITICAL: Attach Actual Files from SaaS Tools**
+
+**DO NOT just copy-paste data summaries. ATTACH THE ACTUAL EXPORT FILES.**
+
+When you extract data from Hike, Ahrefs, or GSC, you MUST attach the CSV/Excel files to your briefing. The SEO agent needs the raw data, not summaries.
+
+**What to Attach:**
+- ✅ Hike keyword export (CSV/Excel)
+- ✅ GSC performance export (CSV/Excel) - if not in Hike
+- ✅ Ahrefs export (CSV/Excel) - if standalone
+- ✅ Any other relevant data exports
+
+**Why This Matters:**
+- Raw data = more accurate strategy
+- Agent can analyze full dataset, not just top 10-20 keywords
+- Enables proper opportunity scoring and prioritization
+
+---
+
 ### **Create a Briefing Document**
 
 Copy and paste this template, filling in the information extracted from browser agents:
@@ -472,19 +491,28 @@ TONE OF VOICE
 BUSINESS GOAL
 [Conversions / Awareness / Authority]
 
+⚠️ ATTACHED FILES (CRITICAL - DO NOT SKIP):
+- [ ] Hike keyword export.csv (Part D)
+- [ ] Hike performance report.csv (Part E) - if available
+- [ ] GSC export.csv (Part D/E) - if not in Hike
+- [ ] Ahrefs export.csv (Part D/E) - if standalone
+- [ ] Any other relevant data exports
+
 KEYWORD DATA
-[One of these]:
-- ATTACHED: Ahrefs/GSC export file
-- OR LIST:
+⚠️ FILE MUST BE ATTACHED ABOVE - do not just list keywords here
+If no file available, list 20-30 keywords:
   1. [Keyword 1]
   2. [Keyword 2]
   3. [Keyword 3]
-  [etc. to 10-20 keywords]
+  [etc. to 20-30 keywords]
 
 CURRENT PERFORMANCE (if known)
+⚠️ FILE SHOULD BE ATTACHED ABOVE if available
+Summary:
 - Monthly clicks: [X]
 - Monthly impressions: [X]
-- Top keywords: [List]
+- Average position: [X]
+- Domain Rating: [X]
 
 COMPETITORS (if known)
 1. [Competitor 1 URL]
@@ -639,6 +667,52 @@ The agent will create a complete strategy including:
 
 ---
 
+### **Issue 7: Forgot to Attach CSV/Excel Files** ⚠️
+
+**What to do:**
+- SEO agent will produce less accurate strategy without raw data
+- Go back and export files from Hike/Ahrefs/GSC
+- Re-submit briefing WITH files attached
+- DO NOT just copy-paste 10-20 keywords - agent needs full dataset
+
+**Why this matters:**
+- Agent analyzes 100s-1000s of keywords from CSV, not just top 20
+- Opportunity scoring requires search volume + position data
+- Summary data loses critical information
+
+---
+
+### **Issue 8: Browser Agent Not Taking Over Window**
+
+**If browser agent doesn't automatically control the browser, manually follow these steps:**
+
+**For Hike Platform:**
+1. Open browser and navigate to Hike platform manually
+2. Log in to client's account
+3. Navigate to: Keywords/Rankings section
+4. Click "Export" → Select CSV or Excel format
+5. Download file and attach to briefing
+6. Repeat for Performance/GSC section if needed
+
+**For Ahrefs:**
+1. Open browser and navigate to Ahrefs Site Explorer
+2. Enter client's website URL
+3. Go to: Organic Keywords section
+4. Click "Export" → Select all keywords → Download CSV
+5. Attach file to briefing
+
+**For GSC (if not in Hike):**
+1. Open browser and navigate to Google Search Console
+2. Select client's property
+3. Go to: Performance → Search Results
+4. Date range: Last 12 months
+5. Click "Export" → Download CSV
+6. Attach file to briefing
+
+**Pro Tip:** Keep browser windows open while running browser agent prompts. Sometimes the agent needs manual assistance to complete exports.
+
+---
+
 ## 🤖 QUICK REFERENCE: Browser Agent Workflow
 
 **Use this workflow for every new client:**
@@ -683,6 +757,7 @@ Before you paste the briefing to the SEO agent, check you have extracted:
 - [ ] Tone of voice - even if basic default (Part B)
 - [ ] Business goal - conversions/awareness/authority (Part C)
 - [ ] Keyword data - Ahrefs/GSC export OR browser agent suggested list of 20-30 keywords (Part D)
+- [ ] **⚠️ CRITICAL: CSV/Excel files attached from Hike/Ahrefs/GSC** (not just summaries)
 
 **SHOULD HAVE** (makes strategy 2x better):
 - [ ] Current performance data - clicks, impressions, top keywords (Part E)
@@ -730,6 +805,15 @@ When browser agent suggests a business goal (Part C), stick to ONE. If client wa
 ### **Tip 7: Save Browser Agent Prompts as Templates**
 Copy Parts A-G prompts into a document. For each new client, just replace "[client website URL]" and "[industry]" placeholders. Speeds up your workflow significantly.
 
+### **Tip 8: ALWAYS Attach CSV/Excel Files** ⚠️ **CRITICAL**
+Never submit briefing without attaching the actual export files from Hike/Ahrefs/GSC. The SEO agent needs raw data (100s-1000s of keywords), not summaries (top 10-20 keywords). Files to attach:
+- Hike keyword export.csv
+- Hike performance report.csv (if available)
+- GSC queries export.csv (if not in Hike)
+- Ahrefs keywords export.csv (if standalone)
+
+**Without files = Less accurate strategy. With files = 10x better strategy.**
+
 ---
 
 ## 🆘 NEED HELP?
@@ -746,6 +830,8 @@ Copy Parts A-G prompts into a document. For each new client, just replace "[clie
 - **"Can't access this website"** → Website may have bot protection; extract manually
 - **"No data found"** → Website may not have the info (e.g., no FAQ page); skip that section
 - **"Extraction incomplete"** → Re-run prompt with more specific instructions
+- **"Browser not taking over window"** → See Issue 8 above for manual export steps from Hike/Ahrefs/GSC
+- **"Can't export files"** → Manually navigate to tool, click Export button, download CSV, and attach to briefing
 
 **Common SEO Agent Commands**:
 
