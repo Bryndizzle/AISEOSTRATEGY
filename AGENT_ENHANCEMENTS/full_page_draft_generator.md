@@ -224,10 +224,18 @@ From Stage 3.5 Page Backlog, identify:
 ### Step 2: Gather Inputs (From Previous Stages)
 
 For each page to draft, collect:
+- **From Stage 0**: **Tone of Voice** (CRITICAL - must match brand personality throughout)
 - **From Stage 1**: Customer pain points, Reddit quotes, objections, scenarios
 - **From Stage 2.5**: Primary and secondary keywords, search volume, current position
 - **From Stage 3.5**: URL slug, page type, target intent, AI visibility tactics
 - **From Stage 6** (if exists): Content specifications, word count, structure requirements
+
+**TOV Application**:
+Before drafting, review Stage 0 TOV and ensure:
+- Headers match brand voice (e.g., friendly vs formal)
+- Body copy matches (conversational vs technical)
+- CTAs match (casual vs professional)
+- Language complexity matches (simple vs expert-level)
 
 ### Step 3: Draft Complete Page
 

@@ -12,16 +12,73 @@ This workflow consolidates 12 specialist prompts into sequential stages. Execute
 
 **Input**: Completed intake form
 
+**Required Information**:
+- Business details (name, industry, location, services/products)
+- Target audience and customer personas
+- Current performance (rankings, traffic, conversions if available)
+- Business goals (conversions, awareness, authority)
+- Available data (Ahrefs, GSC, competitor info)
+- Risk tolerance (conservative, balanced, aggressive)
+- **Tone of Voice** (how the brand should sound)
+
+**Tone of Voice Capture**:
+
+Agent must capture TOV using ONE of these methods:
+
+**Method 1: Quick Description** (user provides 1-2 sentences):
+- Example: "We're friendly but professional - like a knowledgeable mate who knows their stuff. No corporate jargon, straight-talking Essex business."
+
+**Method 2: Attribute Selection** (user picks 3-5):
+- Friendly / Professional / Casual / Formal
+- Direct / Conversational / Technical
+- Reassuring / Confident / No-nonsense
+- Empathetic / Authoritative / Local
+- Warm / Bold / Straightforward
+
+**Method 3: Examples** (user provides):
+- 1-2 examples of content they LOVE (that sounds like their brand)
+- 1-2 examples they HATE (sounds wrong for their brand)
+
+**Method 4: Detailed Template**:
+```
+Tone of Voice Profile:
+- Primary personality: [e.g., Friendly but professional]
+- Key attributes: [e.g., Direct, reassuring, no-nonsense]
+- Avoid: [e.g., Corporate jargon, over-promising]
+- Formality level: [Casual / Professional / Formal]
+- Language complexity: [Simple / Technical]
+- Example phrases we'd use: [3-5 examples]
+- Example phrases we'd NEVER use: [3-5 examples]
+```
+
+**If TOV Not Provided**:
+- Agent asks: "How would you describe your brand's tone of voice? (e.g., friendly, professional, no-nonsense, etc.)"
+- If still unclear, use: "Professional, clear, helpful - avoids corporate jargon and over-promising"
+
 **Process**:
 1. Review all provided information
-2. Identify gaps in information
-3. List all assumptions being made
-4. Confirm understanding with user
+2. **Capture Tone of Voice** (required for all content creation)
+3. Identify gaps in information
+4. List all assumptions being made
+5. Confirm understanding with user
 
 **Output**:
 ```markdown
 ### Confirmed Details
-- [List provided information]
+- Business: [Name, industry, location]
+- Services/Products: [List]
+- Target audience: [Description]
+- Current performance: [Rankings, traffic if known]
+- Business goals: [Conversions / Awareness / Authority]
+- Risk tolerance: [Conservative / Balanced / Aggressive]
+
+### Tone of Voice
+**Primary tone**: [Description]
+**Key attributes**: [3-5 descriptors]
+**Avoid**: [What NOT to sound like]
+**Example**: [1-2 example phrases in this tone]
+
+[Agent confirms understanding of TOV and will apply consistently across all content]
 
 ### Assumptions Made
 - [ASSUMPTION: Detail what you're assuming and why]
