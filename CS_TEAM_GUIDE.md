@@ -40,17 +40,44 @@ Format the response as:
 
 ### **Part B: Brand Tone of Voice** (3 minutes)
 
-**Step 1: Get Auto-Generated TOV from Hike**
+**Step 1: Get TOV Document from Hike (If Client is Hike Customer)**
 
-Hike platform auto-generates TOV.
+If client is a Hike customer, Hike platform will have a **Tone of Voice DOCUMENT** already created.
 
 **What to do:**
-1. Check Hike platform for the client's auto-generated TOV
-2. **Sense check it** - does it feel accurate based on what you know?
+1. Check if client is connected to Hike
+2. **If YES**: Access Hike platform and locate the client's Tone of Voice DOCUMENT
+3. Read the TOV document and copy into your briefing
+4. **Sense check it** - does it feel accurate based on what you know?
+
+**Browser Agent Prompt (to access Hike TOV):**
+
+```
+Access Hike platform for [client name/website]:
+1. Navigate to Tone of Voice section or Brand Guidelines
+2. Locate the Tone of Voice DOCUMENT for this client
+3. Extract the full TOV profile including:
+   - Brand personality description
+   - Key attributes/characteristics
+   - Language style (casual/formal, technical/simple)
+   - Example phrases they use
+   - Phrases they avoid
+
+Format as:
+- Tone of Voice: [full description from document]
+- Key Attributes: [list from document]
+- Language Style: [from document]
+- Example phrases: [from document]
+- Avoid: [from document]
+```
+
+**If client is NOT a Hike customer**: Skip to Step 2 to extract TOV from website/social channels.
+
+---
 
 **Step 2: Verify with Social Channels (Browser Agent)**
 
-Run this browser agent prompt to check their social media tone:
+Even if you have Hike's TOV document, verify it with their social media:
 
 ```
 Analyze the tone of voice across [client's] social channels and compare to website:
@@ -81,11 +108,12 @@ Format as:
 
 **What to do:**
 1. Paste the browser agent prompt
-2. Compare social TOV to Hike's auto-generated TOV
-3. **If different**: Note which feels more authentic
-4. **Use the most accurate TOV** for briefing document
+2. If you have Hike TOV document: Compare social TOV to Hike's TOV document
+3. If no Hike TOV: Use social channel analysis as your TOV source
+4. **If different**: Note which feels more authentic
+5. **Use the most accurate TOV** for briefing document
 
-**Note**: If no social presence or inconsistent tone, use Hike's auto-generated TOV or default: "Professional, clear, helpful - avoids corporate jargon"
+**Note**: If no Hike customer AND no social presence, extract TOV from website copy or use default: "Professional, clear, helpful - avoids corporate jargon"
 
 ---
 
@@ -486,7 +514,8 @@ BUSINESS BASICS
 - Website: [URL]
 
 TONE OF VOICE
-[How they described their brand personality]
+[Source: Hike TOV Document OR Social Channel Analysis OR Website Copy]
+[Full TOV description - personality, attributes, language style, example phrases, what to avoid]
 
 BUSINESS GOAL
 [Conversions / Awareness / Authority]
@@ -785,8 +814,8 @@ The quality of the strategy depends heavily on keyword data. Priority order:
 3. Manual GSC exports (if not connected to Hike)
 4. Browser agent suggested keywords (least accurate, but works)
 
-### **Tip 3: Sense Check Hike's Auto-Generated TOV**
-Hike auto-generates TOV, but always sense check it. Run browser agent on their social channels (Facebook, Instagram, LinkedIn) to verify the tone is accurate. Social media often shows the "real" brand voice.
+### **Tip 3: Use Hike's TOV Document (If Customer)**
+If client is a Hike customer, access their Tone of Voice DOCUMENT in the Hike platform first - this is the most comprehensive source. Always sense check it by running browser agent on their social channels (Facebook, Instagram, LinkedIn) to verify the tone is accurate. Social media often shows the "real" brand voice. If TOV document and social don't match, use whichever feels more authentic.
 
 ### **Tip 4: Run Browser Agent Prompts in Parallel**
 Don't run prompts one-by-one. Open multiple browser agent windows and run Parts A-G simultaneously. Total extraction time: 10-15 minutes instead of 30+.
