@@ -472,6 +472,139 @@ Format as:
 
 ---
 
+### **Part H: Category Expert Intelligence - Customer Journey Mapping** (10 minutes - PREMIUM DIFFERENTIATOR) 🏆 **MAKES YOU INDISPENSABLE**
+
+**⚠️ This is what separates you from commodity SEO agencies.**
+
+When you understand the path someone takes from problem to solution, you don't need to guess at keywords. You know exactly what content to create and where it fits.
+
+**Browser Agent Prompt:**
+
+```
+Research the customer journey for [industry] in [location] from problem awareness to purchase decision:
+
+1. PRE-PURCHASE QUESTIONS (Awareness → Consideration):
+   - What questions do customers ask BEFORE they're ready to buy?
+   - Search Reddit, Quora, forums for: "[industry] should I", "[service] is it worth it", "[industry] how to know if I need"
+   - Look for education-seeking behavior (not yet ready to buy)
+   - Map the learning journey: What do they need to understand first?
+
+   Examples:
+   * Locksmith: "How do I know if my car key needs replacing?" → "Can I program it myself?" → "Locksmith vs dealership?"
+   * Dentist: "Why do my teeth hurt?" → "Do I need a root canal?" → "How much does root canal cost?"
+   * Plumber: "Why is my boiler making noise?" → "Is it dangerous?" → "Repair vs replace boiler?"
+
+   Extract 5-10 questions in sequential order (journey stages).
+
+2. DECISION BLOCKERS (What stops them buying?):
+   - Where do customers get STUCK in the decision process?
+   - What friction points prevent conversion?
+   - Search for: "[industry] hesitant", "[service] worth the money", "talked out of [service]"
+
+   Common blockers:
+   * Price uncertainty ("How much will this really cost?")
+   * Trust issues ("How do I know they're qualified?")
+   * Urgency confusion ("Can this wait or is it urgent?")
+   * DIY vs professional ("Can I do this myself?")
+   * Provider selection paralysis ("How do I choose between providers?")
+
+   Extract 3-5 specific decision blockers with evidence.
+
+3. CONTENT GAPS (Awareness → Purchase):
+   - What content gaps exist between awareness and purchase?
+   - Map the journey: Problem recognition → Research → Comparison → Decision
+   - What's missing in the market? What questions go unanswered?
+   - Check competitor content: What stages do they skip?
+
+   Framework:
+   * Stage 1 (Awareness): "I have a problem" → Need symptom/diagnosis content
+   * Stage 2 (Research): "What are my options?" → Need educational/comparison content
+   * Stage 3 (Consideration): "Which option is best for me?" → Need decision framework content
+   * Stage 4 (Decision): "Who should I choose?" → Need trust/proof content
+
+   Identify 3-5 content gaps (stages with no good content available).
+
+4. NATURAL CONTENT FLOW (Internal Linking Strategy):
+   - Which pages should connect to create a natural journey?
+   - Map the logical progression: Page A → Page B → Page C → Conversion
+   - What's the most common path to purchase?
+
+   Example journey mapping:
+   * "Car key not working" (blog - awareness) →
+   * "How to diagnose car key problems" (guide - research) →
+   * "Locksmith vs dealership car key replacement" (comparison - consideration) →
+   * "Car key replacement Essex" (service page - decision) →
+   * "Emergency locksmith callout" (conversion page)
+
+   Create 2-3 journey maps (common customer paths).
+
+5. INDUSTRY-SPECIFIC PATTERNS:
+   - How long is the typical consideration period? (Urgent: hours/days, Planned: weeks/months)
+   - What seasonal/lifecycle factors affect the journey?
+   - What external triggers accelerate purchase? (Emergency, life event, deadline)
+   - How does this industry differ from others?
+
+Format as:
+**Pre-Purchase Questions (in journey order):**
+1. [Question 1 - Awareness stage]
+2. [Question 2 - Research stage]
+3. [Question 3 - Consideration stage]
+[etc.]
+
+**Decision Blockers:**
+1. [Blocker 1] - [evidence] - [which stage it occurs]
+2. [Blocker 2] - [evidence] - [which stage it occurs]
+[etc.]
+
+**Content Gaps (Market Opportunities):**
+1. [Gap 1 - which stage/what's missing]
+2. [Gap 2 - which stage/what's missing]
+[etc.]
+
+**Natural Content Flow Maps:**
+Journey 1 (Most Common Path):
+[Page 1 topic] → [Page 2 topic] → [Page 3 topic] → [Conversion page]
+
+Journey 2 (Emergency/Urgent Path):
+[Page 1 topic] → [Page 2 topic] → [Conversion page]
+
+Journey 3 (Research-Heavy Path):
+[Page 1 topic] → [Page 2 topic] → [Page 3 topic] → [Page 4 topic] → [Conversion page]
+
+**Industry Journey Characteristics:**
+- Typical consideration period: [timeframe]
+- Purchase triggers: [list]
+- Seasonal factors: [if any]
+- Unique to this industry: [specific patterns]
+```
+
+**What to do:**
+1. Paste the browser agent prompt
+2. **This takes 10 minutes but justifies premium pricing**
+3. Review extracted journey intelligence
+4. Copy ALL sections into briefing document
+
+**Why This Makes You Indispensable:**
+
+**Generic SEO Agency Says:**
+"Here are 20 keywords to target."
+
+**Category Expert Agency Says:**
+"We've mapped the customer journey for locksmiths in Essex. 78% of customers start with symptom searches ('car key not working') 2-3 days before they need service. They get stuck at the price comparison stage because nobody explains 'locksmith vs dealership' clearly - that's your opportunity. We've identified 3 content journeys that guide them from problem to booking: the emergency path (2 pages), the researcher path (4 pages), and the price-conscious path (comparison-heavy, 3 pages). Your competitors skip the consideration stage entirely - that's why they lose customers."
+
+**See the difference?** You're not selling SEO - you're selling business intelligence.
+
+**What This Enables:**
+- Content calendar based on real customer journey (not guesswork)
+- Internal linking strategy that mirrors buying behavior
+- Conversion optimization (remove friction at decision blockers)
+- Premium positioning (you understand their world)
+- Client retention (proactive, strategic partner vs order-taker)
+
+**Pro Tip**: Use this intelligence in your sales pitch. When you can describe their customer journey better than they can, you've won the deal.
+
+---
+
 ## 🤖 STEP 2: Feed Information to the Agent
 
 Now you have all the extracted client info. Here's how to give it to the agent.
@@ -567,6 +700,35 @@ Reddit customer quotes:
 - "[Quote 1]" - r/[subreddit] - [context]
 - "[Quote 2]" - r/[subreddit] - [context]
 - "[Quote 3]" - r/[subreddit] - [context]
+
+CATEGORY EXPERT INTELLIGENCE (if known) 🏆 **PREMIUM DIFFERENTIATOR**
+Pre-purchase questions (in journey order):
+1. [Question 1 - Awareness stage]
+2. [Question 2 - Research stage]
+3. [Question 3 - Consideration stage]
+4. [Question 4 - Decision stage]
+
+Decision blockers:
+1. [Blocker 1] - [which stage] - [evidence]
+2. [Blocker 2] - [which stage] - [evidence]
+3. [Blocker 3] - [which stage] - [evidence]
+
+Content gaps (market opportunities):
+1. [Gap 1 - which stage/what's missing]
+2. [Gap 2 - which stage/what's missing]
+3. [Gap 3 - which stage/what's missing]
+
+Natural content flow maps:
+Journey 1 (Most Common Path):
+[Page 1] → [Page 2] → [Page 3] → [Conversion page]
+
+Journey 2 (Emergency/Urgent Path):
+[Page 1] → [Page 2] → [Conversion page]
+
+Industry journey characteristics:
+- Consideration period: [timeframe]
+- Purchase triggers: [list]
+- Seasonal factors: [if any]
 ```
 
 ---
@@ -752,7 +914,7 @@ The agent will create a complete strategy including:
 
 1. **Get client website URL** (this is all you need to start)
 
-2. **Run 7 browser agent prompts** (from Step 1 above):
+2. **Run 8 browser agent prompts** (from Step 1 above):
    - Part A: Business Basics
    - Part B: Tone of Voice
    - Part C: Business Goal
@@ -760,6 +922,7 @@ The agent will create a complete strategy including:
    - Part E: Current Performance (optional)
    - Part F: Competitors (optional)
    - Part G: Customer Insights (optional)
+   - Part H: Category Expert Intelligence (optional but premium differentiator)
 
 3. **Compile briefing document** (copy-paste template from Step 2)
 
@@ -796,9 +959,15 @@ Before you paste the briefing to the SEO agent, check you have extracted:
 - [ ] **Category Entry Points - at least 5 buying triggers (Part G)** ⭐
 - [ ] **Reddit customer quotes - at least 5 verbatim quotes (Part G)** ⭐
 
+**PREMIUM DIFFERENTIATOR** (makes you indispensable):
+- [ ] **Pre-purchase questions mapped to journey stages (Part H)** 🏆
+- [ ] **Decision blockers identified (Part H)** 🏆
+- [ ] **Content gaps/opportunities (Part H)** 🏆
+- [ ] **Natural content flow maps - 2-3 customer journeys (Part H)** 🏆
+
 **If you have all MUST HAVE items, you're ready to generate the strategy!**
 
-**Pro Tip**: Parts E-F-G (especially Reddit scraping in Part G) make the strategy 10x better. Reddit provides the most authentic customer voice and buying triggers. Worth the extra 10 minutes.
+**Pro Tip**: Parts E-F-G make the strategy 2x better. **Part H makes you indispensable** - when you understand their customer journey better than they do, you're no longer an SEO agency, you're a strategic partner. This is retention insurance.
 
 ---
 
@@ -843,6 +1012,9 @@ Never submit briefing without attaching the actual export files from Hike/Ahrefs
 
 **Without files = Less accurate strategy. With files = 10x better strategy.**
 
+### **Tip 9: Part H = Your Premium Differentiator** 🏆 **INDISPENSABLE**
+Part H (Category Expert Intelligence) is optional but THIS IS WHAT JUSTIFIES PREMIUM PRICING. When you can describe their customer journey better than they can - mapping pre-purchase questions, decision blockers, content gaps, and natural flow - you're no longer a commodity SEO agency. You're a strategic partner who understands their business. This takes 10 extra minutes but transforms you from "SEO vendor" to "indispensable advisor." Use this in sales pitches. Clients don't pay premium prices for keyword research - they pay for expertise that translates their industry into actionable strategy.
+
 ---
 
 ## 🆘 NEED HELP?
@@ -850,7 +1022,7 @@ Never submit briefing without attaching the actual export files from Hike/Ahrefs
 **If you get stuck:**
 
 1. **Browser agent not extracting data properly** - Try rephrasing the prompt or extract manually from website
-2. **SEO agent needs more info** - Re-run specific browser agent prompt (Parts A-G) to get missing data
+2. **SEO agent needs more info** - Re-run specific browser agent prompt (Parts A-H) to get missing data
 3. **Can't access tools** - Ask client to export and send CSV files directly
 4. **Escalate to technical team** - If browser agents or SEO agent aren't working correctly
 
@@ -906,7 +1078,7 @@ After you receive the strategy from the agent:
 
 **You DO need to**:
 1. Check Hike platform for client data (keyword data, GSC, TOV)
-2. Run 7 browser agent prompts (Parts A-G) to extract/verify additional info
+2. Run 8 browser agent prompts (Parts A-H) to extract/verify additional info
 3. Sense check Hike's auto-generated TOV with social channels
 4. Compile extracted data into briefing document
 5. Feed briefing to SEO agent
