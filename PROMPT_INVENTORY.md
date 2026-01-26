@@ -393,9 +393,9 @@ This document catalogs all 12+ prompts integrated into the workflow, their purpo
 
 ## Prompt Execution Summary
 
-### Total Prompts: 12+ (8 core + 4 conditional)
+### Total Prompts: 13+ (9 core + 4 conditional)
 
-**Core Prompts (Always Execute)**: 8
+**Core Prompts (Always Execute)**: 9
 1. Business Fundamentals
 2. LinkedIn Research
 4. HikeSEO Competitive Analysis
@@ -407,6 +407,7 @@ This document catalogs all 12+ prompts integrated into the workflow, their purpo
 10. Copy Examples & Content Titles
 11. QA Validation
 12. Implementation Task Breakdown
+13. Content Stimulus (Idea → Multi-Channel Activation)
 
 **Conditional Prompts**: 4
 - Prompt 3: Local SEO & GBP (if local business)
@@ -622,6 +623,56 @@ Recommended file organization for deliverables:
 - Missing data → Re-run Prompts 1-7 (research prompts)
 - Inconsistencies → Re-run Prompt 11 (cross-reference check)
 - Deliverable gaps → Re-run Prompts 8, 10 (strategy, copy)
+
+---
+
+---
+
+### Prompt 13: Content Stimulus - Idea to Multi-Channel Activation
+**File**: `/prompts/13_content_stimulus.md`
+**Agent File**: `/content_stimulus_agent.md`
+**Workflow Stage**: Stage 5 (Core Content Creation) or Standalone
+**When to Run**: When transforming ideas into multi-channel content activations
+
+**Purpose**: Transform a single content idea into a comprehensive activation package: expanded content angles, ICP-aligned messaging, and ready-to-publish copy across multiple social channels.
+
+**Operating Modes**:
+1. **Full Stimulus Mode**: Complete workflow from idea to multi-channel copy
+2. **Idea Expansion Mode**: Generate derivative content angles only
+3. **Channel Sprint Mode**: Create copy for specific channels only
+4. **ICP Alignment Mode**: Adapt existing content for different ICPs
+
+**Inputs**:
+- Content idea/theme/topic
+- ICPs (Ideal Customer Profiles)
+- Target channels
+- Brand voice
+- Goal (engagement, traffic, leads)
+
+**Outputs**:
+- Core insight validation
+- 8-15 derivative content angles (core, contrarian, practical, story, trend)
+- ICP deep mapping (pain points, language, channel preferences)
+- Channel strategy matrix
+- Ready-to-publish copy for:
+  - LinkedIn (posts, carousels)
+  - X/Twitter (threads, tweets)
+  - Instagram (carousels, reels, stories)
+  - TikTok (scripts)
+  - YouTube (shorts, long-form outlines)
+  - Email (subject lines, body copy)
+- Content sequencing calendar (2+ weeks)
+- Repurposing pathways
+
+**Feeds Into**:
+- Prompt 10 (expanded copy examples)
+- Prompt 12 (content production tasks)
+- Social media calendar
+
+**Feeds From**:
+- Prompt 9 (JTBD framework, keyword clusters)
+- Prompt 7 (Reddit verbatim language)
+- Prompt 2 (LinkedIn ICP insights)
 
 ---
 
