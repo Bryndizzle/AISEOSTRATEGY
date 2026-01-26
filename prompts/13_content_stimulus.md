@@ -139,6 +139,90 @@ Now—and only now—plan the channel execution. Different channels = different 
 
 ---
 
+### PART 5: MONTHLY NARRATIVE
+
+Map your idea to calendar moments for year-round relevance. Timely content outperforms evergreen 3:1 on engagement. Not every idea fits every month—identify the 3-6 strongest moments.
+
+```markdown
+## 5. MONTHLY NARRATIVE
+
+### Calendar Moment Audit
+
+**Which moments does this idea naturally connect to?**
+
+| Category | Relevant Moments | Strength (1-5) |
+|----------|-----------------|----------------|
+| Seasonal/Cultural | [e.g., New Year, Summer, Back to School] | |
+| Business Cycle | [e.g., Q1 Planning, Budget Season, EOY] | |
+| Industry-Specific | [e.g., Conference season, Product launches] | |
+| Audience Life Events | [e.g., Hiring, Promotions, Career changes] | |
+
+### Strongest Moments (Top 3-6)
+
+| Rank | Month | Moment | Why This Idea Fits | The Timely Hook |
+|------|-------|--------|-------------------|-----------------|
+| 1 | [Month] | [Specific moment] | [Connection to idea] | "[Hook that creates urgency]" |
+| 2 | [Month] | [Specific moment] | [Connection to idea] | "[Hook]" |
+| 3 | [Month] | [Specific moment] | [Connection to idea] | "[Hook]" |
+
+### Full Year Content Calendar
+
+**Q1: Fresh Starts & Planning**
+
+| Month | Moment | Angle | Content Type | ICP Focus |
+|-------|--------|-------|--------------|-----------|
+| January | New Year / Q1 Planning | [How idea connects to fresh starts] | [Format] | [ICP] |
+| February | Valentine's / Relationships | [If relevant—or skip] | [Format] | [ICP] |
+| March | Q1 Close / Spring | [End of quarter angle] | [Format] | [ICP] |
+
+**Q2: Execution & Mid-Year**
+
+| Month | Moment | Angle | Content Type | ICP Focus |
+|-------|--------|-------|--------------|-----------|
+| April | Tax Season / Q2 Start | [Angle] | [Format] | [ICP] |
+| May | Pre-summer push | [Angle] | [Format] | [ICP] |
+| June | Mid-year review / Summer start | [Angle] | [Format] | [ICP] |
+
+**Q3: Reset & Back to Business**
+
+| Month | Moment | Angle | Content Type | ICP Focus |
+|-------|--------|-------|--------------|-----------|
+| July | Summer slowdown | [Lighter angle or skip] | [Format] | [ICP] |
+| August | Pre-planning / Back to school | [Angle] | [Format] | [ICP] |
+| September | Back to business / Q4 prep | [Strongest Q3 moment] | [Format] | [ICP] |
+
+**Q4: Push & Reflection**
+
+| Month | Moment | Angle | Content Type | ICP Focus |
+|-------|--------|-------|--------------|-----------|
+| October | Q4 push / Halloween | [Angle] | [Format] | [ICP] |
+| November | Budget season / Black Friday | [Budget/planning angle] | [Format] | [ICP] |
+| December | EOY reflection / New Year prep | [Reflection or preview angle] | [Format] | [ICP] |
+
+### Evergreen vs. Timely Split
+
+**Evergreen angles** (publish anytime, no calendar dependency):
+- [Angle 1]: [Why it's evergreen]
+- [Angle 2]: [Why it's evergreen]
+
+**Time-sensitive angles** (specific windows only):
+- [Angle] → Best window: [Month/Period] → Because: [Why timing matters]
+- [Angle] → Best window: [Month/Period] → Because: [Why timing matters]
+
+### Content Recycling Plan
+
+How to reuse this idea across multiple years/moments:
+
+| Original Piece | Recycle As | Best Timing | Update Required |
+|---------------|------------|-------------|-----------------|
+| [Piece 1] | [New format/angle] | [Month Year 2] | [What to refresh] |
+| [Piece 2] | [New format/angle] | [Month Year 2] | [What to refresh] |
+```
+
+**Quality check**: Have you identified at least 3 genuinely strong calendar moments? Are the hooks specific to the moment (not generic "new year, new you" filler)?
+
+---
+
 ### Content Menu (8-15 Angles)
 
 After completing the 4-Part Stimulus, expand into a full menu of content angles:

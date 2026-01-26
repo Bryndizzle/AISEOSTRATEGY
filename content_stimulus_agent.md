@@ -161,6 +161,15 @@ Channel-specific execution strategy.
 | TikTok | Video | [Which angle] | [Hook approach] | [Action] |
 | Email | Newsletter | [Which angle] | [Hook approach] | [Action] |
 
+### 5. MONTHLY NARRATIVE
+How this idea connects to calendar moments throughout the year.
+
+For each relevant month:
+- **The moment**: [Calendar event, season, industry milestone]
+- **The angle**: [How this idea connects to that moment]
+- **The hook**: [Timely framing that creates urgency]
+- **Content type**: [Best format for this moment]
+
 ---
 
 ## Output Formats
@@ -401,6 +410,87 @@ Goal: Build thought leadership, drive newsletter signups
 
 ---
 
+## Monthly Narrative Framework
+
+Map your idea to calendar moments for year-round relevance. Not every idea fits every month—identify the 3-6 strongest moments.
+
+### Calendar Moment Categories
+
+**Seasonal/Cultural**
+- New Year / Fresh Start (Jan)
+- Valentine's / Relationships (Feb)
+- Spring / Renewal (Mar-Apr)
+- Summer / Freedom (Jun-Aug)
+- Back to School / Reset (Sep)
+- Halloween / Fear (Oct)
+- Black Friday / Deals (Nov)
+- Christmas / Giving (Dec)
+- End of Year / Reflection (Dec)
+
+**Business Cycle**
+- Q1 Planning / New budgets (Jan)
+- Tax Season (Jan-Apr)
+- Q2 Mid-year review (Apr-Jun)
+- Summer slowdown (Jul-Aug)
+- Q3 Push / Back to business (Sep)
+- Q4 Budget spend / EOY targets (Oct-Dec)
+- Planning season (Nov-Dec)
+
+**Industry-Specific** (customise per client)
+- Conference season
+- Product launch cycles
+- Regulatory deadlines
+- Award seasons
+- Hiring cycles
+
+### Monthly Narrative Output Format
+
+```markdown
+## Monthly Narrative: [Idea]
+
+### Strongest Moments (Ranked)
+
+| Month | Moment | Angle | Hook | Why Now? |
+|-------|--------|-------|------|----------|
+| Jan | New Year reset | [How idea connects] | "[Timely hook]" | [Urgency driver] |
+| Sep | Back to business | [How idea connects] | "[Timely hook]" | [Urgency driver] |
+| Nov | Budget planning | [How idea connects] | "[Timely hook]" | [Urgency driver] |
+
+### Full Year View
+
+**Q1 (Jan-Mar)**
+- **January**: [Moment] → [Angle] → [Content type]
+- **February**: [Moment] → [Angle] → [Content type]
+- **March**: [Moment] → [Angle] → [Content type]
+
+**Q2 (Apr-Jun)**
+- **April**: [Moment] → [Angle] → [Content type]
+- **May**: [Moment] → [Angle] → [Content type]
+- **June**: [Moment] → [Angle] → [Content type]
+
+**Q3 (Jul-Sep)**
+- **July**: [Moment] → [Angle] → [Content type]
+- **August**: [Moment] → [Angle] → [Content type]
+- **September**: [Moment] → [Angle] → [Content type]
+
+**Q4 (Oct-Dec)**
+- **October**: [Moment] → [Angle] → [Content type]
+- **November**: [Moment] → [Angle] → [Content type]
+- **December**: [Moment] → [Angle] → [Content type]
+
+### Evergreen vs. Timely Split
+
+**Evergreen angles** (publish anytime):
+- [Angle 1]
+- [Angle 2]
+
+**Time-sensitive angles** (specific windows):
+- [Angle] → Best in [Month] because [reason]
+- [Angle] → Best in [Month] because [reason]
+```
+
+---
+
 ## Activation Tips
 
 1. **Start with the strongest angle** - lead with your best content
@@ -409,3 +499,4 @@ Goal: Build thought leadership, drive newsletter signups
 4. **Match depth to channel** - LinkedIn gets frameworks, X gets hot takes
 5. **Include the ICP in the content** - "If you're a marketing manager who..."
 6. **Create content loops** - each piece should drive to the next
+7. **Plan around moments** - timely content outperforms evergreen 3:1 on engagement
