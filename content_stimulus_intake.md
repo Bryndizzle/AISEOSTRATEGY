@@ -1,8 +1,62 @@
 # Content Stimulus Intake
 
-Complete this brief to feed an idea through the Content Stimulus framework.
+Three ways to brief the agent:
+
+1. **Dump Mode** - Just paste your inspo, notes, screenshots, ideas. Agent structures it.
+2. **Quick Start** - Answer 5 questions.
+3. **Full Brief** - Complete intake for maximum output.
 
 ---
+
+## DUMP MODE
+
+Paste anything. The agent will extract and structure:
+
+```
+[Paste your inspo deck, notes, voice memos transcript, screenshots,
+competitor examples, random thoughts, half-baked ideas, client quotes,
+Slack threads, email chains, whatever you've got]
+```
+
+**Minimum context needed** (even in dump mode):
+- Who's this for? [ICP in 5 words or less]
+- What channels? [List them]
+- What's the goal? [One sentence]
+
+**Example dump:**
+
+```
+inspo: saw this linkedin post from chris walker about dark social,
+made me think about how most marketers still obsess over attribution
+when the real buying happens in places they can't track.
+client keeps asking "how do we measure this" and i want to flip it -
+maybe the question is wrong. also that meme about "my CEO wants to know
+the ROI of our linkedin posts" - relatable. competitor XYZ just posted
+something similar but it was boring corporate speak. we could do this
+but spicier. maybe tie to budget season? Q4 planning vibes.
+
+who: B2B marketing leaders
+channels: linkedin, email
+goal: thought leadership, get people talking
+```
+
+The agent will turn this into the full 5-Part Stimulus.
+
+---
+
+## QUICK START (5 Questions)
+
+Just answer these:
+
+1. **The idea** (one sentence):
+2. **Who it's for** (one ICP):
+3. **Primary channel**:
+4. **Brand voice** (3 words):
+5. **Goal**:
+
+---
+
+## FULL BRIEF
 
 ## 1. THE IDEA
 
