@@ -15,117 +15,178 @@ Transform a single content idea into a comprehensive activation package: expande
 
 ## Output Requirements
 
-### 1. Idea Validation & Core Insight (Required First Step)
+### The 4-Part Stimulus Framework (MANDATORY)
 
-Before expansion, validate the idea:
-
-```markdown
-## Idea Validation
-
-**Original Idea**: [As provided]
-
-**Core Insight**: [1-2 sentences - what's the real value here?]
-
-**Why This Matters to ICPs**:
-- ICP 1 ([Name]): [Why they care]
-- ICP 2 ([Name]): [Why they care]
-
-**Differentiation Check**: [What makes this angle unique vs. generic takes?]
-
-**Expansion Potential**: High / Medium / Low
-**Rationale**: [Why this rating]
-```
+Every idea MUST be processed through this framework before any copy is written. This is the core intellectual work—channel copy is just execution.
 
 ---
 
-### 2. Content Menu - Idea Explosion (8-15 Angles)
+### PART 1: WHAT IT IS
 
-Expand the core idea into a menu of derivative content angles:
+Distil the idea to its essence. Strip away fluff.
+
+```markdown
+## 1. WHAT IT IS
+
+**One-liner**: [Single sentence—if you can't say it simply, you don't understand it]
+
+**Core concept**:
+[2-3 sentences explaining the central point. What is this idea actually saying?]
+
+**The tension**:
+[What conflict, gap, or problem does this address? Every good idea has friction.]
+```
+
+**Quality check**: Can someone with no context read this and immediately understand the idea? If not, rewrite.
+
+---
+
+### PART 2: WHY IT MATTERS
+
+The "so what?" This is where most content fails. People share WHAT but not WHY anyone should care.
+
+```markdown
+## 2. WHY IT MATTERS
+
+**The insight**:
+[What's the non-obvious truth here? What do most people get wrong?]
+
+**The stakes**:
+[What happens if you ignore this? What's the cost of inaction?]
+
+**The opportunity**:
+[What's possible if you act on this? What does the upside look like?]
+
+**Proof points**:
+- [Evidence 1: stat, example, or case]
+- [Evidence 2: stat, example, or case]
+- [Evidence 3: stat, example, or case]
+```
+
+**Quality check**: Would a sceptic be convinced? If the "stakes" feel generic, dig deeper.
+
+---
+
+### PART 3: HOW IT ALIGNS TO ICP
+
+This is where one idea becomes multiple pieces of content. The SAME idea lands differently for different audiences.
+
+```markdown
+## 3. HOW IT ALIGNS TO ICP
+
+### ICP 1: [Name/Role/Title]
+
+| Element | Detail |
+|---------|--------|
+| **Their situation** | [What's happening in their world right now?] |
+| **Their pain** | [How does this idea touch their specific struggle?] |
+| **Their language** | "[Exact words/phrases THEY would use to describe this]" |
+| **Their objection** | "[Why might they dismiss this? What's their 'yeah but...']" |
+| **Their trigger** | [What specific hook would make THEM stop scrolling?] |
+
+### ICP 2: [Name/Role/Title]
+
+| Element | Detail |
+|---------|--------|
+| **Their situation** | [Different context = different framing] |
+| **Their pain** | [Same idea, different pain point] |
+| **Their language** | "[Their vocabulary, not yours]" |
+| **Their objection** | "[Their specific resistance]" |
+| **Their trigger** | [Their scroll-stopping hook] |
+```
+
+**Quality check**: Are the ICPs genuinely different? If the language/triggers are the same, you haven't done the work.
+
+---
+
+### PART 4: HOW IT PLAYS OUT ON SOCIAL
+
+Now—and only now—plan the channel execution. Different channels = different formats, hooks, and CTAs.
+
+```markdown
+## 4. HOW IT PLAYS OUT ON SOCIAL
+
+### Channel Strategy Matrix
+
+| Channel | Format | Angle/Take | Hook Style | ICP Target | CTA |
+|---------|--------|------------|------------|------------|-----|
+| LinkedIn | Long post | [Specific angle] | [Question/Bold claim/Story] | ICP 1 | [Specific action] |
+| LinkedIn | Carousel | [Different angle] | [Framework/List] | ICP 2 | [Specific action] |
+| X/Twitter | Thread | [Angle] | [Contrarian/Data] | ICP 1 | [Specific action] |
+| X/Twitter | Single tweet | [Hot take] | [Provocative] | Both | [Engagement] |
+| Instagram | Carousel | [Visual angle] | [Bold statement] | ICP 2 | [Save/Share] |
+| Instagram | Reel | [Relatable angle] | [Pattern interrupt] | ICP 2 | [Follow] |
+| TikTok | Video | [Trend angle] | [Hook in 1 sec] | ICP 2 | [Comment] |
+| Email | Newsletter | [Deep dive] | [Curiosity gap] | ICP 1 | [Click/Reply] |
+
+### Sequencing Recommendation
+
+**Week 1**:
+- Day 1: [Channel] - [Piece] - [Goal: awareness/engagement]
+- Day 3: [Channel] - [Piece] - [Goal]
+- Day 5: [Channel] - [Piece] - [Goal]
+
+**Week 2**:
+- [Continue sequence, building on engagement from Week 1]
+
+### Cross-Promotion Hooks
+- LinkedIn post → drives to → [Next piece]
+- Email → promotes → [Content piece]
+- [etc.]
+```
+
+**Quality check**: Does each channel entry have a SPECIFIC angle, not just "post about the idea"? Is the CTA clear?
+
+---
+
+### Content Menu (8-15 Angles)
+
+After completing the 4-Part Stimulus, expand into a full menu of content angles:
 
 #### Core Angles (3-5)
 Direct explorations of the main idea.
 
-| # | Angle Title | One-Line Description | Best Format | Primary ICP | Hook |
-|---|-------------|---------------------|-------------|-------------|------|
-| 1 | | | | | |
+| # | Angle Title | WHAT | WHY IT MATTERS | ICP FIT | SOCIAL PLAY |
+|---|-------------|------|----------------|---------|-------------|
+| 1 | | [The take] | [The hook] | [Which ICP + why] | [Channel + format] |
 | 2 | | | | | |
 | 3 | | | | | |
 
 #### Contrarian Angles (2-3)
-Challenge assumptions, provide hot takes.
+Challenge assumptions, hot takes.
 
-| # | Angle Title | Contrarian Position | Risk Level | Primary ICP | Hook |
-|---|-------------|---------------------|------------|-------------|------|
-| 1 | | | Low/Med/High | | |
+| # | Angle Title | The Contrarian Position | Risk Level | ICP FIT | SOCIAL PLAY |
+|---|-------------|------------------------|------------|---------|-------------|
+| 1 | | [What you're challenging] | Low/Med/High | | |
 | 2 | | | | | |
 
 #### Practical Angles (2-3)
-How-to, tactical applications, step-by-step.
+How-to, tactical applications.
 
-| # | Angle Title | What They'll Learn to Do | Complexity | Primary ICP | Hook |
-|---|-------------|-------------------------|------------|-------------|------|
-| 1 | | | Beginner/Intermediate/Advanced | | |
+| # | Angle Title | What They'll Do | Complexity | ICP FIT | SOCIAL PLAY |
+|---|-------------|-----------------|------------|---------|-------------|
+| 1 | | [Specific skill/outcome] | Beginner/Intermediate/Advanced | | |
 | 2 | | | | | |
 
 #### Story Angles (2-3)
 Case studies, examples, narratives.
 
-| # | Angle Title | Story Type | Emotional Hook | Primary ICP | Hook |
-|---|-------------|------------|----------------|-------------|------|
-| 1 | | Success/Failure/Transformation | | | |
+| # | Angle Title | Story Type | Emotional Core | ICP FIT | SOCIAL PLAY |
+|---|-------------|------------|----------------|---------|-------------|
+| 1 | | Success/Failure/Transformation | [The feeling] | | |
 | 2 | | | | | |
 
-#### Trend/Timely Angles (2-3)
-Connected to current events, trends, or seasonal moments.
+#### Trend Angles (2-3)
+Connected to current events or moments.
 
-| # | Angle Title | Trend/Event Connection | Shelf Life | Primary ICP | Hook |
-|---|-------------|----------------------|------------|-------------|------|
-| 1 | | | Days/Weeks/Months | | |
+| # | Angle Title | Trend Connection | Shelf Life | ICP FIT | SOCIAL PLAY |
+|---|-------------|-----------------|------------|---------|-------------|
+| 1 | | [Specific trend/event] | Days/Weeks/Months | | |
 | 2 | | | | | |
 
 ---
 
-### 3. ICP Deep Mapping
-
-For each ICP, provide detailed messaging guidance:
-
-```markdown
-## ICP 1: [Name/Title]
-
-**Profile Summary**: [2-3 sentences]
-
-**Awareness Level**: Problem-Aware / Solution-Aware / Product-Aware
-
-**Primary Pain Points** (related to this idea):
-1. [Pain point 1]
-2. [Pain point 2]
-3. [Pain point 3]
-
-**What They Want to Hear**:
-- [Messaging that resonates]
-- [Proof points they need]
-
-**What Turns Them Off**:
-- [Messaging to avoid]
-- [Tone mistakes]
-
-**Preferred Channels**: [Ranked list]
-
-**Best Angles for This ICP**: [Reference angle numbers from menu]
-
-**Language/Phrases to Use**:
-- "[Verbatim phrase 1]"
-- "[Verbatim phrase 2]"
-
-**Language to Avoid**:
-- "[Phrase that doesn't resonate]"
-```
-
-Repeat for each ICP.
-
----
-
-### 4. Channel Strategy Matrix
+### Channel Strategy Matrix
 
 Map angles to channels:
 

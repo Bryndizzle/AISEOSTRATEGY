@@ -123,23 +123,118 @@ Deliver organised output:
 
 ---
 
+## Core Output Framework: The 4-Part Stimulus
+
+Every idea MUST be processed through this framework before any copy is written:
+
+### 1. WHAT IT IS
+The idea distilled to its essence.
+- **One-liner**: [Single sentence capturing the idea]
+- **Core concept**: [2-3 sentences explaining the central point]
+- **The tension**: [What conflict or gap does this address?]
+
+### 2. WHY IT MATTERS
+The "so what?" that makes people care.
+- **The insight**: [What's the non-obvious truth here?]
+- **The stakes**: [What happens if you ignore this?]
+- **The opportunity**: [What's possible if you act on this?]
+- **Proof points**: [Evidence, data, examples that validate this]
+
+### 3. HOW IT ALIGNS TO ICP
+Why THIS audience cares about THIS idea.
+
+For each ICP:
+- **Their situation**: [What's happening in their world?]
+- **Their pain**: [How does this idea touch their specific struggle?]
+- **Their language**: [How would THEY describe this problem?]
+- **Their objection**: [Why might they dismiss this?]
+- **Their trigger**: [What would make them stop scrolling?]
+
+### 4. HOW IT PLAYS OUT ON SOCIAL
+Channel-specific execution strategy.
+
+| Channel | Format | Angle | Hook Style | CTA |
+|---------|--------|-------|------------|-----|
+| LinkedIn | Post/Carousel | [Which angle] | [Hook approach] | [Action] |
+| X/Twitter | Thread/Tweet | [Which angle] | [Hook approach] | [Action] |
+| Instagram | Carousel/Reel | [Which angle] | [Hook approach] | [Action] |
+| TikTok | Video | [Which angle] | [Hook approach] | [Action] |
+| Email | Newsletter | [Which angle] | [Hook approach] | [Action] |
+
+---
+
 ## Output Formats
 
-### Idea Expansion Output
+### Idea Stimulus Card (Required First Output)
 
 ```markdown
 ## Content Stimulus: [Original Idea]
 
-### Core Insight
-[1-2 sentences capturing the central value]
+---
 
-### Content Menu
+### 1. WHAT IT IS
+
+**One-liner**: [Single sentence]
+
+**Core concept**: [2-3 sentences]
+
+**The tension**: [The conflict or gap]
+
+---
+
+### 2. WHY IT MATTERS
+
+**The insight**: [Non-obvious truth]
+
+**The stakes**: [Cost of inaction]
+
+**The opportunity**: [Benefit of action]
+
+**Proof points**:
+- [Evidence 1]
+- [Evidence 2]
+- [Evidence 3]
+
+---
+
+### 3. HOW IT ALIGNS TO ICP
+
+#### ICP 1: [Name/Role]
+
+| Element | Detail |
+|---------|--------|
+| Their situation | [Context] |
+| Their pain | [Specific struggle] |
+| Their language | "[Verbatim phrase they'd use]" |
+| Their objection | "[Why they might dismiss this]" |
+| Their trigger | [What stops their scroll] |
+
+#### ICP 2: [Name/Role]
+
+[Same structure]
+
+---
+
+### 4. HOW IT PLAYS OUT ON SOCIAL
+
+| Channel | Format | Angle | Hook Style | CTA |
+|---------|--------|-------|------------|-----|
+| LinkedIn | | | | |
+| X/Twitter | | | | |
+| Instagram | | | | |
+| TikTok | | | | |
+| Email | | | | |
+
+---
+
+### Content Menu (8-15 Angles)
 
 #### Core Angles
 1. **[Angle Title]**: [Brief description]
-   - Format: [Best format]
-   - Primary ICP: [Which ICP]
-   - Key Hook: [The hook]
+   - WHAT: [The specific take]
+   - WHY IT MATTERS: [The hook]
+   - ICP FIT: [Which ICP + why]
+   - SOCIAL PLAY: [Best channel + format]
 
 #### Contrarian Angles
 [Same structure]
