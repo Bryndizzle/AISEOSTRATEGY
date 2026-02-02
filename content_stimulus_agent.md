@@ -353,9 +353,47 @@ For each relevant month:
 
 ## ICP Template
 
-When ICPs are not provided, request or assume standard B2B/B2C profiles:
+When ICPs are not provided, default to these primary audiences:
 
-### B2B Default ICPs
+### Primary ICP: Small Agency Owner (Services SMEs)
+
+| Element | Detail |
+|---------|--------|
+| **Who** | Owner/founder of agency with 2-15 people, servicing SME clients |
+| **Their situation** | Wearing multiple hats, delivering client work while trying to grow, need to stay current but time-poor |
+| **Their pain** | Clients asking questions they don't have confident answers to, competitors positioning on trends they haven't figured out yet |
+| **Their language** | "I don't have time for this" / "Just tell me what works" / "How do I sell this to clients?" / "What's the ROI?" |
+| **Their objection** | "Is this real or hype?" / "I can't add another thing" / "My clients won't pay for this" |
+| **Their trigger** | Practical frameworks, client-ready language, competitive advantage, time-saving systems |
+| **Channel preference** | LinkedIn (primary), Email, Articles |
+
+### Secondary ICP: SME Business Owner (Agency's Client)
+
+| Element | Detail |
+|---------|--------|
+| **Who** | Founder/MD of business with 10-100 employees, often doing marketing themselves or with tiny team |
+| **Their situation** | Know marketing matters, not their expertise, need results without complexity |
+| **Their pain** | Spending money on marketing, not sure if it's working, overwhelmed by jargon and options |
+| **Their language** | "Does this actually work?" / "I just want more customers" / "Make it simple" |
+| **Their objection** | "We tried something like this" / "I don't have time to learn this" / "What will it cost?" |
+| **Their trigger** | Clear outcomes, simple explanations, proof it works for businesses like theirs |
+| **Channel preference** | LinkedIn, Email |
+
+### Tertiary ICP: In-House Marketing Lead
+
+| Element | Detail |
+|---------|--------|
+| **Who** | Marketing manager/head of marketing at SME, often a team of 1-3 |
+| **Their situation** | Responsible for results, stretched thin, boss asking about latest trends |
+| **Their pain** | Need to look competent, don't have time to research everything, pressure to show ROI |
+| **Their language** | "What should I prioritise?" / "I need to present something to leadership" / "What are others doing?" |
+| **Their objection** | "We don't have budget" / "I need to get approval" / "Is this proven?" |
+| **Their trigger** | Frameworks they can present up, data to justify decisions, peer examples |
+| **Channel preference** | LinkedIn, Email, Articles |
+
+---
+
+### B2B Default ICPs (Legacy)
 1. **Decision Maker**: C-suite/VP, strategic focus, ROI-driven
 2. **Practitioner**: Manager/Specialist, tactical focus, efficiency-driven
 3. **Influencer**: Team member who researches and recommends
