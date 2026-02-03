@@ -605,6 +605,230 @@ Journey 3 (Research-Heavy Path):
 
 ---
 
+### **Part I: AI Search Optimization** (5-10 minutes - CUTTING EDGE) 🤖 **FUTURE-PROOFING**
+
+**⚠️ This is where you future-proof the client's SEO for AI-powered search.**
+
+AI search engines (ChatGPT, Perplexity, Google AI Overviews, Claude, Gemini) are fundamentally different from traditional Google search. LLMs parse websites differently, prioritize different signals, and surface content in new ways.
+
+**Most agencies haven't adapted yet. You will.**
+
+---
+
+**Browser Agent Prompt:**
+
+```
+Analyze [client website URL] for AI search optimization across three layers:
+
+**FOUNDATION LAYER (Technical SEO for LLMs):**
+
+1. Crawlability & Structured Data Audit:
+   - Check if site has clean robots.txt (no blocking of critical pages)
+   - Verify structured data exists (Schema.org markup for business, services, FAQs)
+   - Check for XML sitemap
+   - Assess page load speed (LLMs timeout on slow sites)
+   - Note: If AI can't parse your site, you don't exist in AI answers
+
+   Extract and report:
+   - Is robots.txt blocking anything important? [Yes/No + details]
+   - Does site have Schema markup? [Yes/No - which types found]
+   - Is there an XML sitemap? [Yes/No + URL]
+   - Page speed score (use PageSpeed Insights if available): [score]
+
+2. Homepage Clarity for LLM Parsing:
+   - LLMs parse homepage content FAR more easily than navigation menus
+   - Check if homepage clearly states:
+     * What the business does (in first 2-3 sentences)
+     * Who they serve (target audience/industry)
+     * Where they operate (location/service area)
+     * Core services (listed explicitly on homepage, not just in nav)
+
+   Extract and report:
+   - Does homepage have clear "what we do" statement in first fold? [Yes/No + quote if yes]
+   - Is target audience mentioned on homepage? [Yes/No + quote if yes]
+   - Is service area visible on homepage? [Yes/No + location if yes]
+   - Are core services listed on homepage body (not just nav)? [Yes/No + list if yes]
+
+   **If homepage is unclear, LLMs will struggle to categorize the business.**
+
+3. Footer Brand & Service Signals:
+   - LLMs are picking up brand and service signals from footers
+   - Check footer for:
+     * Brand name and tagline
+     * Core services listed (not just "Services" link)
+     * Location/service area
+     * Credentials/certifications/awards
+     * Industry associations
+
+   Extract and report:
+   - Does footer include brand tagline? [Yes/No + tagline if yes]
+   - Are services explicitly listed in footer? [Yes/No + list if yes]
+   - Does footer mention location? [Yes/No + location if yes]
+   - Any credentials/certifications in footer? [Yes/No + list if yes]
+
+**CONTENT LAYER (Strategic Content for AI Search):**
+
+4. Audience & Use Case Mapping:
+   - AI search is increasingly personalized (user context matters)
+   - Check if site has clearly defined pages for:
+     * Different customer types/industries served
+     * Different use cases/problems solved
+     * Different service variations
+
+   Examples:
+   - Locksmith should have: "Commercial Locksmith", "Residential Locksmith", "Automotive Locksmith"
+   - Accountant should have: "Freelancer Accounting", "Small Business Accounting", "Contractor Accounting"
+
+   Extract and report:
+   - Does site segment by customer type? [Yes/No + list types if yes]
+   - Does site segment by use case? [Yes/No + list cases if yes]
+   - Are there dedicated landing pages for each segment? [Yes/No + count if yes]
+
+   **Gap analysis**: What audience segments or use cases are MISSING pages?
+
+5. Multimodal Content Strategy:
+   - LLMs pull from text, video, audio, and imagery across the web
+   - Check if client has content across multiple formats:
+     * Written content (blog posts, guides, FAQs)
+     * Video content (YouTube, embedded videos)
+     * Audio content (podcasts, voice content)
+     * Visual content (infographics, diagrams, images with alt text)
+
+   Extract and report:
+   - Does site have written content? [Yes/No + blog/resources section if yes]
+   - Does site have video content? [Yes/No + YouTube channel or embedded videos if yes]
+   - Does site have rich imagery with alt text? [Yes/No + sample if yes]
+   - Does company have podcast/audio content? [Yes/No + link if yes]
+
+   **Recommendation**: Repurpose core content across all formats to maximize LLM inclusion
+
+6. FAQ Visibility & Depth:
+   - 8-10 well-answered questions signal expertise and relevance to LLMs
+   - Check if site has FAQ section:
+     * Is there a dedicated FAQ page?
+     * How many questions are answered? (Count them)
+     * Are answers detailed (100+ words) or shallow (1-2 sentences)?
+     * Are FAQs visible in navigation or buried?
+     * Do FAQs use FAQ Schema markup?
+
+   Extract and report:
+   - Does site have FAQ page? [Yes/No + URL if yes]
+   - Number of FAQs: [count]
+   - Are FAQs detailed or shallow? [assessment + example]
+   - Are FAQs in navigation menu? [Yes/No]
+   - Do FAQs have Schema markup? [Yes/No]
+
+   **Critical threshold**: Sites with 8-10+ visible, detailed FAQs signal expertise to LLMs
+
+   **If fewer than 8 FAQs or no FAQ page**: Flag as HIGH PRIORITY gap
+
+**DISTRIBUTION LAYER (Tactical AI Search Inclusion):**
+
+7. Social Signal Audit:
+   - Social content appears in AI search within HOURS (LinkedIn posts) to DAYS (Reddit, YouTube)
+   - Check client's social presence and posting frequency:
+     * LinkedIn: Active posting? Follower count? Recent posts?
+     * Reddit: Mentioned in relevant subreddits? Company account?
+     * YouTube: Channel exists? Recent uploads? Subscriber count?
+     * Twitter/X: Active? Follower count?
+
+   Extract and report:
+   - LinkedIn profile: [URL + follower count + recent post dates]
+   - Reddit presence: [mentioned in r/[subreddit] or has company account? Y/N]
+   - YouTube channel: [URL + subscriber count + recent upload dates]
+   - Twitter/X: [URL + follower count + recent activity]
+
+   **Fast-track opportunity**: LinkedIn posts from accounts with strong followings appear in AI search within hours
+
+   **Recommendation**: Identify which platform has strongest following and prioritize content distribution there
+
+8. Authority Site Publishing Opportunities:
+   - Publishing on respected, niche industry sites = rapid LLM inclusion
+   - Research potential authority sites for [industry]:
+     * Industry publications (e.g., "Locksmith Ledger" for locksmiths)
+     * Trade associations with blogs/publications
+     * Local business news sites
+     * Industry-specific directories with editorial content
+
+   Extract and report:
+   - Top 3-5 industry publications/authority sites for [industry]: [list with URLs]
+   - Do any accept guest posts or contributions? [Yes/No + submission guidelines if available]
+   - Does client have existing coverage on any authority sites? [Yes/No + links if yes]
+
+9. Advertorial Opportunities:
+   - LLMs don't currently distinguish between paid and organic editorial
+   - Well-placed advertorials on reputable publishers can accelerate AI search inclusion
+   - Identify reputable publishers in [industry] or [location] that accept sponsored content:
+     * Local news sites (e.g., Essex Live, regional papers)
+     * Industry publications with sponsored content programs
+     * Business journals (e.g., Business Weekly, Chamber of Commerce)
+
+   Extract and report:
+   - Top 3-5 reputable publishers accepting advertorials: [list with URLs]
+   - Estimated cost if visible: [price range or "contact for pricing"]
+   - Does client have existing advertorial placements? [Yes/No + links if yes]
+
+   **Strategic note**: This is a SHORT-TERM opportunity (LLMs will likely get better at distinguishing paid vs organic). Recommend for clients who need fast AI search visibility.
+
+Format the complete AI Search Optimization report as:
+
+**FOUNDATION LAYER (Technical):**
+- Crawlability issues: [list or "None found"]
+- Structured data: [present/missing + types]
+- Homepage clarity: [clear/unclear + assessment]
+- Footer signals: [strong/weak + what's present]
+
+**CONTENT LAYER (Strategic):**
+- Audience segmentation: [good/needs work + gaps]
+- Multimodal content: [formats present + formats missing]
+- FAQ depth: [X questions + detailed/shallow + Schema Y/N]
+- **CRITICAL GAPS**: [list priority gaps - e.g., "No FAQ page", "Only 3 FAQs (need 8-10)", "No customer type segmentation"]
+
+**DISTRIBUTION LAYER (Tactical):**
+- Strongest social platform: [platform + metrics]
+- Authority site opportunities: [list 3-5 sites]
+- Advertorial opportunities: [list 3-5 publishers]
+- **QUICK WINS**: [identify fastest paths to AI search inclusion - e.g., "LinkedIn posts can appear in hours", "Guest post on [industry site] for rapid inclusion"]
+
+**OVERALL AI SEARCH READINESS SCORE:**
+[Rate 1-10 with brief justification]
+
+**TOP 3 PRIORITIES FOR AI SEARCH OPTIMIZATION:**
+1. [Priority 1 - e.g., "Create FAQ page with 10 detailed questions + Schema markup"]
+2. [Priority 2 - e.g., "Optimize homepage for LLM clarity - add explicit 'what we do' statement"]
+3. [Priority 3 - e.g., "Begin weekly LinkedIn posting (fast-track to AI search)"]
+```
+
+**What to do:**
+1. Paste the browser agent prompt with the client's website URL and industry
+2. Review the extracted AI search optimization report
+3. Copy ALL sections into briefing document
+4. **This analysis positions you as cutting-edge** - most agencies aren't thinking about AI search yet
+
+**Why This Matters:**
+
+**Traditional SEO Agency Says:**
+"We'll optimize your meta tags and get you ranking on Google."
+
+**Future-Proof SEO Agency Says:**
+"Your homepage isn't optimized for LLM parsing - AI search engines can't easily understand what you do. You only have 3 FAQs when you need 8-10 to signal expertise to AI. Your footer has no service signals. And you're missing a huge opportunity - your LinkedIn posts could appear in AI search within hours, but you're not leveraging it. We'll fix the technical foundations, create an 8-10 FAQ minimum, optimize your homepage for AI clarity, and build a multimodal content strategy so you show up in ChatGPT, Perplexity, and Google's AI Overviews."
+
+**See the difference?** You're not just doing SEO. You're future-proofing their entire search presence.
+
+**What This Enables:**
+- AI search visibility (ChatGPT, Perplexity, Google AI Overviews)
+- Faster inclusion in LLM responses (social signals work in hours/days)
+- Expertise positioning (8-10 FAQ threshold signals authority to LLMs)
+- Multimodal brand recognition (text, video, audio, imagery)
+- Technical foundations for AI parsing (structured data, homepage clarity, footer signals)
+
+**Strategic Positioning:**
+When competitors are still optimizing for "Google Page 1," you're optimizing for the next generation of search. This justifies premium pricing and demonstrates forward-thinking expertise.
+
+**Pro Tip**: Use specific examples in your pitch: "Did you know LinkedIn posts can appear in ChatGPT's responses within hours? Your competitor is already showing up there, and you're not." This creates urgency.
+
+---
+
 ## 🤖 STEP 2: Feed Information to the Agent
 
 Now you have all the extracted client info. Here's how to give it to the agent.
@@ -729,6 +953,32 @@ Industry journey characteristics:
 - Consideration period: [timeframe]
 - Purchase triggers: [list]
 - Seasonal factors: [if any]
+
+AI SEARCH OPTIMIZATION (if known) 🤖 **FUTURE-PROOFING**
+Foundation Layer (Technical):
+- Crawlability issues: [list or "None found"]
+- Structured data: [present/missing + types]
+- Homepage clarity: [clear/unclear + assessment]
+- Footer signals: [strong/weak + what's present]
+
+Content Layer (Strategic):
+- Audience segmentation: [good/needs work + gaps]
+- Multimodal content: [formats present + formats missing]
+- FAQ depth: [X questions + detailed/shallow + Schema Y/N]
+- CRITICAL GAPS: [list - e.g., "No FAQ page", "Only 3 FAQs (need 8-10)"]
+
+Distribution Layer (Tactical):
+- Strongest social platform: [platform + metrics]
+- Authority site opportunities: [list 3-5]
+- Advertorial opportunities: [list 3-5]
+- QUICK WINS: [fastest paths to AI inclusion]
+
+AI Search Readiness Score: [1-10]
+
+Top 3 AI Search Priorities:
+1. [Priority 1]
+2. [Priority 2]
+3. [Priority 3]
 ```
 
 ---
@@ -914,7 +1164,7 @@ The agent will create a complete strategy including:
 
 1. **Get client website URL** (this is all you need to start)
 
-2. **Run 8 browser agent prompts** (from Step 1 above):
+2. **Run 9 browser agent prompts** (from Step 1 above):
    - Part A: Business Basics
    - Part B: Tone of Voice
    - Part C: Business Goal
@@ -923,6 +1173,7 @@ The agent will create a complete strategy including:
    - Part F: Competitors (optional)
    - Part G: Customer Insights (optional)
    - Part H: Category Expert Intelligence (optional but premium differentiator)
+   - Part I: AI Search Optimization (optional but future-proofing)
 
 3. **Compile briefing document** (copy-paste template from Step 2)
 
@@ -965,9 +1216,16 @@ Before you paste the briefing to the SEO agent, check you have extracted:
 - [ ] **Content gaps/opportunities (Part H)** 🏆
 - [ ] **Natural content flow maps - 2-3 customer journeys (Part H)** 🏆
 
+**FUTURE-PROOFING** (demonstrates cutting-edge expertise):
+- [ ] **AI Search technical audit - crawlability, structured data, homepage clarity, footer signals (Part I)** 🤖
+- [ ] **FAQ depth check - 8-10 questions minimum for AI expertise signals (Part I)** 🤖
+- [ ] **Multimodal content audit - text, video, audio, imagery (Part I)** 🤖
+- [ ] **Social signal opportunities - LinkedIn/Reddit/YouTube for fast AI inclusion (Part I)** 🤖
+- [ ] **Authority site and advertorial opportunities identified (Part I)** 🤖
+
 **If you have all MUST HAVE items, you're ready to generate the strategy!**
 
-**Pro Tip**: Parts E-F-G make the strategy 2x better. **Part H makes you indispensable** - when you understand their customer journey better than they do, you're no longer an SEO agency, you're a strategic partner. This is retention insurance.
+**Pro Tip**: Parts E-F-G make the strategy 2x better. **Part H makes you indispensable** - when you understand their customer journey better than they do, you're no longer an SEO agency, you're a strategic partner. **Part I makes you cutting-edge** - when you can optimize for AI search (ChatGPT, Perplexity, Google AI Overviews) while competitors are stuck in "old SEO," you justify premium pricing and demonstrate forward-thinking expertise.
 
 ---
 
@@ -1014,6 +1272,9 @@ Never submit briefing without attaching the actual export files from Hike/Ahrefs
 
 ### **Tip 9: Part H = Your Premium Differentiator** 🏆 **INDISPENSABLE**
 Part H (Category Expert Intelligence) is optional but THIS IS WHAT JUSTIFIES PREMIUM PRICING. When you can describe their customer journey better than they can - mapping pre-purchase questions, decision blockers, content gaps, and natural flow - you're no longer a commodity SEO agency. You're a strategic partner who understands their business. This takes 10 extra minutes but transforms you from "SEO vendor" to "indispensable advisor." Use this in sales pitches. Clients don't pay premium prices for keyword research - they pay for expertise that translates their industry into actionable strategy.
+
+### **Tip 10: Part I = AI Search Future-Proofing** 🤖 **CUTTING EDGE**
+Part I (AI Search Optimization) is where you future-proof the client's SEO for ChatGPT, Perplexity, Google AI Overviews, and other LLM-powered search. Most agencies are still stuck in "old SEO" thinking. When you audit their homepage for LLM parsing, optimize their footer for AI signals, and create an 8-10 FAQ minimum for AI expertise signals, you're positioning them for the next generation of search. This takes 5-10 minutes but shows you understand where search is heading.
 
 ---
 
