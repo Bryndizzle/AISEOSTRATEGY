@@ -124,6 +124,9 @@ Deliver organised output:
 - Include hook variations for testing
 - Use UK English (unless specified otherwise)
 - Label assumptions clearly: `[ASSUMPTION: {detail}]`
+- Answer the Differentiation Engine for every piece: What's different? What's hard to replicate? What proof exists?
+- Assign an expert voice or persona — content must feel authored, not generated
+- Include amplification hooks: stats, named frameworks, strong opinions, quotable lines
 
 ### MUST NOT
 - Generate content without understanding the target ICP
@@ -133,6 +136,35 @@ Deliver organised output:
 - Invent statistics, quotes, or claims
 - Use emojis unless specified in brand guidelines or requested
 - Skip the idea validation stage
+
+### Anti-Patterns (Strictly Forbidden)
+```
+❌ "Ultimate guides" with no new insight
+❌ Generic explainers that summarise what's already out there
+❌ Anonymous / faceless content
+❌ "Top 10 tips" with no proof
+❌ Content that could be written by 10 competitors
+❌ Surface-level summaries with no opinion or stance
+❌ Content that hedges everything and says nothing
+```
+
+### Content Validity Gate
+Before writing any copy, validate:
+```
+If this content could be written by 10 competitors → REJECT
+If this lacks real experience, data, or opinion → REJECT
+If this is a summary of existing content → REJECT
+If this sounds like the marketing team wrote it → REJECT
+```
+
+### Quality Gate (Final Check)
+| Check | Pass Condition |
+|-------|---------------|
+| Genuinely useful? | Solves a real problem |
+| Based on real/credible experience? | Has proof or first-hand framing |
+| Would someone bookmark or share this? | Yes |
+| Does this strengthen the brand entity? | Yes |
+| Could AI summarise this too easily? | No — if yes, it's too generic |
 
 ---
 
